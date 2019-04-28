@@ -1,0 +1,1445 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תרגול
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+נגדיר קבוצה 
+\begin_inset Formula $T=\{w\in\{s,t\}^{*}|\text{ \ensuremath{|w\%2=0\}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נוכיח כי 
+\begin_inset Formula $tst\notin T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|tst|$
+\end_inset
+
+ אי-זוגית 
+\begin_inset Newline newline
+\end_inset
+
+הוכחנו כי 
+\begin_inset Formula $X_{B,F}\subseteq T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+באינדוקציית מבנה בתירגול קודם.
+\begin_inset Newline newline
+\end_inset
+
+מסקנה: 
+\begin_inset Formula $tst\in X_{B,F}\Leftarrow$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Enumerate
+הטענה לא נכונה:
+\begin_inset Newline newline
+\end_inset
+
+נגדיר תכונה:
+\begin_inset Newline newline
+\end_inset
+
+{
+\begin_inset Formula $w$
+\end_inset
+
+ מתחיל ב 
+\begin_inset Formula $a$
+\end_inset
+
+
+\begin_inset Formula $T_{1}=\{w\in\{a,b\}^{*}|$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נראה 
+\begin_inset Formula $X_{B,F}\subseteq T_{1}$
+\end_inset
+
+ בא
+\begin_inset Quotes erd
+\end_inset
+
+מ.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+בסיס:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+נראה שלכל 
+\begin_inset Formula $w\in T_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $w\in B$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $w=aa$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $w\cdot\epsilon$
+\end_inset
+
+ מתחילה ב
+\begin_inset Formula $a$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+סגור:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+נניח 
+\begin_inset Formula $u'\in T_{1}$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $u'$
+\end_inset
+
+ מתחילה ב 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+תהיי 
+\begin_inset Formula $u=f(w')$
+\end_inset
+
+.
+ מה
+\begin_inset Quotes erd
+\end_inset
+
+א 
+\begin_inset Formula $w'$
+\end_inset
+
+ מתחילה ב-
+\begin_inset Formula $a$
+\end_inset
+
+ ולכן 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $w=aaw'b$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $w$
+\end_inset
+
+ מתחילה ב-
+\begin_inset Formula $a$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+מסקנה:
+\bar default
+ 
+\begin_inset Formula $X_{B,F}\subseteq T_{1}$
+\end_inset
+
+ וכן 
+\begin_inset Formula $bba\notin T_{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)לא מתחילה ב-
+\begin_inset Formula $a$
+\end_inset
+
+( ולכן 
+\begin_inset Formula $bba\notin X_{B,F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+הטענה לא נכונה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Leftarrow\#a(w)$
+\end_inset
+
+ מספר הפעמיים שאות מופיע ב 
+\begin_inset Formula $w$
+\end_inset
+
+ ונגדיר תכונה
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $T_{2}=\{w\in\{a,b\}^{*}|\text{ }\#_{a}(w)>\#_{b}(w)\}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+בסיס
+\bar default
+: לכל 
+\begin_inset Formula $w\in B$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $w\in T_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $w=aa$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\#_{a}(w)=2>0=\#_{b}(w)$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+סגור:
+\bar default
+ נניח 
+\begin_inset Formula $w'\in T_{2}$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+תהי 
+\begin_inset Formula $w=f(w')$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+נפריד למקרים:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+אם 
+\begin_inset Formula $w'$
+\end_inset
+
+ מתחילה ב-
+\begin_inset Formula $a$
+\end_inset
+
+ 
+\begin_inset Formula $w=aaw'b$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מה
+\begin_inset Quotes erd
+\end_inset
+
+א 
+\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $\#_{a}(w)=2+\#_{a}(w')>1+\#_{b}(w')=\#_{b}(w)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+אם 
+\begin_inset Formula $w'$
+\end_inset
+
+מתחילה ב 
+\begin_inset Formula $b$
+\end_inset
+
+ 
+\begin_inset Formula $w=bbw'a$
+\end_inset
+
+ מה
+\begin_inset Quotes erd
+\end_inset
+
+א 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\#_{a}(w)=1+\#_{a}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\#_{b}(w)=2+\#_{b}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+האם בהכרח 
+\begin_inset Formula $\#_{a}(w)>\#_{b}(w)$
+\end_inset
+
+?
+\begin_inset Newline newline
+\end_inset
+
+לא, למשל עבור 
+\begin_inset Formula $w'=baa$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+התכונה לא נשמרת.
+\begin_inset Newline newline
+\end_inset
+
+האם המשמעות שאיברים ב-
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ לא מקיימת את התכונה, לא כי אני יודעים
+\begin_inset Newline newline
+\end_inset
+
+שבקבוצה האינדוקטיבית כל המילים מתחילות ב-
+\begin_inset Formula $a$
+\end_inset
+
+.ולכן נרצה לחזק תכונה.
+\begin_inset Newline newline
+\end_inset
+
+{
+\begin_inset Formula $T_{2}^{'}=\{w\in\{a,b\}^{*}|w\in X_{B,F},\#_{a}(w)>\#_{b}(w)$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+בסיס:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+נראה שלכל 
+\begin_inset Formula $w\in B$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $w\in T_{2}^{'}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $w=aa$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $w\in B$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $w\in X_{B,F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\#_{a}(w)=2>0=\#_{b}(w)$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $w\in T_{2}^{'}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+סגור:
+\begin_inset Newline newline
+\end_inset
+
+
+\bar default
+ נניח 
+\begin_inset Formula $w'\in T_{2}$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+תהיי 
+\begin_inset Formula $w=f(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+נפריד למקרים:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+אם 
+\begin_inset Formula $w'$
+\end_inset
+
+ מתחילה ב-
+\begin_inset Formula $a$
+\end_inset
+
+ אז 
+\begin_inset Formula $w=aaw'b$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מה
+\begin_inset Quotes erd
+\end_inset
+
+א 
+\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $\#_{a}(w)=2+\#_{a}(w)>1+\#_{b}(w)=\#_{b}(w)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+אם 
+\begin_inset Formula $w'$
+\end_inset
+
+מתחילה ב 
+\begin_inset Formula $b$
+\end_inset
+
+ 
+\begin_inset Formula $w=bbw'a$
+\end_inset
+
+ מה
+\begin_inset Quotes erd
+\end_inset
+
+א
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\#_{a}(w)=1+\#_{a}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\#_{b}(w)=2+\#_{b}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+האם בהכרח 
+\begin_inset Formula $\#_{a}(w)>\#_{b}(w)$
+\end_inset
+
+?
+\begin_inset Newline newline
+\end_inset
+
+לא, למשל עבור 
+\begin_inset Formula $u'=baa$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+תחונה לא נשמרה.
+\begin_inset Newline newline
+\end_inset
+
+האם המשמעות שאיברים ב- 
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ לא מקיימים את התכונה,
+\begin_inset Newline newline
+\end_inset
+
+לא כי אנו יודעים שקבוצה אינדוקטיבית של כל המילים מתחילות
+\begin_inset Newline newline
+\end_inset
+
+ב-
+\begin_inset Formula $a$
+\end_inset
+
+.
+ ולכן נרצה לחזק תכונה.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $T_{2}^{'}=\{w\in\{a,b\}^{*}|w\in X_{B,F},\#_{a}(w)>\#_{b}(w)\}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\bar under
+בסיס:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+נראה שלכל 
+\begin_inset Formula $w\in B$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $w\in T_{2}^{'}$
+\end_inset
+
+, 
+\begin_inset Formula $w=aa$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\numeric on
+1
+\numeric off
+.
+\begin_inset Formula $w\in B$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $w\in X_{B,F}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\numeric on
+2
+\numeric off
+.
+ 
+\begin_inset Formula $\#_{a}(w)=2>0=\#_{b}(w)$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $w\in T_{2}^{'}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+סגור:
+\bar default
+ נניח 
+\begin_inset Formula $w'\in T_{2}^{'}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula $w'\in X_{B,F}$
+\end_inset
+
+ וכן 
+\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $w=f(w)$
+\end_inset
+
+ מה
+\begin_inset Quotes erd
+\end_inset
+
+א 
+\begin_inset Formula $w'\in X_{B,F}$
+\end_inset
+
+ ולכן מסעיף קודם היא מתחיל ב-
+\begin_inset Formula $a$
+\end_inset
+
+ ולכן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w=aaw'b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מה
+\begin_inset Quotes erd
+\end_inset
+
+א 
+\begin_inset Formula $w'\in X_{B,F}$
+\end_inset
+
+ 
+\begin_inset Formula $f\in F$
+\end_inset
+
+ והקבוצה 
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ סגורה תחת פעולה זו
+\begin_inset Newline newline
+\end_inset
+
+מהגדרה ולכן 
+\begin_inset Formula $w\in X_{B,F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+מה
+\begin_inset Quotes erd
+\end_inset
+
+א 
+\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $\#_{a}(w)=2+\#_{a}(w')>1+\#_{b}(w')=\#_{b}(w)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $X_{B,F}\subseteq T_{2}^{'}$
+\end_inset
+
+ וכן- 
+\begin_inset Formula $aabb\in T_{2}^{'}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\#_{a}(aabb)=\#_{b}(aabb)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $aabb\notin X_{B,F}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מסקנה:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+לעיתים כאשר נוכל להוכיח ש-
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ מקיימת תכונה 
+\begin_inset Formula $f$
+\end_inset
+
+ נזדקק
+\begin_inset Newline newline
+\end_inset
+
+לתכונה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ שכבר הוכחנו ש 
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ מקיימת לשם כך נגדיר תכונה מחוזקת:
+\begin_inset Newline newline
+\end_inset
+
+{
+\begin_inset Formula $w$
+\end_inset
+
+מקיים את 
+\begin_inset Formula $f$
+\end_inset
+
+ ,
+\begin_inset Formula $T_{B}=\{w\in X|w\in X_{B,F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $X=X_{B_{1}\cup B_{2},F_{1}\cup F_{2}}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+נוכיח כי 
+\begin_inset Formula $x=S_{1}$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י הכלה דו כיוונית
+\end_layout
+
+\begin_layout Itemize
+כייון ראשון 
+\begin_inset Formula $S_{1}\subseteq X$
+\end_inset
+
+ באינדוקציית מבנה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בסיס:
+\end_layout
+
+\begin_layout Standard
+נוכיח כי 
+\begin_inset Formula $B_{1}\subseteq X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B_{1}\subseteq B_{1}\cup B_{2}\subseteq X$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+סגור:
+\end_layout
+
+\begin_layout Standard
+נניח כי 
+\begin_inset Formula $a_{1}\dots a_{n}\in X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ונראה כי לכל 
+\begin_inset Formula $f\in F_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(a_{1},\dots,a_{n})\in X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f\in F$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $f\in F_{1}\cup F_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x$
+\end_inset
+
+ סגורה ל 
+\begin_inset Formula $F_{1}\cup F_{2}$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י הבנייה
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula $f(a_{1},\dots a_{n})\in X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כיוון שני:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\subseteq S_{1}$
+\end_inset
+
+ נוכיח באינדוקציית מבנה
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+בסיס:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B_{1}\cup B_{2}\subseteq S_{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+נניח:
+\end_layout
+
+\begin_layout Standard
+כי 
+\begin_inset Formula $b\in B_{1}\cup B_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $b\in B_{1}$
+\end_inset
+
+ או 
+\begin_inset Formula $b\in B_{2}$
+\end_inset
+
+ נחלק למקרים
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $b\in B_{1}$
+\end_inset
+
+ במקרה זה 
+\begin_inset Formula $b\in S_{1}$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י הזמנה
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $b\in B_{2}$
+\end_inset
+
+ במקרה זה 
+\begin_inset Formula $b\in S_{2}$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+י הזמנה
+\begin_inset Newline newline
+\end_inset
+
+וגם מכיוון ש 
+\begin_inset Formula $S_{1}=S_{2}$
+\end_inset
+
+מתקיים 
+\begin_inset Formula $b\in S_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סגור:
+\end_layout
+
+\begin_layout Standard
+נניח
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{1},\dots,a_{n}\in S_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ונראה כי לכל 
+\begin_inset Formula $f\in F_{1}\cup F_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(a_{1},\dots,F_{k})\in S_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחלק למקים:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $f\in P_{1}$
+\end_inset
+
+ מכיוון ש 
+\begin_inset Formula $a_{1},\dots,a_{n}\in S_{1}$
+\end_inset
+
+ סגירות נתון 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $f(a...a_{n})\in S$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $f\in f_{2}$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $a_{1},\dots,a_{n}$
+\end_inset
+
+ ש- 
+\begin_inset Formula $S_{1}=S_{2}$
+\end_inset
+
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $a_{1}\dots a_{n}\in S_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{2}$
+\end_inset
+
+ סגורה תחת הפעולות ב-
+\begin_inset Formula $F_{2}$
+\end_inset
+
+ 
+\begin_inset Formula $f(a_{1},a_{2},\dots,a_{n})\in S_{2}\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכיוון ש- 
+\begin_inset Formula $S_{1}=S_{2}$
+\end_inset
+
+
+\begin_inset Formula $f(a_{1},a_{2},\dots,a_{n})\in S_{1}\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

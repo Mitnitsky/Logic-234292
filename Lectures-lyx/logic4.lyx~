@@ -1,0 +1,2179 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה הרצאה-
+\numeric on
+4
+\end_layout
+
+\begin_layout Subsection*
+סמנטיקה של פסוקי:
+\end_layout
+
+\begin_layout Standard
+נתונה המשווה 
+\begin_inset Formula $v:\{p_{i}|i\in\mathbb{N}\}\rightarrow\{T,F\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מגדירים 
+\begin_inset Formula $\overline{V}=WFF\rightarrow\{T,F\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\alpha=p_{i}$
+\end_inset
+
+ 
+\begin_inset Formula $\overline{V}(p_{i})=v(p_{i})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\alpha=(\beta\square\gamma)$
+\end_inset
+
+ אז 
+\begin_inset Formula $\overline{V}(\alpha)=TT_{\square}(\overline{V}(\beta),\overline{V}(\gamma))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\alpha=(\neg\beta)$
+\end_inset
+
+ אז 
+\begin_inset Formula $\overline{V}(\alpha)=TT_{\neg}(\overline{V}(\beta))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מושגים סמנטיים:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+טאוטולוגיה
+\end_layout
+
+\begin_layout Standard
+הוא פסוק שמקבל ערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+T
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לכל השמה
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+סתירה:
+\end_layout
+
+\begin_layout Standard
+פסוק שמקבל ערך 
+\begin_inset Formula $F$
+\end_inset
+
+ לכל השמה.
+\begin_inset Newline newline
+\end_inset
+
+מה משמעות שך 
+\begin_inset Formula $v(\nvDash)\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{V}(\alpha)=F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\nvDash\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לא בהכרח סתירה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\bar under
+לא בהכרח טאוטולוגיה.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+בבינתן קבוצה של פסוקים 
+\begin_inset Formula $X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v\models X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $v\models\alpha$
+\end_inset
+
+ לכל 
+\begin_inset Formula $\alpha\in X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{\alpha\in X}{\bigwedge}\alpha$
+\end_inset
+
+ - לא כתיבה חוקית כי לא 
+\bar under
+פסוק
+\bar default
+, יתכן סדרה אינסופית של סמימנים.
+\end_layout
+
+\begin_layout Standard
+פסוק 
+\begin_inset Formula $\beta$
+\end_inset
+
+ 
+\bar under
+נובע לוגית
+\bar default
+ מפסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ )סימון 
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+( אם כל השמה מספקת של 
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מספקת גם את 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+למה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+ אם ורק אם 
+\begin_inset Formula $\models\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ נתון 
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+ צ
+\begin_inset Quotes erd
+\end_inset
+
+ל 
+\begin_inset Formula $\models\alpha\rightarrow\beta$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+נבחר השמה 
+\begin_inset Formula $V$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Paragraph
+מקרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg\models\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $\overline{V}(\alpha)=F$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אז 
+\begin_inset Formula 
+\begin{align*}
+ & V\models\alpha\rightarrow\beta\\
+ & TT_{\rightarrow}(\underbrace{\overline{V}}_{\text{\ensuremath{\mathclap{\text{F or FT or FF}}}}}(\beta))=T
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+מקרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{V}(\alpha)=T$
+\end_inset
+
+, 
+\begin_inset Formula $V\models\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+עס 
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+, גם 
+\begin_inset Formula $V\models\beta$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $V\models\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $\models\alpha\rightarrow\beta$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל 
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\numeric on
+2
+\family roman
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקרים:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\overline{V}(\alpha)=T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מאחר ש- 
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+ טאוטולוגיה אז 
+\begin_inset Formula $\overline{V}(\alpha\rightarrow\beta)=B$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מסקנה עפ
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $TT_{\rightarrow}$
+\end_inset
+
+ 
+\begin_inset Formula $\overline{V}(\beta)=T:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\overline{V}(\alpha)=F$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אין צורך להוכיח כי ה 
+\begin_inset Formula $\models$
+\end_inset
+
+ מתקיים וריויאלי.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+בהינתן קבוצת פסוקית 
+\begin_inset Formula $X$
+\end_inset
+
+ נאמר ש 
+\begin_inset Formula $X\models\beta$
+\end_inset
+
+ אם כל השמה שמספקת את
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $X$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)כלומר את כל 
+\begin_inset Formula $\alpha\in X$
+\end_inset
+
+( מספקת גם את 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\{\alpha\rightarrow\beta,\alpha\}\models\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+למה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X,\alpha\models\beta$
+\end_inset
+
+ אם ורק אם 
+\begin_inset Formula $X\models\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\fbox{X\cup\{\alpha\}\models\beta}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \alpha_{1},\alpha_{2},ga_{3}\models\beta\\
+ & \alpha_{1},\alpha_{2}\models(\alpha_{3}\rightarrow\beta)\\
+ & \alpha_{1}\models(\alpha_{2}\rightarrow(\alpha_{3}\rightarrow\beta))\\
+ & \models(\alpha_{1}(\alpha_{2}\rightarrow(\alpha_{3}\rightarrow\beta)))
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+סימון:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M(\alpha)\{v|v\models\alpha\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M(X)=\{v|v\models X\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha$
+\end_inset
+
+ סתירה: 
+\begin_inset Formula $M(\alpha)=\emptyset$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M(\alpha)\subseteq M(\beta),\text{ }\alpha\models\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שקילות לוגית
+\end_layout
+
+\begin_layout Standard
+זוג פסוקים 
+\begin_inset Formula $\alpha$
+\end_inset
+
+,
+\begin_inset Formula $\beta$
+\end_inset
+
+ 
+\bar under
+שקולים לוגית
+\bar default
+ אם הם מקבלים אותו ערך אמת בכל השמה.
+\end_layout
+
+\begin_layout Standard
+במילים אחרות, לכל השמה 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\overline{v}(\alpha)=\overline{v}(\beta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M(\alpha)=M(\beta)$
+\end_inset
+
+ סימון 
+\begin_inset Formula $\alpha\equiv\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה לפסוקים שקולים:
+\end_layout
+
+\begin_layout Itemize
+כל הטאוטולוגיות
+\end_layout
+
+\begin_layout Itemize
+כל הסתירות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\alpha_{\wedge}(\beta\vee\gamma))\equiv((\alpha\wedge\beta)\vee(\alpha\wedge\beta))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\neg(\neg\alpha))\equiv\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+למה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\equiv\beta$
+\end_inset
+
+ אם ורק אם 
+\begin_inset Formula $\models\alpha\overbrace{\leftrightarrow}^{\text{\mathclap{\text{logic connect}}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שלמות של מערכת קשרים:
+\end_layout
+
+\begin_layout Paragraph
+הגדרה:
+\end_layout
+
+\begin_layout Standard
+פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\bar under
+מממש
+\bar default
+ טבלת אמת נתונה אם טבלת האמת של 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ זהה לטבלה הנתונה.
+\begin_inset Newline newline
+\end_inset
+
+נראה: 
+\begin_inset Formula $\wedge,\vee,\neg$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+עבור טבלת אמת עם 
+\begin_inset Formula $k$
+\end_inset
+
+ פסוקים אטומיים יש לה 
+\begin_inset Formula $2^{k}$
+\end_inset
+
+ שורות
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT:\{T,F\}^{k}\rightarrow\{T,F\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+קשר לוגה 
+\begin_inset Quotes eld
+\end_inset
+
+רוב
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $\#$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תלת-ערה)תלת מקומי?(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\#(p_{1},p_{2},p_{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שורות שקבלו 
+\begin_inset Formula $T$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha_{1}=p_{1}\wedge p_{2}\wedge p_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha_{2}=p_{1}\wedge p_{2}\neg p_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha_{3}=p_{1}\wedge\neg p_{2}\wedge p_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha_{5}=\neg p_{1}\wedge p_{2}\wedge p_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha=\alpha_{1}\vee\alpha_{2}\vee\alpha_{3}\alpha_{5}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+טענה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מממשת את טבלת האמת של 
+\begin_inset Formula $\#$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור טבלת אמת שבה כל השורות מחזירות 
+\begin_inset Formula $F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחזיר 
+\begin_inset Formula $p_{1}\wedge\neg p_{1}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+הוא פסוק אטומי שמופיע בטבלה.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $?(p_{1},p_{2})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(p_{1}\wedge\neg p_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+המשך:
+\end_layout
+
+\begin_layout Standard
+{
+\begin_inset Formula $\neg$
+\end_inset
+
+,
+\begin_inset Formula $\wedge$
+\end_inset
+
+} גם מערכת קשרי שלמה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\alpha\text{\ensuremath{\vee\beta)\equiv\neg(\neg\alpha\wedge\neg\beta)}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{v,\neg\}\leftarrow(\alpha\wedge\beta)\equiv\neg(\neg\alpha\vee\neg\beta)$
+\end_inset
+
+ מערכת קשרים שלמה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{\neg,\leftarrow\}$
+\end_inset
+
+ מערכת קשרים שלמה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\alpha\vee\beta)\equiv\neg\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T |
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F |
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T |
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F |
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+| T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה:
+\end_layout
+
+\begin_layout Standard
+נגדיר קבוצה אינדוקטיבית של קבוצת 
+\bar under
+המשפטים הפורמליים
+\bar default
+ או 
+\bar under
+הפסוקים היכיחים
+\bar default
+.
+\end_layout
+
+\begin_layout Paragraph
+בסיס)אקסיומות[קבוצת פסוקים](:
+\end_layout
+
+\begin_layout Standard
+)עוזרים להוכיח/לקבל פסוקים חדשים עס' פסוקים נתונים(.
+\end_layout
+
+\begin_layout Standard
+כללי יצירה/פעולות
+\end_layout
+
+\begin_layout Paragraph
+כללי היצירה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underbrace{\alpha,\alpha\rightarrow\beta}_{\beta}$
+\end_inset
+
+ )למעלה נתון שיכיח, גורר שלמטה גם(.
+\begin_inset Newline newline
+\end_inset
+
+כלל הניתוק , 
+\begin_inset Formula $\text{MP-Modus Promens}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+קבוצות האכסיומות של תחשיב הפסוקים
+\end_layout
+
+\begin_layout Standard
+תבנית ראשונה 
+\begin_inset Formula $A1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+פסוק 
+\begin_inset Formula $\delta$
+\end_inset
+
+ הוא אכסיומה מטיפוס 
+\begin_inset Formula $A1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם קיימים פסוקים 
+\begin_inset Formula $\beta,\alpha$
+\end_inset
+
+ כך ש-
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $A1$
+\end_inset
+
+: 
+\begin_inset Formula $\delta=(\alpha\rightarrow(\beta\rightarrow\alpha))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $A2$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta$
+\end_inset
+
+ מהצורה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta=(\alpha\rightarrow(\beta\rightarrow\gamma))\rightarrow((\alpha\rightarrow\beta)\rightarrow(\alpha\rightarrow\gamma)))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $A3$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta$
+\end_inset
+
+ מהצורה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta=((\neg\alpha\rightarrow\neg\beta)\rightarrow(\beta\rightarrow\gamma))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $B=A_{1}\cup A_{2}\cup A_{3}$
+\end_inset
+
+ קבוצת הבסיס.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(p_{2}\rightarrow(p_{1}\rightarrow p_{2})):A_{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\boldsymbol{\neg}\neg p_{5}\rightarrow\boldsymbol{\boldsymbol{\neg}}p_{5})\rightarrow(p_{5}\rightarrow\neg p_{5})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+עץ יצירה עבור אכסיומה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\xymatrix{ &  & \rightarrow\ar[dl]\ar[dr]\\
+ & \rightarrow\ar[dl]\ar[d] &  & \rightarrow\ar[d]\ar[dr]\\
+\neg\ar[d] & \neg\ar[d] &  & *++[o][F]{\beta} & *++[o][F]{\alpha}\\
+\neg\ar[d] & \neg\ar[d]\\
+*++[o][F]{\alpha} & *++[o][F]{\beta}
+}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\neg\neg\alpha\rightarrow\neg\neg\beta)\rightarrow(\beta\rightarrow\neg\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Formula $(\alpha\rightarrow\beta)\rightarrow(\neg\beta\rightarrow\neg\alpha)$
+\end_inset
+
+ האם הוא 
+\begin_inset Formula $A_{3}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\xymatrix{ &  & \rightarrow\ar[dl]\ar[dr]\\
+ & \rightarrow\ar[dl]\ar[d] &  & \rightarrow\ar[d]\ar[dr]\\
+*++[o][F]{\alpha} & *++[o][F]{\beta} &  & \neg\ar[d] & \neg\ar[d]\\
+ &  &  & *++[o][F]{\beta} & *++[o][F]{\alpha}
+}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+להראות שפסוק יכיח:
+\end_layout
+
+\begin_layout Standard
+להראות סדרת יצירה - נקרא לה סדרת הוכחה
+\begin_inset Newline newline
+\end_inset
+
+סדרת הוכחה עבור פסוק 
+\begin_inset Formula $\beta$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+הינה סדרה של פסוקים 
+\begin_inset Formula $a_{1},a_{2},\dots,a_{n}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+כך ש-
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{b}=\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+לכל 
+\begin_inset Formula $1\le i\le n$
+\end_inset
+
+ , 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ התקבלה מהפעלתו.
+\end_layout
+
+\begin_layout Subsubsection*
+כלל ההיסק על פסוקים קודמים בסדרה
+\end_layout
+
+\begin_layout Standard
+מה יכול היות 
+\begin_inset Formula $a_{1}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+אחת מהאכסיומות
+\begin_inset Newline newline
+\end_inset
+
+אם פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ יכיח נסמן 
+\begin_inset Formula $\vdash\alpha$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

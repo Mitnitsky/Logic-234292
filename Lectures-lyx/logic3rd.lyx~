@@ -1,0 +1,2503 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Section*
+
+\bar under
+תחשיבי פסוקים
+\end_layout
+
+\begin_layout Paragraph
+סינטקס:
+\end_layout
+
+\begin_layout Standard
+בסיס 
+\begin_inset Formula $\{p_{i}|i\in\mathnormal{N}\}$
+\end_inset
+
+ - הפסוקים האטומיים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{\neg}(\alpha)=(\neg\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{\square}(\alpha,\beta)=(\alpha\square\beta)$
+\end_inset
+
+ )
+\begin_inset Formula $\vee,\wedge,\rightarrow$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Section*
+
+\bar under
+\begin_inset Formula $\text{WFF}-\text{well form formulas}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+סמנטיקה:
+\end_layout
+
+\begin_layout Standard
+התאמה לפסוקים ערכי אמת )
+\begin_inset Formula $(\text{T,F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{0}\vee p_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השמה
+\begin_inset Formula $\text{T F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפסוק ערך 
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{F F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+הגדרת סמנטיקה:
+\end_layout
+
+\begin_layout Standard
+נתונה השמה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v:\{p_{i}|i\in\mathnormal{N\}\rightarrow\{T,F\}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר השמה 
+\begin_inset Formula $\widehat{V}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\widehat{V}:WFF\rightarrow\{T,F\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרת 
+\begin_inset Formula $\widehat{V}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+לכל פסוק אטומי 
+\begin_inset Formula $\widehat{V}(p_{i})=v(p)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+לפסוק במבנה 
+\begin_inset Formula $\alpha=(\neg\beta)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\neg}:\{T,F\}\rightarrow\{T,F\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{truth table}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\neg}(T)=F$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\neg}(F)=T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\neg\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)פסוק(
+\begin_inset Formula $\widehat{V}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\widehat{V}(\neg(\alpha))=TT_{\neg}(\widehat{V}(\alpha))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha=(\beta\vee\gamma)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\widehat{V}(\alpha)=TT_{\vee}(\widehat{V}(\beta),\widehat{V}(\gamma))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\vee}(T,T)=T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\vee}(T,F)=T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\vee}(F,T)=T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\vee}(F,F)=F$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vee\beta$
+\end_inset
+
+
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha=(\beta\vee\gamma)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\widehat{V}(\alpha)=TT_{\wedge}(\underbrace{\widehat{V}(\beta)}_{\text{truth of sub}},\underbrace{\widehat{V}(\gamma)}_{\text{truth of sub}})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\wedge}(T,T)=T$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\wedge}(\frac{T}{\frac{F}{F}},\frac{F}{\frac{T}{F}})=F$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha\wedge\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T }$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha=(\beta\rightarrow\gamma)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+האם 
+\begin_inset Formula $\beta$
+\end_inset
+
+ אמת אז 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ אמת
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\widehat{V}((\beta\rightarrow\gamma))=TT_{\rightarrow}(\widehat{V}(\beta),\widehat{V}(\gamma))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta\gamma$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta\rightarrow\chi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{TT}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{TF}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{FT}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{FF}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אם המכונית תתקלקל אז אגיע באחור
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A\rightarrow B$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{F T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המכונית לא התקלקלה והגעתי באיחור
+\end_layout
+
+\begin_layout Subsection*
+סיכום:
+\end_layout
+
+\begin_layout Standard
+בסמנטיקה של תחשיב הפסוקים:
+\begin_inset Newline newline
+\end_inset
+
+בהינתן 
+\begin_inset Formula $v:\{p_{i}|i\in\mathbb{N}\}\rightarrow\{T,F\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מגדירים 
+\begin_inset Formula $\widehat{V}:WFF\rightarrow\{T,F\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+באופן הבא:
+\begin_inset Newline newline
+\end_inset
+
+אם 
+\begin_inset Formula $\alpha=p_{i}$
+\end_inset
+
+ אז 
+\begin_inset Formula $\widehat{V}(\alpha)=V(\alpha)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אם 
+\begin_inset Formula $\alpha=(\neg\beta)$
+\end_inset
+
+ אז 
+\begin_inset Formula $\widehat{V}(\alpha)=TT_{\neg}(\widehat{V}(\beta))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אם 
+\begin_inset Formula $\alpha=(\beta\square\gamma)$
+\end_inset
+
+ אז 
+\begin_inset Formula $\widehat{V}(\alpha)=TT_{\square}(\widehat{V}(\beta),\widehat{V}(\gamma))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+טענה:
+\end_layout
+
+\begin_layout Standard
+בהינתן השמה 
+\begin_inset Formula $v$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+לכל פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $\widehat{V}(\alpha)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מתאים ל-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ ערך אמת יחיד שנקבע ע
+\begin_inset Quotes erd
+\end_inset
+
+י
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+v
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וע
+\begin_inset Quotes erd
+\end_inset
+
+י
+\begin_inset Newline newline
+\end_inset
+
+פונקציות טבלאות האמת 
+\begin_inset Formula $(TT_{\square})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+באינדוקצייה על מבנה הפסוק
+\begin_inset Newline newline
+\end_inset
+
+מסתמכת על כך 
+\begin_inset Newline newline
+\end_inset
+
+-
+\begin_inset Formula $v$
+\end_inset
+
+ פונקציה
+\begin_inset Newline newline
+\end_inset
+
+-
+\begin_inset Formula $TT_{\square}$
+\end_inset
+
+ פונקציות
+\end_layout
+
+\begin_layout Subsubsection*
+כשה דנים בסמנטיקה
+\end_layout
+
+\begin_layout Standard
+קובעים סדר קדמאות בין קשרים
+\begin_inset Newline newline
+\end_inset
+
+שיאפשר לוותר על חלק מהסוגריים:
+\end_layout
+
+\begin_layout Standard
+הקשר 
+\begin_inset Formula $\neg$
+\end_inset
+
+ מופעל ראשון
+\end_layout
+
+\begin_layout Standard
+קשרים
+\begin_inset Formula $\leftrightarrow,\wedge,\vee$
+\end_inset
+
+מופעלים אחרי
+\end_layout
+
+\begin_layout Standard
+הקשר 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+אחרי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg p_{0}\vee p_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כמו לכתוב
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $((\neg p_{0}\vee p_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מושגים סמנטיים נוספים
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $\widehat{V}(\alpha)=T$
+\end_inset
+
+ נאמר ש-
+\begin_inset Formula $\text{v}$
+\end_inset
+
+מספקת את 
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ונסמן 
+\begin_inset Formula $v|=\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה:
+\end_layout
+
+\begin_layout Standard
+פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ הוא טאוטולוגיה
+\begin_inset Newline newline
+\end_inset
+
+אם הוא מקבל ערך 
+\begin_inset Formula $\text{T}$
+\end_inset
+
+ לכל השמה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg p_{o}\vee p_{o}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg\alpha\vee\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+טאוטולוגיה:
+\begin_inset Newline newline
+\end_inset
+
+כל השורות בטבלת האמת 
+\begin_inset Newline newline
+\end_inset
+
+יהא 
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+[ כל ההשמות מספקות את הפסוק ]
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\neg p_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\neg p_{0}\vee p_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הוכחה ש- 
+\begin_inset Formula $\alpha\vee\neg\alpha$
+\end_inset
+
+ הוא טאוטולוגיה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\widehat{V}(\alpha\vee\neg\alpha)=TT_{\vee}(\widehat{V}(\alpha),\widehat{V}(\neg\alpha))=$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $TT_{\vee}(\widehat{V}(\alpha),TT_{\neg}(\widehat{V}(\alpha))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\numeric on
+\bar under
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקרים:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $TT_{\vee}(T,F)=T\Leftarrow TT_{\neg}(\widehat{V}(\alpha))=F\text{ \ensuremath{\Leftarrow V(\alpha)=T} }$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $TT_{\vee}(F,T)=T\Leftarrow TT_{\neg}(\widehat{V}(\alpha))=T\text{ }\Leftarrow V(\alpha)=F$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+על כן
+\begin_inset Formula $|=\alpha\vee\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+דוגמאות נוספות לטאוטולוגיה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\alpha\rightarrow\beta)\rightarrow(\neg\beta\rightarrow\neg\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+איך נוכיח שזאת טאוטולוגיה?
+\end_layout
+
+\begin_layout Standard
+להראות 
+\bar under
+לכל השמה
+\bar default
+ ערך הפסוק הוא 
+\begin_inset Formula $\text{T}$
+\end_inset
+
+.)מספר אינסופי(
+\end_layout
+
+\begin_layout Subsubsection*
+טענה:
+\end_layout
+
+\begin_layout Standard
+לכל פסוק 
+\begin_inset Formula $\alpha\in WFF$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכל שתי השמות 
+\begin_inset Formula $v_{2},v_{1}$
+\end_inset
+
+מתקיים:
+\begin_inset Newline newline
+\end_inset
+
+אם לכל פסוק אטומי שמופיע ב- 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $v_{1}(p_{i})=v_{2}(p_{i})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אז 
+\begin_inset Formula $\widehat{V}_{1}(\alpha)=\widehat{V_{2}}(\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha,\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\neg\alpha$
+\end_inset
+
+,
+\begin_inset Formula $\neg\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\neg\beta\rightarrow\neg\gamma$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\alpha\rightarrow\beta)\rightarrow(\neg\beta\rightarrow\neg\gamma)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T,T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F,F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T,F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T,F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F,T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F,T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{F,F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T,T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{T}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+שיטת הוכחה שניה שפסוק הוא טאוטולוגיה:
+\begin_inset Newline newline
+\end_inset
+
+נגדיר על 
+\begin_inset Formula $(\alpha\rightarrow\beta)\rightarrow(\neg\beta\rightarrow\neg\alpha)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נניח בדרך השלילה שאינה טאוטולוגיה ולכן קיימת השמה 
+\begin_inset Formula $\text{v}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \widehat{V}()\\
+ & \Rightarrow\\
+ & \widehat{V}(\alpha\rightarrow\beta)=T\\
+ & \widehat{V}(\neg\beta\rightarrow\neg\alpha)=F\\
+ & TT_{\neg}(\widehat{V}(\beta))=\widehat{V}(\neg\beta)=T\\
+ & TT_{\neg}(\widehat{V}(\alpha))=\widehat{V}(\neg\alpha)=F\\
+ & \Rightarrow\\
+ & \widehat{V}(\beta)=F,\widehat{V}(\alpha)=T\\
+ & \widehat{V}(\alpha\rightarrow\beta)=F
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+לא קיימת 
+\begin_inset Formula $\text{v}$
+\end_inset
+
+ שנותנת לפסוק ערך 
+\begin_inset Formula $\text{F}$
+\end_inset
+
+כלומר הוא טאוטולוגיה.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות נוספות לטאוטולוגיה:
+\end_layout
+
+\begin_layout Standard
+ראינו 
+\begin_inset Formula $\alpha\vee\neg\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg(\alpha\wedge\neg\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+דסטריבוטיביות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $((\alpha\vee(\beta\wedge\gamma))\leftrightarrow((\alpha\vee\beta)\wedge(\alpha\vee\gamma)))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\alpha\wedge(\beta\vee\gamma))\leftrightarrow(\alpha\wedge\beta)\vee(\alpha\wedge\gamma)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+דה מוגרן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg(\alpha\vee\beta)\leftrightarrow(\neg\alpha\wedge\beta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg(\alpha\wedge\beta)\leftrightarrow(\neg\alpha\vee\neg\beta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מושג סמנטי נוסף: סתירה
+\end_layout
+
+\begin_layout Standard
+ספקו הוא סתירה אם כל השמה נותנת לו ערך 
+\begin_inset Formula $\text{F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגאמות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\wedge\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כל שלילה של טאוטולוגיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta=\neg\alpha$
+\end_inset
+
+ ו-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ טאוטולוגיה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\widehat{V}((\neg\alpha))=TT_{\neg}(\widehat{V}(\alpha))=TT_{\neg}(T)=F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל השמה
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+נתונה 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ שאינה טאוטולוגיה, האם היא סתירה ?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{0}$
+\end_inset
+
+ לא טאוטולוגיה ולא סתירה.
+\end_layout
+
+\begin_layout Subsubsection*
+טענה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+ הוא סתירה 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\neg\alpha$
+\end_inset
+
+ הוא טאוטולוגיה
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\neg\alpha$
+\end_inset
+
+ הוא סתירה 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ הוא טאוטולוגיה
+\begin_inset Newline newline
+\end_inset
+
+פסוק 
+\bar under
+הינו ספיק
+\bar default
+ אם קיימת השמה שמספקת אותו.
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה:
+\end_layout
+
+\begin_layout Standard
+השמה מספקת קבוצת פסוקים 
+\begin_inset Formula $X$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אם היא מספקת את כל אחד מהפסוקים ב-
+\begin_inset Formula $X$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v\models\alpha,\forall\alpha\in X,\Leftrightarrow\text{}v|=X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v\models\underset{\alpha\in X}{\bigwedge}\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אם 
+\begin_inset Formula $X$
+\end_inset
+
+ קבוצה אינסופית 
+\begin_inset Newline newline
+\end_inset
+
+אז הביטוי 
+\bar under
+אינו פסוק
+\end_layout
+
+\begin_layout Subsubsection*
+מושג נוסף:
+\end_layout
+
+\begin_layout Standard
+פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\bar under
+נובע לוגית
+\bar default
+ צפסוק 
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אם כל השמה שמספקת את 
+\begin_inset Formula $\beta$
+\end_inset
+
+ מספקת גם את 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta|=\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $\subseteq$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{Eror 404 "white board erased"}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+למה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+ אם ורק אם 
+\begin_inset Formula $\models\alpha\rightarrow\beta$
+\end_inset
+
+ )הוא טאוטולוגיה(.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $\models\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל 
+\begin_inset Formula $\alpha\models\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נתונה השמה 
+\begin_inset Formula $v\models\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש- 
+\begin_inset Formula $v\models\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח שלא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\widehat{V}(\alpha)=T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\widehat{V}(\beta)=F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\widehat{V}(\alpha\rightarrow\beta)=F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסתירה לנתון 
+\begin_inset Formula $TT_{\rightarrow}(T,F)=F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ש-
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+ הוא טאוטולוגיה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\\
+ & x\in A/(B/C)\Leftrightarrow\\
+ & x\in A\wedge x\notin(B/C)\Leftrightarrow\\
+ & x\in A\wedge x\notin B\wedge x\in C\Leftrightarrow\\
+ & x\in(A/B)\text{\ensuremath{\cup}}x\in A\cap C
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

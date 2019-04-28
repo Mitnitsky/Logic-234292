@@ -1,0 +1,1330 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Subsubsection*
+קבוצת הפסוקים היכחיים/משפטים מורמליים - סינטקטי - פסוקים עם 
+\begin_inset Formula $\{\leftarrow,\rightarrow\}$
+\end_inset
+
+ בלבד.
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה אידוקטיבית:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & B=A_{1}\cup A_{2}\cup A_{3}\\
+ & A_{1}=\{(\alpha\rightarrow(\beta\rightarrow\alpha))|\alpha,\beta\in\text{WFF}\{\neg,\rightarrow\}\}\\
+ & A_{2}=\{((\alpha\rightarrow(\beta\rightarrow\gamma)\rightarrow((\alpha\rightarrow\beta))\rightarrow(\alpha\rightarrow\gamma))|\alpha,\beta,\gamma\in\text{WFF\ensuremath{_{\{\neg,\rightarrow\}}} \}}\\
+ & A_{3}=\{((\neg\alpha\rightarrow\neg\beta)\rightarrow(\beta\rightarrow\alpha))|\alpha,\beta\in...\}\\
+ & F=\{MP\}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $MP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underbrace{\alpha,\alpha\rightarrow\beta}_{\beta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כדי להראות ספסוק שייך לקבוצת הפסוקים היכיחיים צריך להראות 
+\bar under
+סדרת יצירה
+\bar default
+ שנקראת סדרת הוכחה.
+\end_layout
+
+\begin_layout Standard
+סדרת הוכחה עבור פסוק 
+\begin_inset Formula $\beta$
+\end_inset
+
+ הוא סתדרת הפסוקים 
+\begin_inset Formula $\alpha_{1},\dots,a_{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+שכל אחד מהם הוא או אכסיומה או התקבל מהקודמים בהסדרה ע
+\begin_inset Quotes erd
+\end_inset
+
+י כלל ההיסק 
+\begin_inset Formula $MP$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף 
+\begin_inset Formula $a_{n}=\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underbrace{\overbrace{a_{1}a_{2}}^{axi'}a_{3}}_{\mathclap{\text{Proof series for \ensuremath{a_{3}}}}}|\dots a_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל 
+\begin_inset Formula $\vdash\alpha\rightarrow\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כסימון להקלה בקריאות נסמן 
+\begin_inset Formula $\alpha\rightarrow\alpha$
+\end_inset
+
+ כ-
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A_{2}$
+\end_inset
+
+ 
+\begin_inset Formula $(\alpha\rightarrow(\beta\rightarrow\alpha))\underbrace{\rightarrow}_{\Uparrow}((\alpha\rightarrow\beta)\rightarrow(\alpha\rightarrow\alpha))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ 
+\begin_inset Formula $(\alpha\rightarrow(\beta\rightarrow\alpha))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $MP\text{}1,2$
+\end_inset
+
+ 
+\begin_inset Formula $((\alpha\rightarrow\beta)\rightarrow(\alpha\rightarrow\alpha))$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+הכנסת 
+\begin_inset Formula $\beta$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\alpha\rightarrow(\underline{\underline{\alpha\rightarrow\alpha}}))\rightarrow(\alpha\rightarrow\alpha))$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $,A_{1}$
+\end_inset
+
+
+\begin_inset Formula $(\alpha\rightarrow(\alpha\rightarrow\alpha))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $MP\text{ }4,3$
+\end_inset
+
+, 
+\begin_inset Formula $(\alpha\rightarrow\alpha)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\vdash(\alpha\rightarrow\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\vdash(\neg\alpha\rightarrow(\alpha\rightarrow\beta))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A_{3}$
+\end_inset
+
+ 
+\begin_inset Formula $(\neg\beta\rightarrow\neg\alpha)\rightarrow(\alpha\rightarrow\beta))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $(\neg\alpha\rightarrow(\underline{(\neg\beta\rightarrow\neg\alpha)\rightarrow(\alpha\rightarrow\beta)}))$
+\end_inset
+
+
+\begin_inset Formula $(\underline{(\neg\beta\rightarrow\neg\alpha)\rightarrow(\alpha\rightarrow\beta)})\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $MP\text{ }1,2$
+\end_inset
+
+ 
+\begin_inset Formula $(\neg\alpha\rightarrow((\neg\beta\rightarrow\neg\alpha)\rightarrow(\alpha\rightarrow\beta)))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A_{2}$
+\end_inset
+
+: 
+\begin_inset Formula $(\underbrace{\neg\alpha}_{\alpha}\rightarrow((\underbrace{\neg\beta\rightarrow\neg\alpha}_{\beta})\rightarrow(\underbrace{\alpha\rightarrow\beta}_{\gamma})))\overbrace{\rightarrow}^{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\underbrace{\neg\alpha}_{\alpha}\rightarrow(\underbrace{\neg\beta\rightarrow\neg\alpha}_{\beta}))\overbrace{\rightarrow}^{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\underbrace{\neg\alpha}_{\alpha}\rightarrow(\underbrace{\alpha\rightarrow\beta}_{\gamma}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $MP\text{ }3,4$
+\end_inset
+
+ 
+\begin_inset Formula $(\neg\alpha\rightarrow(\neg\beta\rightarrow\neg\alpha))\rightarrow(\neg\alpha\rightarrow(\alpha\rightarrow\beta)))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ 
+\begin_inset Formula $(\neg\alpha\rightarrow(\neg\beta\rightarrow\neg\alpha))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $MP\text{ }5,6$
+\end_inset
+
+
+\begin_inset Formula $(\neg\alpha\rightarrow(\alpha\rightarrow\beta))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\vdash(\neg\alpha\rightarrow(\alpha\rightarrow\beta))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה על סמך הנחות
+\end_layout
+
+\begin_layout Standard
+נתונה קבוצה של פסוקים 
+\begin_inset Formula $X$
+\end_inset
+
+ , נגדיר את קבוצת המסקנות של 
+\begin_inset Formula $X$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+)קבוצת הפסוקים היכחיים עס' 
+\begin_inset Formula $X$
+\end_inset
+
+(
+\begin_inset Newline newline
+\end_inset
+
+כקבוצה האינדוקטיבית:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B=A_{1}\cup A_{2}\cup A_{3}\cup X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F=\{MP\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סדרת הוכחה עבוק קב' 
+\begin_inset Formula $\beta$
+\end_inset
+
+ עס' 
+\begin_inset Formula $X$
+\end_inset
+
+ 
+\begin_inset Formula $a_{1},a_{2},\dots,a_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{n}=\beta$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $1\le i\le n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ הוא אכסיומה או מ-
+\begin_inset Formula $X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+או התקבל מהקודמים בסדרה ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $MP$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+סימון: 
+\begin_inset Formula $X\vdash\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underbrace{\alpha\rightarrow\beta,\beta\rightarrow\gamma}_{\mathclap{X=\{\alpha\rightarrow\beta,\beta\rightarrow\gamma|\alpha,\beta,\gamma\in\text{WFF}_{\{\rightarrow,\neg\}}\}}}\vdash\alpha\rightarrow\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+הנחה 
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+הנחה 
+\begin_inset Formula $\beta\rightarrow\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מטרה: 
+\begin_inset Formula $\{\alpha\rightarrow\beta,\beta\rightarrow\gamma\}\vdash(\alpha\rightarrow\gamma)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+משפט:
+\end_layout
+
+\begin_layout Standard
+נתון:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\vdash\beta$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $\alpha\in X$
+\end_inset
+
+ , 
+\begin_inset Formula $\vdash\alpha$
+\end_inset
+
+ אזי נסיק 
+\begin_inset Formula $\vdash\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\rightarrow\beta,\beta\rightarrow\gamma\vdash\alpha\rightarrow\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A2$
+\end_inset
+
+
+\begin_inset Formula $(\alpha\rightarrow(\beta\rightarrow\gamma))\rightarrow((\alpha\rightarrow\beta)\rightarrow(\alpha\rightarrow\gamma))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A1$
+\end_inset
+
+
+\begin_inset Formula $((\beta\rightarrow\gamma)\rightarrow(\alpha\rightarrow(\beta\rightarrow\gamma)))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+הנחה 
+\begin_inset Formula $\beta\rightarrow\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $(\alpha\rightarrow(\beta\rightarrow\gamma)),MP\text{ }2,3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $(\alpha\rightarrow\beta)\rightarrow(\alpha\rightarrow\gamma),MP\text{ }1,4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+הנחנה 
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha\rightarrow\beta,\text{\ensuremath{MP} 5,6}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\beta\rightarrow\gamma,\alpha\rightarrow b\vdash\alpha\rightarrow\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+טענה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\alpha\in X$
+\end_inset
+
+ אז 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+הנחנה 
+\begin_inset Formula $1.\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+טענה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X\subseteq Y$
+\end_inset
+
+ אז לכל פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, אם 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $Y\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+התכונה נקראת: מונוטוניות של הוכחה.
+ 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+a_{1} & [x_{1} &  &  & [y_{1}\\
+\vdots & |x_{2} &  &  & |y_{2}\\
+ &  & \Rightarrow &  & \vdots\\
+a_{n} & |\vdots &  &  & \vdots\\
+ & [x_{n} &  &  & [y_{n}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+נוסח אלטרנטיבי לטענה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $B_{1}\subseteq B_{2}$
+\end_inset
+
+אז 
+\begin_inset Formula $X_{B_{1},F}\subseteq X_{B_{2},F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\vdash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ לכל קבוצה 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+טענה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+אם לכל פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ ב-
+\begin_inset Formula $X$
+\end_inset
+
+, 
+\begin_inset Formula $Y\vdash\alpha$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+אז לכל פסוק 
+\begin_inset Formula $\beta$
+\end_inset
+
+ אם 
+\begin_inset Formula $X\vdash\beta$
+\end_inset
+
+ אז 
+\begin_inset Formula $Y\vdash\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $X\vdash\beta$
+\end_inset
+
+ , 
+\begin_inset Formula $\underbrace{a_{1},\dots}_{\mathclap{\text{from \ensuremath{X}}}},\underbrace{a_{n}}_{\beta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+על כל איבר 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+שהסדרה שלו היא 
+\begin_inset Quotes eld
+\end_inset
+
+מ-
+\begin_inset Formula $X$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחליף אותו בסדרת הוכחה מתוך 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X=\{\alpha\rightarrow\beta,\beta\rightarrow\gamma\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta=\alpha\rightarrow\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ידוע 
+\begin_inset Formula $X\vdash\delta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $Y=\{\beta,\gamma\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכיח ש-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y\vdash\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y\vdash\beta\rightarrow\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסיק 
+\begin_inset Formula $y\vdash\delta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\beta\rightarrow(\alpha\rightarrow\beta),\text{ A1}$
+\end_inset
+
+
+\begin_inset Formula $v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+הנחה מ-
+\begin_inset Formula $y$
+\end_inset
+
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $y\vdash\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $(\gamma\rightarrow(\beta\rightarrow\gamma)),\text{ A1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+הנחה מ-
+\begin_inset Formula $y$
+\end_inset
+
+ 
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\beta\rightarrow\gamma$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $y\vdash\beta\rightarrow\gamma$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+טענה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)הוכחות הן סופיות(
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\overbrace{X}^{(\text{infinite)}}\vdash\alpha$
+\end_inset
+
+ אז קיימת תת קבוצה 
+\bar under
+סופית
+\bar default
+ של 
+\begin_inset Formula $X$
+\end_inset
+
+, 
+\begin_inset Formula $X'\subseteq X$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $X'\vdash\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+משפט הדדוקציה:
+\end_layout
+
+\begin_layout Standard
+לכל מערכת הוכחה שיש בה לפחות את האכסיומות 
+\begin_inset Formula $\text{\fbox{A_{1}-וA_{2}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ויש בה בדיוק את כלל ההיסק 
+\begin_inset Formula $\text{\fbox{MP}}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+\bar under
+מתקיים:
+\end_layout
+
+\begin_layout Standard
+לכל קבוצת פסוקים 
+\begin_inset Formula $X$
+\end_inset
+
+ ופסוקים 
+\begin_inset Formula $\alpha,\beta$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X,\alpha\vdash\beta$
+\end_inset
+
+ אם ורק אם 
+\begin_inset Formula $X\vdash\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta\vdash\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\vdash\beta\rightarrow\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ נתון 
+\begin_inset Formula $X\vdash\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכיח 
+\begin_inset Formula $X,\alpha\vdash\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+הנחה 
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+יכיח מ-
+\begin_inset Formula $X$
+\end_inset
+
+ 
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\beta\text{  MP}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $X,\alpha\vdash\beta$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
