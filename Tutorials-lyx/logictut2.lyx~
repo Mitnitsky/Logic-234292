@@ -49,7 +49,7 @@
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
 \use_refstyle 1
 \use_minted 0
@@ -143,7 +143,7 @@
 
 \begin_layout Standard
 נגדיר קבוצה 
-\begin_inset Formula $T=\{w\in\{s,t\}^{*}|\text{ \ensuremath{|w\%2=0\}}}$
+\begin_inset Formula $T=\{w\in\{s,t\}^{*}|\text{ \ensuremath{|w|\%2=0\}}}$
 \end_inset
 
 

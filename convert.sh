@@ -11,7 +11,6 @@ ext="pdf"
 
 lecfiles=`ls $pathlec | grep -v \~ | grep -v ^[1-9] | cut -d"." -f1 | uniq`
 tutfiles=`ls $pathtut | grep -v \~ | grep -v ^[1-9] | cut -d"." -f1 | uniq`
-echo $tutfiles
 
 make_lectures() {
     for f in $lecfiles

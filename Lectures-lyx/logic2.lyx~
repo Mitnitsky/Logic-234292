@@ -85,6 +85,37 @@ figs-within-sections
 
 \begin_body
 
+\begin_layout Title
+לוגיקה הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
 \begin_layout Subsubsection*
 
 \bar under
@@ -1378,10 +1409,6 @@ F & i\%2\ne0\end{cases}
 \end_inset
 
 קבוצת הפסוקים:
-\begin_inset Formula $\overline{V}$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard

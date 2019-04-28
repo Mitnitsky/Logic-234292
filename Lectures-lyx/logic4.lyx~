@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Title
-לוגיקה הרצאה-
+לוגיקה הרצאה 
 \numeric on
 4
 \end_layout
@@ -699,10 +699,10 @@ T
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
- & \alpha_{1},\alpha_{2},ga_{3}\models\beta\\
+ & \alpha_{1},\alpha_{2},a_{3}\models\beta\\
  & \alpha_{1},\alpha_{2}\models(\alpha_{3}\rightarrow\beta)\\
  & \alpha_{1}\models(\alpha_{2}\rightarrow(\alpha_{3}\rightarrow\beta))\\
- & \models(\alpha_{1}(\alpha_{2}\rightarrow(\alpha_{3}\rightarrow\beta)))
+ & \models(\alpha_{1}\rightarrow(\alpha_{2}\rightarrow(\alpha_{3}\rightarrow\beta)))
 \end{align*}
 
 \end_inset
