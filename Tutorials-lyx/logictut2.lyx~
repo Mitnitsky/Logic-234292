@@ -106,6 +106,33 @@
 \noun default
 \color inherit
 2
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לוגיקה
 \end_layout
 
 \begin_layout Subsubsection*
@@ -283,7 +310,7 @@
 \begin_inset Formula $w\cdot\epsilon$
 \end_inset
 
- מתחילה ב
+ מתחילה ב-
 \begin_inset Formula $a$
 \end_inset
 
@@ -307,7 +334,7 @@
 \begin_inset Formula $u'$
 \end_inset
 
- מתחילה ב 
+ מתחילה ב-
 \begin_inset Formula $a$
 \end_inset
 
@@ -501,7 +528,7 @@
 \begin_inset Formula $w'$
 \end_inset
 
-מתחילה ב 
+ מתחילה ב 
 \begin_inset Formula $b$
 \end_inset
 
@@ -541,7 +568,11 @@
 \begin_inset Newline newline
 \end_inset
 
-לא, למשל עבור 
+
+\bar under
+לא
+\bar default
+, למשל עבור 
 \begin_inset Formula $w'=baa$
 \end_inset
 
@@ -573,222 +604,9 @@
 \begin_inset Formula $T_{2}^{'}=\{w\in\{a,b\}^{*}|w\in X_{B,F},\#_{a}(w)>\#_{b}(w)$
 \end_inset
 
- 
-\begin_inset Newline newline
-\end_inset
-
-
-\bar under
-בסיס:
-\bar default
-
-\begin_inset Newline newline
-\end_inset
-
-נראה שלכל 
-\begin_inset Formula $w\in B$
-\end_inset
-
- מתקיים 
-\begin_inset Formula $w\in T_{2}^{'}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $w=aa$
-\end_inset
-
 
 \end_layout
 
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Formula $w\in B$
-\end_inset
-
- ולכן 
-\begin_inset Formula $w\in X_{B,F}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $\#_{a}(w)=2>0=\#_{b}(w)$
-\end_inset
-
- ולכן 
-\begin_inset Formula $w\in T_{2}^{'}$
-\end_inset
-
-.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-
-\bar under
-סגור:
-\begin_inset Newline newline
-\end_inset
-
-
-\bar default
- נניח 
-\begin_inset Formula $w'\in T_{2}$
-\end_inset
-
- כלומר 
-\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-תהיי 
-\begin_inset Formula $w=f(w')$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\bar under
-נפריד למקרים:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-אם 
-\begin_inset Formula $w'$
-\end_inset
-
- מתחילה ב-
-\begin_inset Formula $a$
-\end_inset
-
- אז 
-\begin_inset Formula $w=aaw'b$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-מה
-\begin_inset Quotes erd
-\end_inset
-
-א 
-\begin_inset Formula $\#_{a}(w')>\#_{b}(w')$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-ולכן 
-\begin_inset Formula $\#_{a}(w)=2+\#_{a}(w)>1+\#_{b}(w)=\#_{b}(w)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-אם 
-\begin_inset Formula $w'$
-\end_inset
-
-מתחילה ב 
-\begin_inset Formula $b$
-\end_inset
-
- 
-\begin_inset Formula $w=bbw'a$
-\end_inset
-
- מה
-\begin_inset Quotes erd
-\end_inset
-
-א
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $\#_{a}(w)=1+\#_{a}(w')$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $\#_{b}(w)=2+\#_{b}(w')$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-האם בהכרח 
-\begin_inset Formula $\#_{a}(w)>\#_{b}(w)$
-\end_inset
-
-?
-\begin_inset Newline newline
-\end_inset
-
-לא, למשל עבור 
-\begin_inset Formula $u'=baa$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-תחונה לא נשמרה.
-\begin_inset Newline newline
-\end_inset
-
-האם המשמעות שאיברים ב- 
-\begin_inset Formula $X_{B,F}$
-\end_inset
-
- לא מקיימים את התכונה,
-\begin_inset Newline newline
-\end_inset
-
-לא כי אנו יודעים שקבוצה אינדוקטיבית של כל המילים מתחילות
-\begin_inset Newline newline
-\end_inset
-
-ב-
-\begin_inset Formula $a$
-\end_inset
-
-.
- ולכן נרצה לחזק תכונה.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $T_{2}^{'}=\{w\in\{a,b\}^{*}|w\in X_{B,F},\#_{a}(w)>\#_{b}(w)\}$
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 
@@ -873,7 +691,7 @@
 
 \begin_layout Standard
 תהי 
-\begin_inset Formula $w=f(w)$
+\begin_inset Formula $w=f(w')$
 \end_inset
 
  מה
@@ -1110,7 +928,7 @@
 \end_inset
 
 נוכיח כי 
-\begin_inset Formula $x=S_{1}$
+\begin_inset Formula $X=S_{1}$
 \end_inset
 
  ע
@@ -1157,7 +975,7 @@
 
 \begin_layout Standard
 נניח כי 
-\begin_inset Formula $a_{1}\dots a_{n}\in X$
+\begin_inset Formula $a_{1},\dots,a_{n}\in X$
 \end_inset
 
 
@@ -1338,7 +1156,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $f(a_{1},\dots,F_{k})\in S_{1}$
+\begin_inset Formula $f(a_{1},\dots,a_{n})\in S_{1}$
 \end_inset
 
 
@@ -1349,10 +1167,10 @@
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $f\in P_{1}$
+\begin_inset Formula $f\in F_{1}$
 \end_inset
 
- מכיוון ש 
+ מכיוון ש- 
 \begin_inset Formula $a_{1},\dots,a_{n}\in S_{1}$
 \end_inset
 
@@ -1361,45 +1179,21 @@
 \end_inset
 
  
-\begin_inset Formula $f(a...a_{n})\in S$
+\begin_inset Formula $f(a...a_{n})\in S_{1}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $f\in f_{2}$
+\begin_inset Formula $f\in F_{2}$
 \end_inset
 
- 
-\begin_inset Quotes eld
+ מכיוון ש-
+\begin_inset Formula $a_{1},\dots,a_{n}\in S_{1}$
 \end_inset
 
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset Formula $a_{1},\dots,a_{n}$
-\end_inset
-
- ש- 
+ ו- 
 \begin_inset Formula $S_{1}=S_{2}$
 \end_inset
 

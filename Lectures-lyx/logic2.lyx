@@ -239,7 +239,7 @@ figs-within-sections
 \begin_inset Formula $Y$
 \end_inset
 
-מספקת את )א( ו-)ב( עבור 
+ מספקת את )א( ו-)ב( עבור 
 \begin_inset Formula $F,B$
 \end_inset
 
@@ -282,7 +282,7 @@ figs-within-sections
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 
 \bar under
 להראות
@@ -299,11 +299,11 @@ figs-within-sections
 \bar under
 סדרת יצירה
 \bar default
-
+ 
 \begin_inset Formula $a_{1}\dot{\dots a_{n}}$
 \end_inset
 
-כך ש-
+ כך ש-
 \end_layout
 
 \begin_layout Standard
@@ -325,19 +325,23 @@ figs-within-sections
 \begin_inset Quotes erd
 \end_inset
 
-י הפעלהת פעולה מ-
+י הפעלת פעולה מ-
 \begin_inset Formula $F$
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 להראות 
 \begin_inset Formula $b\notin X_{B,F}$
 \end_inset
 
- נציע תכונה)קבוצה( 
+
+\end_layout
+
+\begin_layout Standard
+נציע תכונה)קבוצה( 
 \begin_inset Formula $T$
 \end_inset
 
@@ -385,7 +389,7 @@ figs-within-sections
 \end_layout
 
 \begin_layout Itemize
-קשור בין אוסף הנוסחאות וייכיחיות)יש אפשרות להוכיח אותן( לבין סמנטיקה.
+קשר בין אוסף הנוסחאות היכיחיות)יש אפשרות להוכיח אותן( לבין סמנטיקה.
 \end_layout
 
 \begin_layout Subsection*
@@ -486,7 +490,7 @@ figs-within-sections
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $W=(\{\vee,\wedge,\neg,\rightarrow,(,),\}\cup\{p_{i}|i\in N\})$
+\begin_inset Formula $W=(\{\vee,\wedge,\neg,\rightarrow,(,)\}\cup\{p_{i}|i\in N\})$
 \end_inset
 
 
@@ -576,7 +580,7 @@ figs-within-sections
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $(p_{5}\vee p_{11})$
+\begin_inset Formula $(p_{5}\wedge p_{11})$
 \end_inset
 
 
@@ -609,6 +613,10 @@ figs-within-sections
 \end_inset
 
 פסוק ?
+\begin_inset Newline newline
+\end_inset
+
+לא!
 \end_layout
 
 \begin_layout Standard
@@ -640,7 +648,7 @@ figs-within-sections
 \end_layout
 
 \begin_layout Standard
-לכל פסוק אטומי יש תחונה.
+לכל פסוק אטומי יש תכונה.
 \end_layout
 
 \begin_layout Paragraph
@@ -700,7 +708,7 @@ figs-within-sections
 
  יש תכונה.
  )מספר הסוגריים מכל סוג 
-\begin_inset Formula $\text{n+k+1}$
+\begin_inset Formula $\text{(n+k+1}$
 \end_inset
 
 .
@@ -919,7 +927,7 @@ figs-within-sections
 \end_inset
 
  על 
-\begin_inset Formula $b\vee c,a$
+\begin_inset Formula $b\wedge c,a$
 \end_inset
 
 
@@ -964,7 +972,7 @@ figs-within-sections
 \begin_inset Formula $\triangle$
 \end_inset
 
-כך ש- 
+ כך ש- 
 \begin_inset Formula $\alpha=(\beta_{2}\triangle\alpha_{2})$
 \end_inset
 
@@ -973,14 +981,14 @@ figs-within-sections
 \end_inset
 
 אז בהכרח 
-\begin_inset Formula $\beta_{1}=\beta_{2},\gamma_{1}=\gamma_{2},$
+\begin_inset Formula $\beta_{1}=\beta_{2},\,\gamma_{1}=\gamma_{2},$
 \end_inset
 
  ו-
 \begin_inset Formula $\square$
 \end_inset
 
- ו-
+,
 \begin_inset Formula $\triangle$
 \end_inset
 
@@ -1328,17 +1336,18 @@ $
 
 \bar under
 סמנטיקה
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-מטרה להתאים ערך אמת או שקר לפסוקים האטומיים ומזה להסיק ערך אמת או שקר
+מטרה להתאים ערך אמת או שקר לפסוקים האטומיים ומזה להסיק ערך אמת או שקר לפסוק
+ כולו.
 \end_layout
 
-\begin_layout Standard
-לפסוק כולו.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Itemize
 אמת - 
 \begin_inset Formula $T$
 \end_inset
@@ -1346,7 +1355,7 @@ $
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 שקר - 
 \begin_inset Formula $F$
 \end_inset

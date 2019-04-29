@@ -1,0 +1,2120 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לוגיקה
+\end_layout
+
+\begin_layout Subsubsection*
+מפשט הנאותות הרחב
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\underbrace{X\vdash\alpha}_{\text{there is proof. sequence for \ensuremath{\alpha} using X assumes}}$
+\end_inset
+
+ אז 
+\begin_inset Formula $\underbrace{X\vDash\alpha}_{\text{\ensuremath{\forall v}if v\ensuremath{\vDash X} then v\ensuremath{\vDash\alpha}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+אם 
+\begin_inset Formula $\vdash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $\vDash\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar default
+נסוח שקול:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X\nvDash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $\text{\fbox{X\ensuremath{\nvdash\alpha}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+משפט השלמות
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X\vDash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+קבוצת פסוקים 
+\begin_inset Formula $X$
+\end_inset
+
+ היא עקבית אם לא קיים פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+קבוצת פסוקים 
+\begin_inset Formula $X$
+\end_inset
+
+ היא עקבית אם קיים פסוק 
+\begin_inset Formula $\beta$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $X\nvdash\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ הגדרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+לא קיים 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+מסקנה: לפחות 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ או 
+\begin_inset Formula $\neg\alpha$
+\end_inset
+
+ אינו יכיח מ-
+\begin_inset Formula $X$
+\end_inset
+
+ ולכן מתקיימת הגדרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ הגדרה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+נתון: קיים פסוק 
+\begin_inset Formula $\beta$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $X\nvdash\beta$
+\end_inset
+
+ בדרך השלילה, נניח שקיים 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ כך 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\vdash\neg\alpha\rightarrow(\alpha\rightarrow\beta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+פסוק יכיח 
+\begin_inset Formula $\vdash\neg\alpha\rightarrow(\alpha\rightarrow\beta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מהנתון עס' 
+\begin_inset Formula $X$
+\end_inset
+
+ 
+\begin_inset Formula $\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מהנתון עס' 
+\begin_inset Formula $X$
+\end_inset
+
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{MP 1,2}$
+\end_inset
+
+ 
+\begin_inset Formula $\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{MP 3,4}$
+\end_inset
+
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\vdash\beta$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+בסתירה לנתון ש- 
+\begin_inset Formula $X\nvdash\beta$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+מסקנה: לא קיים 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+שאלה:
+\end_layout
+
+\begin_layout Standard
+האם קבוצת האכסיומות של תחשיב הפסוקים היא עקבית ? )קבוצת ההנחות 
+\begin_inset Formula $X$
+\end_inset
+
+ היא ריקה(.
+ 
+\series bold
+\bar under
+כן
+\series default
+\bar default
+!
+\end_layout
+
+\begin_layout Subsubsection*
+שאלה:
+\end_layout
+
+\begin_layout Standard
+האם יתכן 
+\begin_inset Formula $X\vDash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vDash\neg\alpha$
+\end_inset
+
+?
+\begin_inset Newline newline
+\end_inset
+
+לכל השמה 
+\begin_inset Formula $v$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+אם 
+\begin_inset Formula $v\vDash X$
+\end_inset
+
+ אז 
+\begin_inset Formula $v\vDash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+אם 
+\begin_inset Formula $v\vDash X$
+\end_inset
+
+ אז 
+\begin_inset Formula $v\vDash\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יכול להתקיים אם אין משמה 
+\begin_inset Formula $v$
+\end_inset
+
+ שמספקת את 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות ל 
+\begin_inset Formula $X$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X=\{p_{1},\neg p_{1}\}$
+\end_inset
+
+ לא ספיקה.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X=\{\underbrace{\alpha\rightarrow\beta}_{\beta},\alpha,\neg\beta\}$
+\end_inset
+
+ לא ספיקה.
+\end_layout
+
+\begin_layout Subsubsection*
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X$
+\end_inset
+
+ אינה עקבית 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ אינה עקבית.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $X$
+\end_inset
+
+ ספיקה 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+למה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+קבוצת פסוקים היא עקבית אם ורק אם כל תת קבוצה 
+\bar under
+סופית
+\bar default
+ שלה היא עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיימת תת-קבוצה 
+\begin_inset Formula $Y\subseteq X$
+\end_inset
+
+ סופית 
+\bar under
+שאינה עקבית
+\bar default
+.
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $Y\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $Y\vdash\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עס' מונוטוניות ההוכחה מתקיים גם 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+ בסתירה להנחה ש-
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ נתון: כל תת-קבוצה סופית היא עקבית.
+\end_layout
+
+\begin_layout Standard
+ובשלילה-
+\begin_inset Formula $X$
+\end_inset
+
+ אינה עקבית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+ שתיהן סדרות הוכחה סופיות ולכן משתמשות כקבוצות סופיות של הנחות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x'\vdash\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $X''\vdash\neg\alpha\quad$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X'$
+\end_inset
+
+, 
+\begin_inset Formula $X''$
+\end_inset
+
+ סופיות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X'\cup X''$
+\end_inset
+
+ סופית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X'\cup X''\vdash\alpha$
+\end_inset
+
+ ,
+\begin_inset Formula $X'\cup X''\vdash\neg\alpha$
+\end_inset
+
+ בסתירה לכך שכל תת-קבוצה סופית היא עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+למה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $X\cup\{\alpha\}$
+\end_inset
+
+ היא עקבית אם ורק אם 
+\begin_inset Formula $X\nvdash\neg\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $X\cup\{\neg\alpha\}$
+\end_inset
+
+ היא עקבית אם ורק אם 
+\begin_inset Formula $X\nvdash\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ נתון: 
+\begin_inset Formula $X\cup\{\alpha\}$
+\end_inset
+
+ עקבית ונניח בשלילה
+\end_layout
+
+\begin_layout Standard
+ש-
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+X\cup\{\alpha\}\vdash\alpha\\
+X\cup\{\alpha\}\vdash\neg\alpha
+\end{cases}$
+\end_inset
+
+ סתירה לנתון )
+\begin_inset Formula $X\cup\{\alpha\}$
+\end_inset
+
+ עקבית(
+\end_layout
+
+\begin_layout Standard
+כי 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+ תמיד מותר להוסיף הנחות.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ נתון 
+\begin_inset Formula $X\nvdash\neg\alpha$
+\end_inset
+
+ ונניח ש-
+\begin_inset Formula $X\cup\{\alpha\}$
+\end_inset
+
+ אינה עקבית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\cup\{\alpha\}\vdash\neg\alpha$
+\end_inset
+
+ )בחרנו את 
+\begin_inset Formula $\beta$
+\end_inset
+
+ להיות 
+\begin_inset Formula $\neg\alpha$
+\end_inset
+
+ עס' הגדרת 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ של עקביות(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Downarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+)דדוקציה( 
+\begin_inset Formula $X\vdash\alpha\rightarrow\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+)נשתמש במשפט: 
+\begin_inset Quotes eld
+\end_inset
+
+יכיח 
+\begin_inset Formula $\vdash(\alpha\rightarrow\neg\alpha)\rightarrow\neg\alpha$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Enumerate
+פסוק יכיח 
+\begin_inset Formula $(\alpha\rightarrow\neg\alpha)\rightarrow\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+עס' 
+\begin_inset Formula $X$
+\end_inset
+
+ מהנחת השלילה + דדוקציה 
+\begin_inset Formula $(\alpha\rightarrow\neg\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+ בסתירה לנתון.
+\end_layout
+
+\begin_layout Subsubsection*
+למה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X$
+\end_inset
+
+ ספיקה אז 
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+תזכורת להוכחה:
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $X$
+\end_inset
+
+ ספיקה, אם 
+\begin_inset Formula $X$
+\end_inset
+
+ אינה עקבית אז 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+ עס' נאותות 
+\begin_inset Formula $X\vDash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vDash\neg\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+מטרה:
+\end_layout
+
+\begin_layout Standard
+להוכיח 
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ ספיקה.
+\end_layout
+
+\begin_layout Subsubsection*
+רעיון ראשון
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית אז לכל 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ לא מתקיים 
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר השמה 
+\begin_inset Formula $v$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+לכל פסוק אטומי 
+\begin_inset Formula $p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X\vdash p$
+\end_inset
+
+ אז 
+\begin_inset Formula $v(p)=T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X\vdash\neg p$
+\end_inset
+
+ אז 
+\begin_inset Formula $v(p)=F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יתכן ש- 
+\begin_inset Formula $X\nvdash p$
+\end_inset
+
+ וגם 
+\begin_inset Formula $X\nvdash\neg p$
+\end_inset
+
+ ואז 
+\begin_inset Formula $v$
+\end_inset
+
+ לא מוגדרת.
+\begin_inset Newline newline
+\end_inset
+
+דוגמא לכך שאי אפשר לבחור את 
+\begin_inset Formula $v$
+\end_inset
+
+ אקראית כאשר 
+\begin_inset Formula $X\nvdash p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\nvdash\neg p$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & X=\{\overbrace{p_{o}\vee p_{1}}^{F}\}\\
+ & p_{0}\vee p_{1}\nvDash\overbrace{p_{0}}^{F}\Rightarrow p_{0}\vee p_{1}\nvdash p_{0}\\
+ & p_{0}\vee p_{1}\nvDash\neg\overbrace{p_{0}}^{F}\\
+ & p_{0}\vee p_{1}\nvDash\overbrace{p_{1}}^{F}\\
+ & \nvDash\neg\overbrace{p_{1}}^{T}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה נוספת:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית מקסימלית אם לכל פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מתקיימת 
+\bar under
+בדיוק אחת
+\bar default
+ מ-
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+האפשרויות:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $X\vdash\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $X\vdash\neg\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+למה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית מקסימלית אם ורק אם 
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית ולכל פסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, אם 
+\begin_inset Formula $Y\vdash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $Y\cup\{\alpha\}$
+\end_inset
+
+ 
+\series bold
+\bar under
+אינה
+\series default
+\bar default
+ עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ נתון 
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית מקסימלית
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $Y$
+\end_inset
+
+עקבית.
+\end_layout
+
+\begin_layout Standard
+נתון 
+\begin_inset Formula $Y\nvdash\alpha$
+\end_inset
+
+ אז עס' עקביות מקס' 
+\begin_inset Formula $Y\vdash\neg\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow\begin{cases}
+Y\cup\{\alpha\}\vdash\alpha\\
+Y\cup\{\alpha\}\vdash\neg\alpha
+\end{cases}$
+\end_inset
+
+ מסקנה 
+\begin_inset Formula $Y\cup\{\alpha\}$
+\end_inset
+
+ אינה עקבית.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ נתון 
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית ולכל 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אם 
+\begin_inset Formula $y\nvdash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $Y\cup\{\alpha\}$
+\end_inset
+
+ אינה עקבית.
+\end_layout
+
+\begin_layout Standard
+נוכיח ש-
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית מקס', קיימות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אפשרויות:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Y\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Y\nvdash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $Y\cup\{\alpha\}$
+\end_inset
+
+ אינה עקבית.
+\end_layout
+
+\begin_layout Standard
+עס' למה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y\vdash\neg\alpha$
+\end_inset
+
+ סיימנו.
+\end_layout
+
+\begin_layout Subsubsection*
+למה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+לכל קבוצה עקבית 
+\begin_inset Formula $X$
+\end_inset
+
+ קיימת קבוצה עקבית מקסימלית 
+\begin_inset Formula $Y$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $X\subseteq Y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+הנחה:
+\end_layout
+
+\begin_layout Standard
+קבוצת הפסוקים היא בת מניה 
+\begin_inset Formula $\alpha_{1},\alpha_{2},\alpha_{3}\dots$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נגדיר:
+\end_layout
+
+\begin_layout Standard
+סדרת הרחבות ל-
+\begin_inset Formula $X$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+ & \underset{\shortparallel}{X_{0}}\subseteq X_{1}\subseteq X_{2}\subseteq\dots\\
+ & X
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח בשלב ה-
+\begin_inset Formula $n$
+\end_inset
+
+ ,
+\begin_inset Formula $X_{n}$
+\end_inset
+
+ מוגדרת
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X_{n}\vdash\neg\alpha_{n}$
+\end_inset
+
+ אז 
+\begin_inset Formula $X_{n+1}=X_{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $X_{n}\nvdash\neg\alpha_{n}$
+\end_inset
+
+ אז 
+\begin_inset Formula $X_{n+1}=X_{n}\cup\{\alpha_{n}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y=\cup X_{n}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נוכיח ש-
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית, מקסימלית, מכילה את-
+\begin_inset Formula $X$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\,$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+טענה א:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X\subseteq Y$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+טענה ב:
+\end_layout
+
+\begin_layout Standard
+כל 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+ היא עקבית.
+\begin_inset Newline newline
+\end_inset
+
+הוכחה ל-ב:
+\end_layout
+
+\begin_layout Standard
+אינדוקציה עבור 
+\begin_inset Formula $n$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+בסיס:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $X_{0}$
+\end_inset
+
+ עקבית כי 
+\begin_inset Formula $X$
+\end_inset
+
+ עקבית.
+\end_layout
+
+\begin_layout Itemize
+צעד:
+\begin_inset Newline newline
+\end_inset
+
+נניח כי 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+ עקבית ונוכיח 
+\begin_inset Formula $X_{n+1}$
+\end_inset
+
+ עקבית:
+\begin_inset Newline newline
+\end_inset
+
+נחלק ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מקרים:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $X_{n}=X_{n+1}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $X_{n+1}$
+\end_inset
+
+ עקבית.
+\end_layout
+
+\begin_layout Enumerate
+למה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ )גרסה ראשונה)שחורה((.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\bar under
+טענה ג:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שאינה עקבית ואז לפי למה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+קיימת תת-קבוצה 
+\bar under
+סופית
+\bar default
+ 
+\begin_inset Formula $W$
+\end_inset
+
+ של 
+\begin_inset Formula $Y$
+\end_inset
+
+ שאינה עקבית.
+\end_layout
+
+\begin_layout Standard
+קיימת 
+\begin_inset Formula $W\subseteq X_{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $w_{i}\in W$
+\end_inset
+
+, 
+\begin_inset Formula $w_{i}\in X_{i}$
+\end_inset
+
+ )מ-
+\begin_inset Formula $W\subseteq Y$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+עבור האינדקס 
+\begin_inset Formula $m$
+\end_inset
+
+ המקסימלי המכיל של 
+\begin_inset Formula $w_{i}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $W\subseteq X_{m}$
+\end_inset
+
+ סתירה לטענה ב'.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+טענה ד:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y$
+\end_inset
+
+ עקבית מקסימלית לכל 
+\begin_inset Formula $\alpha_{n}$
+\end_inset
+
+ נראה ש-
+\begin_inset Formula $Y\vdash\alpha_{n}$
+\end_inset
+
+ או 
+\begin_inset Formula $y\vdash\neg\alpha_{n}$
+\end_inset
+
+ עס' בניה.
+\end_layout
+
+\end_body
+\end_document

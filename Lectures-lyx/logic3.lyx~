@@ -49,7 +49,7 @@
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
 \use_refstyle 1
 \use_minted 0
@@ -173,7 +173,7 @@
 \end_layout
 
 \begin_layout Standard
-השמה
+השמה 
 \begin_inset Formula $\text{T F}$
 \end_inset
 
@@ -213,7 +213,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $v:\{p_{i}|i\in\mathnormal{N\}\rightarrow\{T,F\}}$
+\begin_inset Formula $V:\{p_{i}|i\in\mathnormal{N\}\rightarrow\{T,F\}}$
 \end_inset
 
 
@@ -1236,7 +1236,7 @@ F
 \end_inset
 
 בהינתן 
-\begin_inset Formula $v:\{p_{i}|i\in\mathbb{N}\}\rightarrow\{T,F\}$
+\begin_inset Formula $V:\{p_{i}|i\in\mathbb{N}\}\rightarrow\{T,F\}$
 \end_inset
 
 
@@ -1401,38 +1401,28 @@ v
 \begin_inset Newline newline
 \end_inset
 
-מסתמכת על כך 
-\begin_inset Newline newline
-\end_inset
+מסתמכת על כך
+\end_layout
 
--
+\begin_layout Itemize
 \begin_inset Formula $v$
 \end_inset
 
  פונקציה
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
--
+\begin_layout Itemize
 \begin_inset Formula $TT_{\square}$
 \end_inset
 
  פונקציות
 \end_layout
 
-\begin_layout Subsubsection*
-כשה דנים בסמנטיקה
+\begin_layout Standard
+כשה דנים בסמנטיקה קובעים סדר קדמאות בין קשרים שיאפשר לוותר על חלק מהסוגריים:
 \end_layout
 
-\begin_layout Standard
-קובעים סדר קדמאות בין קשרים
-\begin_inset Newline newline
-\end_inset
-
-שיאפשר לוותר על חלק מהסוגריים:
-\end_layout
-
-\begin_layout Standard
+\begin_layout Itemize
 הקשר 
 \begin_inset Formula $\neg$
 \end_inset
@@ -1440,7 +1430,7 @@ v
  מופעל ראשון
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 קשרים
 \begin_inset Formula $\leftrightarrow,\wedge,\vee$
 \end_inset
@@ -1448,7 +1438,7 @@ v
 מופעלים אחרי
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 הקשר 
 \begin_inset Formula $\rightarrow$
 \end_inset
@@ -1460,15 +1450,8 @@ v
 \begin_inset Formula $\neg p_{0}\vee p_{1}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-כמו לכתוב
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $((\neg p_{0}\vee p_{1})$
+ כמו לכתוב 
+\begin_inset Formula $((\neg p_{0})\vee p_{1})$
 \end_inset
 
 
@@ -1511,25 +1494,26 @@ v
 \begin_inset Formula $\alpha$
 \end_inset
 
- הוא טאוטולוגיה
-\begin_inset Newline newline
-\end_inset
-
-אם הוא מקבל ערך 
+ הוא טאוטולוגיה אם הוא מקבל ערך 
 \begin_inset Formula $\text{T}$
 \end_inset
 
- לכל השמה
+ 
+\bar under
+לכל
+\bar default
+ השמה:
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula $\neg p_{o}\vee p_{o}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
+, 
 \begin_inset Formula $\neg\alpha\vee\alpha$
 \end_inset
 
@@ -1750,7 +1734,7 @@ T
 \begin_inset Newline newline
 \end_inset
 
-על כן
+על כן 
 \begin_inset Formula $|=\alpha\vee\neg\alpha$
 \end_inset
 
