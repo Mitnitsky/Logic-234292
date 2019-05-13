@@ -1,0 +1,801 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תרגול
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לוגיקה
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הוכיחו כי הקבוצה 
+\begin_inset Formula $\Sigma=\{p_{i}\rightarrow p_{i+1}|i\in\mathbb{N}\}=\{p_{o}\rightarrow p_{1},p_{1}\rightarrow p_{2},\dots\}$
+\end_inset
+
+ היא עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נבחר 
+\begin_inset Formula $\alpha=\neg(p_{0}\rightarrow p_{o})$
+\end_inset
+
+, נוכיח כי 
+\begin_inset Formula $\Sigma\nvDash\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+יש להראות השמה המספקת את 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ אבל לא את 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \overline{V_{T}}(p_{i}\rightarrow p_{i+1})=TT_{\rightarrow}(V_{T}(p_{i}),V_{T}(p_{i+1}))\\
+ & TT_{\rightarrow}(T,T)=T
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן 
+\begin_inset Formula $V_{T}$
+\end_inset
+
+מספקת את 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ אבל 
+\begin_inset Formula $V_{T}(\alpha)=F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיבלנו 
+\begin_inset Formula $\Sigma\nvdash\alpha\Leftarrow\Sigma\nvDash\alpha$
+\end_inset
+
+ )לפי מסקנה ממשפט הנאותות(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Sigma\Leftarrow$
+\end_inset
+
+ עקבית.
+\end_layout
+
+\begin_layout Standard
+)הגדרה שקולה עקביות(
+\end_layout
+
+\begin_layout Subsubsection*
+משפט
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ ספיקה אז 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+משפט
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נניח כי 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ ספיקה, אז קיימת לפי הגדרה השמה 
+\begin_inset Formula $v$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $v\vDash\Sigma$
+\end_inset
+
+כמו כן 
+\begin_inset Formula $\overline{V}(\neg(p_{0}\rightarrow p_{0}))=F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Sigma\forall\neg(p_{0}\rightarrow p_{0})\underbrace{\Leftarrow}_{\text{neotut}}\Sigma\nvDash\neg(p_{0}\rightarrow p_{0})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+נגדיר סדרה של קבוצות פסוקים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \Sigma_{0}=\{\neg p_{o}\}\\
+ & \Sigma_{1}=\{p_{0},\neg p_{1}\}\\
+ & \Sigma_{2}=\{p_{0},p_{1},\neg p_{2}\}\\
+ & \vdots
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+באופן כללי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Sigma_{i}=\{p_{0},p_{1},\dots,p_{i-1},\neg p_{i}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+האם לכל 
+\begin_inset Formula $i$
+\end_inset
+
+ מתקיים ש-
+\begin_inset Formula $\Sigma_{i}$
+\end_inset
+
+ עקבית?
+\end_layout
+
+\begin_layout Enumerate
+האם 
+\begin_inset Formula $\bigcup_{i\in\mathbb{N}}\Sigma_{i}$
+\end_inset
+
+ עקבית?
+\end_layout
+
+\begin_layout Enumerate
+האם 
+\begin_inset Formula $\bigcap_{i\in\mathbb{N}}\Sigma_{i}$
+\end_inset
+
+ עקבית?
+\end_layout
+
+\begin_layout Enumerate
+תהי 
+\begin_inset Formula $X\ne\emptyset$
+\end_inset
+
+ קבוצת קבוצות פסוקים.
+\begin_inset Newline newline
+\end_inset
+
+הוכיחו אם לכל 
+\begin_inset Formula $\Sigma\in X$
+\end_inset
+
+ מתקיים ש-
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ עקבית, אז 
+\begin_inset Formula $\bigcap X$
+\end_inset
+
+ היא עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+כן, על פי משפט מספיק להראות ש-
+\begin_inset Formula $\Sigma_{i}$
+\end_inset
+
+ ספיקה.
+ לכל 
+\begin_inset Formula $i$
+\end_inset
+
+ נגדיר השמה 
+\begin_inset Formula $v_{i}$
+\end_inset
+
+ באופן הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{i}(p_{k})\begin{cases}
+F & k=i\\
+T & k\ne i
+\end{cases}
+\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v_{i}$
+\end_inset
+
+ מספקת את 
+\begin_inset Formula $\Sigma_{i}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\Sigma_{i}$
+\end_inset
+
+ ספיקה וממפשט עקבית.)צריך להוכיח(.
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+לא, 
+\begin_inset Formula $\neg p_{o}\in\Sigma_{0}$
+\end_inset
+
+ ו-
+\begin_inset Formula $p_{0}\in\Sigma_{1}$
+\end_inset
+
+ מהגדרת איחוד גדול 
+\begin_inset Formula $p_{0},\neg p_{0}\in\underset{i\in\mathbb{N}}{\bigcup}\Sigma_{i}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מהנחת המבוקש:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{i\in\mathbb{N}}{\bigcup}\Sigma_{i}\vdash p_{0}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\underset{i\in\mathbb{N}}{\bigcup}\Sigma_{i}\vdash\neg p_{0}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\underset{i\in\mathbb{N}}{\bigcup}\Sigma_{i}$
+\end_inset
+
+ מוכיחה את 
+\begin_inset Formula $p_{0}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\neg p_{0}$
+\end_inset
+
+ ולכן מהגדרת עקביות 
+\begin_inset Formula $\underset{i\in\mathbb{N}}{\bigcup}\Sigma$
+\end_inset
+
+ אינה עקבית
+\begin_inset Newline newline
+\end_inset
+
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+איחוד של קבוצות עקביות לא בהכרח עקבי.
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+כן, נשים לב כי 
+\begin_inset Formula $\underset{i\in\mathbb{N}}{\bigcap}\Sigma_{i}=\emptyset$
+\end_inset
+
+ זו קבוצה ספיקה ולפי משפט היא עקבית.
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש- 
+\begin_inset Formula $\bigcap X$
+\end_inset
+
+ לא עקבית.
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $\alpha\in\text{WFF}_{\{\rightarrow,\neg\}}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\bigcap X\vdash\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מכוון ש 
+\begin_inset Formula $X\ne\emptyset$
+\end_inset
+
+, קיימת 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $\bigcap X\subseteq\Sigma$
+\end_inset
+
+ )לפי הגדרת חיתוך גדול(.
+\end_layout
+
+\begin_layout Standard
+ממונוטוניות ההוכחה מתקיים 
+\begin_inset Formula $\Sigma\vdash\alpha$
+\end_inset
+
+ לפי הגדרה 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ לא עקבית וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
