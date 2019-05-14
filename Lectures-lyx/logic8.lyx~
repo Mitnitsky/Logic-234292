@@ -1115,6 +1115,600 @@ X\nvDash\alpha & \Leftarrow & X\nvdash\alpha\\
 סופית
 \bar default
  ולא ספיקה.
+\begin_inset Newline newline
+\end_inset
+
+עס' קומפקטיות קיימת 
+\begin_inset Formula $D\subseteq\Sigma_{1}\bigcup\Sigma_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D$
+\end_inset
+
+ סופית , לא ריקה , לא ספיקה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{2}=D\bigcap\Sigma_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $D_{1}=D\bigcap\Sigma_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפחות אחת מ-
+\begin_inset Formula $D_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ אינה ריקה כי 
+\begin_inset Formula $D$
+\end_inset
+
+ אינה ריקה.
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ אינה ריקה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{1}=\{\alpha_{1},\alpha_{2},\dots,\alpha_{k}\}\subseteq\Sigma_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{1}=\alpha_{1}\wedge\alpha_{2}\wedge\dots\alpha_{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{2}=\neg p_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכיח שלכל השמה 
+\begin_inset Formula $v$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v\vDash p_{1}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v\vDash\Sigma_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v\vDash\Sigma_{1}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v\vDash\alpha$
+\end_inset
+
+ לכל 
+\begin_inset Formula $\alpha\in\Sigma_{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\quad$
+\end_inset
+
+ בפרט ל-
+\begin_inset Formula $\alpha_{i}\in D_{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\quad$
+\end_inset
+
+ 
+\begin_inset Formula $v\vDash\alpha_{1}\wedge\dots\wedge\alpha_{k}=p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Formula $v\nvDash\Sigma_{1}$
+\end_inset
+
+ לפי נתון 
+\begin_inset Formula $v\vDash\Sigma_{2}$
+\end_inset
+
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Formula $v\vDash D_{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אבל נתון 
+\begin_inset Formula $D=D_{1}\bigcup D_{2}$
+\end_inset
+
+ אינה ספיקה ולכן 
+\begin_inset Formula $v\nvDash D_{1}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+כלומר קיים 
+\begin_inset Formula $\alpha\in D_{1}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $v\nvDash\alpha$
+\end_inset
+
+מסקנה 
+\begin_inset Formula $v\nvDash p_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\neg p_{1}=p_{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל לכל 
+\begin_inset Formula $v$
+\end_inset
+
+, 
+\begin_inset Formula $v\vDash p_{2}\Leftrightarrow v\vDash\Sigma_{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v\vDash\Sigma_{2}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $v\vDash\neg\underset{\underset{p_{2}}{\parallel}}{p_{1}\Leftrightarrow v\nvDash p_{1}\Leftrightarrow v\nvDash\Sigma_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+נוסחה פסוקים שמתארת את המערכת 
+\begin_inset Formula $M$
+\end_inset
+
+: 
+\begin_inset Formula $\alpha_{M}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוסכחה פסוקים שמתארת את המפרט 
+\begin_inset Formula $\varphi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha_{M}\wedge\neg\varphi$
+\end_inset
+
+ ספיקה ?
+\end_layout
+
+\begin_layout Itemize
+כן: מצאנו באג
+\end_layout
+
+\begin_layout Itemize
+לא: המערכת נכונה.
+\end_layout
+
+\begin_layout Standard
+מכרכת עם 
+\begin_inset Formula $2$
+\end_inset
+
+ תהליכים 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+ו-
+\begin_inset Formula $p_{2}$
+\end_inset
+
+שיש להם בקשות ויש ארביטר שמחליט
+\begin_inset Newline newline
+\end_inset
+
+מי יקבל את בקשתו.
+\begin_inset Newline newline
+\end_inset
+
+לכל תהליך יש דגל:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $R_{1}$
+\end_inset
+
+:
+\begin_inset Formula $P_{i}$
+\end_inset
+
+ מציג בקשה )
+\begin_inset Formula $\text{(request}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $G_{i}$
+\end_inset
+
+: דגל של הארביטר.
+\begin_inset Newline newline
+\end_inset
+
+כש-
+\begin_inset Formula $G_{1}$
+\end_inset
+
+ הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+ מקבל את התור.
+\begin_inset Newline newline
+\end_inset
+
+כש-
+\begin_inset Formula $G_{2}$
+\end_inset
+
+ הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז 
+\begin_inset Formula $P_{2}$
+\end_inset
+
+ מקבל את התור.
+\end_layout
+
+\begin_layout Standard
+לארביטר יש גם משתנים:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ - 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+ קבל את התור בפעם הקודמת.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{2}$
+\end_inset
+
+ - 
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ קבל את התור בפעם הקודמת.
+\end_layout
+
+\begin_layout Subsubsection*
+תאור המערכת:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\text{} & \text{EXEC=}\\
+ & (\overset{1}{G_{1}}\leftrightarrow(\overset{1}{R_{1}}\wedge(\overset{0}{\neg R_{2}}\vee\overset{1}{D_{2}})))\\
+ & (\overset{1}{G_{2}}\leftrightarrow(\overset{1}{R_{2}}\wedge(\overset{0}{\neg R_{1}}\vee\overset{1}{D_{1}})))
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מפרט:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{1}=\neg(G_{1}\wedge G_{2})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{EXEC}_{1}(\overbrace{G_{1}}^{1}\wedge\overbrace{G_{2}}^{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שלילת המפרט
+\end_layout
+
+\begin_layout Standard
+האם הפסוק ספיק ?
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{EXEC}_{1}\neg(D_{1}\wedge D_{2})=\alpha_{M}^{'}$
+\end_inset
+
+ המערכת החדשה
+\begin_inset Newline newline
+\end_inset
+
+נבדוק 
+\begin_inset Formula $\alpha_{M}'\wedge(G_{1}\wedge G_{2})$
+\end_inset
+
+ שלילת המפרט
+\end_layout
+
+\begin_layout Standard
+ספיק? 
+\series bold
+\bar under
+לא.
+\end_layout
+
+\begin_layout Subsubsection*
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+המערכת המתוקנת מספקת את המפרט 
+\begin_inset Formula $\neg(G_{1}\wedge G_{2})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח שהנוסחה ספיקה
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset Formula 
+\begin{align*}
+ & v\vDash\text{EXEC}\wedge\neg(D_{1}\wedge D_{2})\\
+ & \wedge(G_{1}\wedge G_{2})\\
+ & \Rightarrow\overline{v}(G_{1})=T\ \ \ \overline{v}(G_{2})=T\\
+ & \Rightarrow\overline{v}(R_{1}\wedge(\neg R_{2}\vee D_{2}))=T\\
+ & \Rightarrow\overline{v}(R_{1})+T\\
+ & *\overline{v}(\neg R_{2}\vee D_{2})=T\\
+ & \overline{v}(G_{2})=T\Rightarrow\overline{v}(R_{2})=T\\
+ & **\overline{v}(\neg R_{2})=F\\
+ & \underbrace{\Rightarrow}_{*+**}\overline{v}(D_{2})=T
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מפרט דרישה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{2}=(R_{1}\wedge\neg R_{2}\rightarrow G_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha_{M}'\wedge(R_{1}\wedge\neg R_{2}\wedge\neg G_{1})$
+\end_inset
+
+ שלילת המפרט
 \end_layout
 
 \end_body
