@@ -82,7 +82,7 @@
 \family roman
 \series medium
 \shape up
-\size normal
+\size largest
 \emph off
 \bar no
 \strikeout off
@@ -106,6 +106,33 @@
 \noun default
 \color inherit
 1
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לוגיקה
 \end_layout
 
 \begin_layout Subsubsection*

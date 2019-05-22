@@ -135,7 +135,7 @@
 לוגיקה
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 תרגיל
 \family roman
 \series bold
@@ -381,7 +381,7 @@
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 תרגיל
 \family roman
 \series bold
@@ -791,6 +791,161 @@ T & k\ne i
 \end_inset
 
  לא עקבית וזו סתירה.
+\end_layout
+
+\begin_layout Subsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Enumerate
+נגדיר 
+\begin_inset Formula $MV(\alpha\rightarrow(\beta\rightarrow\alpha))=\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הוכיחו המערכת החדשה שלמה, כלומר לכל קבוצת פסוקים 
+\begin_inset Formula $\Sigma\subseteq\text{WFF}_{\{\neg,\rightarrow\}}$
+\end_inset
+
+ ולכל פסוק 
+\begin_inset Formula $\alpha\in\text{WFF}_{\{\neg,\rightarrow\}}$
+\end_inset
+
+, אם 
+\begin_inset Formula $\Sigma\vDash\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $\Sigma\underset{N}{\vdash}\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+הוכחה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ סעיף 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הטענה נכונה, תהי קבוצת פסוקים 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ ופסוק 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $\Sigma\vDash\alpha$
+\end_inset
+
+ נראה כי 
+\begin_inset Formula $\Sigma\underset{N}{\vdash}\alpha$
+\end_inset
+
+ כך נראה
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סדרת הוכחה:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha\rightarrow(\beta\rightarrow\alpha)$
+\end_inset
+
+ 
+\begin_inset Formula $(A_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $(MV(1))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב בכלל לא השתמשנו בנתון ש-
+\begin_inset Formula $\Sigma\vDash\alpha$
+\end_inset
+
+.
+ המערכת מוכיחה כל 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ ובפרט לא נאותה.
 \end_layout
 
 \begin_layout Standard

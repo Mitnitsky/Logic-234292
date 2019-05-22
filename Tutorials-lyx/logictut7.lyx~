@@ -458,7 +458,7 @@
 \begin_layout Standard
 \begin_inset Formula 
 \[
-M(\Sigma_{1}\bigcup\Sigma_{2})=K_{1}\bigcap K_{2}\Leftarrow M(\Sigma_{2})=K_{2}\,\text{and\,}M(\Sigma_{1})=K_{1}
+M(\Sigma_{1}\bigcup\Sigma_{2})=K_{1}\bigcap K_{2}\,\Leftarrow\,M(\Sigma_{2})=K_{2}\,\text{and\,}M(\Sigma_{1})=K_{1}
 \]
 
 \end_inset

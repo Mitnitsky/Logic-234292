@@ -1,0 +1,892 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David CLM"
+\font_sans "default" "Simple CLM"
+\font_typewriter "default" "Miriam Mono CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 0 0 7 -1
+\bullet 1 0 8 -1
+\bullet 2 0 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תרגול
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לוגיקה
+\end_layout
+
+\begin_layout Subsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+תהיינה 
+\begin_inset Formula $X,Y\subseteq\text{WFF}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הוכיחו כי 
+\begin_inset Formula $M(X\cup Y)=M(X)\cap M(Y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ תהיי 
+\begin_inset Formula $v\in M(X)\cap M(Y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהיה 
+\begin_inset Formula $\varphi\in X\cup Y$
+\end_inset
+
+ לפי הגדרת איחוד 
+\begin_inset Formula $\varphi\in X$
+\end_inset
+
+ או 
+\begin_inset Formula $\varphi\in Y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בה
+\begin_inset Quotes erd
+\end_inset
+
+כ 
+\begin_inset Formula $\varphi\in X$
+\end_inset
+
+, לפי הגדרת חיתוך 
+\begin_inset Formula $v\in M(X)$
+\end_inset
+
+ ולפי הגדרת קבוצת מודלים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v\vDash\varphi$
+\end_inset
+
+.
+ לפי הגדרת מודלים קבוצת מודלים 
+\begin_inset Formula $v\in M(X\cup Y)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+באותו אופן ההוכחה אם 
+\begin_inset Formula $\varphi\in Y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\subseteq$
+\end_inset
+
+: 
+\begin_inset Formula $v\in M(X\cup Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל: 
+\begin_inset Formula $v\in M(X)$
+\end_inset
+
+ וגם 
+\begin_inset Formula $v\in M(Y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M(x)$
+\end_inset
+
+: יהיה 
+\begin_inset Formula $\varphi\in X$
+\end_inset
+
+.
+ מהגדרת קבוצת מודלים 
+\begin_inset Formula $v\vDash\varphi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מהגדרת קבוצת מודלים 
+\begin_inset Formula $v\in M(x)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+באותו אופן עבור 
+\begin_inset Formula $M(Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הוכיחו כי {
+\begin_inset Formula $v$
+\end_inset
+
+ נותנת 
+\begin_inset Formula $T$
+\end_inset
+
+ למספר סופי של אטומים 
+\begin_inset Formula $K_{fin}=\{v\in\text{Ass}|$
+\end_inset
+
+ אינה גדירה.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Enumerate
+נניח בשלילה ש 
+\begin_inset Formula $K_{fin}$
+\end_inset
+
+ גדירה.
+\begin_inset Newline newline
+\end_inset
+
+אז קיימת קבוצת פסוקים 
+\begin_inset Formula $x$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $M(X)=K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+נבחר 
+\begin_inset Formula $Y=\{p_{i}|i\in\mathbb{N}\}$
+\end_inset
+
+.
+ ניתן לראות כי 
+\begin_inset Formula $M(Y)=\{V_{T}\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ אינה ספיקה: 
+\begin_inset Formula $V_{T}$
+\end_inset
+
+נותנת 
+\begin_inset Formula $T$
+\end_inset
+
+ לאינסוף אטומים 
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $V_{T}\notin K_{fin}$
+\end_inset
+
+ .
+ ולכן 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M(X\cup Y)=M(X)\cap M(Y)=K_{fin}\cap\{V_{T}\}=\emptyset$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+נוכיח בעזרת משפט הקומפקטיות ש-
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ ספיקה.
+\begin_inset Newline newline
+\end_inset
+
+תהיי 
+\begin_inset Formula $D\subseteq X\cup Y$
+\end_inset
+
+ תת-קבוצה סופית.
+\begin_inset Newline newline
+\end_inset
+
+נסמן: 
+\begin_inset Formula $D_{X}=D\cap X$
+\end_inset
+
+, 
+\begin_inset Formula $D_{y}=D\cap Y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+מכיוון ש-
+\begin_inset Formula $D_{Y}\subseteq D$
+\end_inset
+
+ ו-
+\begin_inset Formula $D$
+\end_inset
+
+ סופית אז גם 
+\begin_inset Formula $D_{Y}$
+\end_inset
+
+סופית.
+\begin_inset Newline newline
+\end_inset
+
+ולכן היא מהצורה: 
+\begin_inset Formula $D_{Y}=\{p_{i_{1}},p_{i_{2}},\dots,p_{i_{k}}\}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נסמן ב-
+\begin_inset Formula $m$
+\end_inset
+
+ את האינדקס המקסימלי של 
+\begin_inset Formula $D_{i}$
+\end_inset
+
+ ב-
+\begin_inset Formula $D_{Y}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)
+\begin_inset Formula $m=1$
+\end_inset
+
+ אם 
+\begin_inset Formula $(D_{Y}=\emptyset$
+\end_inset
+
+, מאחר ו-
+\begin_inset Formula $D_{Y}$
+\end_inset
+
+סופית בהכרח קיים 
+\begin_inset Formula $m$
+\end_inset
+
+ כזה.
+\begin_inset Newline newline
+\end_inset
+
+נגדיר השמה 
+\begin_inset Formula $v$
+\end_inset
+
+ באופן הבא:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v(p_{I})=\begin{cases}
+T & i\le m\\
+F & i>m
+\end{cases}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+* כל הפסוקים ב-
+\begin_inset Formula $D_{Y}$
+\end_inset
+
+ הם מהצורה 
+\begin_inset Formula $D_{i}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $'i\le M$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $v$
+\end_inset
+
+ מספקת אותם 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v\vDash D_{Y}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+* מכיוון ש-
+\begin_inset Formula $v\in K_{fin}$
+\end_inset
+
+ )נותנת 
+\begin_inset Formula $T$
+\end_inset
+
+ למספר שופי של אטומיים(
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Formula $v\in M(X)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Formula $v\vDash X$
+\end_inset
+
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Formula $v$
+\end_inset
+
+ מספקת כל פסוק ב-
+\begin_inset Formula $X$
+\end_inset
+
+ ובפרט כל 
+\begin_inset Newline newline
+\end_inset
+
+פסוק ב-
+\begin_inset Formula $D_{X}\subseteq X$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v\vDash D_{X}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ קיבלנו כי 
+\begin_inset Formula $v$
+\end_inset
+
+ מספקת את 
+\begin_inset Formula $D_{x}$
+\end_inset
+
+ ואת 
+\begin_inset Formula $D_{y}$
+\end_inset
+
+ולכן גם את 
+\begin_inset Formula $D=D_{X}\cup D_{Y}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+הראינו שלכל תת-קבוצה סופית 
+\begin_inset Formula $D\subseteq X\cup Y$
+\end_inset
+
+ קיימת השמה המספקת אותה ולכן
+\begin_inset Newline newline
+\end_inset
+
+תת-קבוצה סופית היא ספיקה.
+ ממשפט הקומפקטיות נובע -
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ ספיקה.
+\end_layout
+
+\begin_layout Enumerate
+
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הם סתירה ולכן 
+\begin_inset Formula $K_{fin}$
+\end_inset
+
+ אינה גדירה.
+\end_layout
+
+\begin_layout Subsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הוכיחו כי {
+\begin_inset Formula $v$
+\end_inset
+
+ נותנת 
+\begin_inset Formula $T$
+\end_inset
+
+ אינסוף אטומים 
+\begin_inset Formula $K_{inf}=\{v\in\text{Ass}|$
+\end_inset
+
+ אינה גדירה.
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{same}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+נבחר 
+\begin_inset Formula $Y=\{\neg p_{i}|i\in\mathbb{N}\}$
+\end_inset
+
+.
+ ניתן לראות כי 
+\begin_inset Formula $M(Y)=\{V_{F}\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ אינה ספיקה: 
+\begin_inset Formula $V_{f}$
+\end_inset
+
+ נותנת ערך 
+\begin_inset Formula $T$
+\end_inset
+
+ לאפס אטומים )ובפרט לא לאינסוף(
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $v_{f}\notin K_{inf}$
+\end_inset
+
+ ולכן:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M(X\cup Y)=M(X)\cap M(Y)=K_{inf}\cap\{V_{K}\}=\emptyset$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $D_{Y}=\{\neg p_{i_{1}},\dots,p_{i_{k}}\}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נסמן ב-
+\begin_inset Formula $m$
+\end_inset
+
+ את האינדקס המקסימלי של 
+\begin_inset Formula $\neg p_{i}$
+\end_inset
+
+ ב-
+\begin_inset Formula $D_{Y}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נבנה השמה 
+\begin_inset Formula $v$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v(p_{i})=\begin{cases}
+F & i\le m\\
+T & i>m
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
