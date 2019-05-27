@@ -1,0 +1,1283 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David CLM"
+\font_sans "default" "Simple CLM"
+\font_typewriter "default" "Miriam Mono CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 0 0 7 -1
+\bullet 1 0 8 -1
+\bullet 2 0 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\end_layout
+
+\begin_layout Subsection*
+גדירות:
+\end_layout
+
+\begin_layout Standard
+קבוצה של פסוקים 
+\begin_inset Formula $K=M(\Sigma)$
+\end_inset
+
+ )קבוצה של השמות(
+\begin_inset Newline newline
+\end_inset
+
+קבוצת השמות 
+\begin_inset Formula $K$
+\end_inset
+
+ היא גדירה אם קיימת קבוצת פסוקים 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ עך ש- 
+\begin_inset Formula $K=M(\Sigma)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+טענה:
+\end_layout
+
+\begin_layout Standard
+לא לכל תת קבוצה של השמות תהיה תת קבוצה של פסוקים שמגדירה אותה.
+\end_layout
+
+\begin_layout Subsubsection*
+משקולי ספירה:
+\end_layout
+
+\begin_layout Standard
+כמה נוסחאות: קבוצה בת מניה 
+\begin_inset Formula $\aleph_{0}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כמה קבוצות של פסוקים: 
+\begin_inset Formula $2^{\aleph_{0}}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+כמה השמות יש: 
+\begin_inset Formula $2^{\aleph_{0}}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+קבוצות של השמות: 
+\begin_inset Formula $2^{2^{\aleph_{0}}}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+השמה: וקטור אינסופי מעל 
+\begin_inset Formula $\{0,1\}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה לקבוצות של פסוקים גדירים:
+\end_layout
+
+\begin_layout Standard
+נראה קבוצות של פסוקים שהן גדירות.
+\end_layout
+
+\begin_layout Enumerate
+הקבוצה הריקה של השמות - 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+האם קיימת 
+\begin_inset Formula $M(\Sigma)=K$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Sigma_{1}=\{p_{1}\wedge\neg p_{1}\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Sigma_{2}=\{p_{1},\neg p_{1}\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Sigma_{3}=\{p_{1},\neg p_{1},p_{2}\vee p_{3}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $K$
+\end_inset
+
+ - מכילה את ההשמות.
+\begin_inset Newline newline
+\end_inset
+
+כל 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ שמכילה רק טאוטולוגיות מגדירה את 
+\begin_inset Formula $K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $K=\{V_{T}\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $V_{T}$
+\end_inset
+
+ היא ההשמה שנותנת ערך 
+\begin_inset Formula $T$
+\end_inset
+
+ לכל 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Sigma=\{p_{i}|i\in\mathbb{N}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כדי להוכיח ש-
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ מגדירה את 
+\begin_inset Formula $K$
+\end_inset
+
+ צריך להוכיח 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K=M(\Sigma)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v(p_{i})=T\,\Leftrightarrow\,v\in M(\Sigma)$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in\mathbb{N}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $V=V_{T}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $v\in K$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+תחשיב היחסים
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה מיותרת לחלוטין:
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $x$
+\end_inset
+
+ 
+\begin_inset Formula $]$
+\end_inset
+
+ דוברת אמת 
+\begin_inset Formula $\Rightarrow(x)$
+\end_inset
+
+ יווני 
+\begin_inset Formula $(x)$
+\end_inset
+
+ ]
+\end_layout
+
+\begin_layout Standard
+דובר אמת )סוקרטס( 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ יווני )סוקרטס(
+\end_layout
+
+\begin_layout Standard
+יווני )סוקרטס(
+\end_layout
+
+\begin_layout Standard
+דובר אמת )סוקרטס(
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+לכל מספר טבעי 
+\begin_inset Formula $x$
+\end_inset
+
+, 
+\begin_inset Formula $x$
+\end_inset
+
+ גדול או שווה ל-
+\begin_inset Formula $0$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+לכל 
+\begin_inset Formula $x$
+\end_inset
+
+ קיים 
+\begin_inset Formula $y$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $x=y+1$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+שילתות במסדי נתונים
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+האם קיים עובד טכניון שהוא גם סטודנט בטכניון?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+האם כל הסטונדטים בטכניון הולכים להופעות יום הסטונדט?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תחום:
+\bar default
+ המספרים הטבעיים
+\backslash
+בני אדם
+\backslash
+ הסטונדטים.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+קבועים:
+\bar default
+ סוקרטס,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+פונקציות:
+\bar default
+ 
+\begin_inset Formula $y+1$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+יחסים:
+\bar default
+ 
+\begin_inset Formula $(x=y+1)$
+\end_inset
+
+ , 
+\begin_inset Formula $=$
+\end_inset
+
+ , 
+\begin_inset Formula $\ge$
+\end_inset
+
+, דובר אמת.
+\end_layout
+
+\begin_layout Subsubsection*
+הסימנים המשותפים
+\end_layout
+
+\begin_layout Standard
+קבוצה בת מניה של מתנים: 
+\begin_inset Formula $x_{1},x_{2},\dots$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+סימנים נוספי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\forall$
+\end_inset
+
+[לכל], 
+\begin_inset Formula $\exists$
+\end_inset
+
+[קיים], 
+\begin_inset Formula $\approx$
+\end_inset
+
+[סימן שוויון], ) , ( , 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+, 
+\begin_inset Formula $\wedge$
+\end_inset
+
+, 
+\begin_inset Formula $\vee$
+\end_inset
+
+, 
+\begin_inset Formula $\neg$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מילון
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=(\text{\ensuremath{\underbrace{R_{1},R_{2},\dots}_{\text{relation signs}}}},\underbrace{F_{1},F_{2},\dots}_{\text{function symbols}},\underbrace{c_{1},c_{2},\dots}_{\text{const. symbols}})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R(\circ)$
+\end_inset
+
+ - יחס אונארי
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R(\circ,\circ)$
+\end_inset
+
+ - יחס בינארי
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R(\circ,\circ,\circ)$
+\end_inset
+
+ - יחס טרינארי
+\begin_inset Newline newline
+\end_inset
+
+בכל תחשיב יחסים יש סימן קבוע 
+\begin_inset Formula $\approx(\circ,\circ)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=(R_{1}(\circ,\circ),R_{2}(\circ),F_{1}(\circ,\circ),c)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נדגים פרוש לסימננים 
+\bar under
+בצורה לא פורמלית.
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+הפרוש/מבנה/פשר 
+\begin_inset Formula $M$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+M= & \{\underbrace{D^{M}}_{\text{M's domain}},\underbrace{R_{1}^{M},R_{2}^{M}}_{\text{relations over \ensuremath{\varDelta^{M}}}},F_{1}^{M},c^{M}\}\\
+R_{1}^{M}: & D^{M}xD^{M}\rightarrow\{T,F\}\\
+R_{1}^{M}: & D^{M}\rightarrow\{T,F\}\\
+F_{1}^{M}: & D^{M}xD^{M}\rightarrow D^{M}\\
+C^{M}\in & D^{M}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מבנה זה חלק מהסמנטיקה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D^{M}=\mathbb{N}\backslash\{0\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R_{1}^{M}(x,y):\,x\le y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $x$
+\end_inset
+
+ ראשוני: 
+\begin_inset Formula $R_{2}^{M}(x)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $x\cdot y$
+\end_inset
+
+ 
+\begin_inset Formula $F_{1}^{M}(x,y):$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $C^{M}:\:3$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\underbrace{R_{2}(c)}\wedge(\underbrace{R_{1}(x,c)}\rightarrow R_{2}(x))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)
+\begin_inset Formula $x$
+\end_inset
+
+ ראשוני
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Formula $x\le3$
+\end_inset
+
+(
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ראשוני.
+\end_layout
+
+\begin_layout Standard
+נכון
+\begin_inset Formula $\,\qquad\qquad\hfill$
+\end_inset
+
+נכון אם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ ראשוני.
+\begin_inset Newline newline
+\end_inset
+
+אם 
+\begin_inset Formula $1$
+\end_inset
+
+ אינו ראשוני אז 
+\begin_inset Formula $x=2$
+\end_inset
+
+, 
+\begin_inset Formula $x=3$
+\end_inset
+
+ 
+\begin_inset Formula $x=20,$
+\end_inset
+
+ הנוסחה 
+\begin_inset Formula $T$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+עבור 
+\begin_inset Formula $x=1$
+\end_inset
+
+ מתפרשת כ-
+\begin_inset Formula $F$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+סמנטיקה: מבנה 
+\begin_inset Formula $+$
+\end_inset
+
+ השמה למשתנים.
+\end_layout
+
+\begin_layout Subsubsection*
+מבנה אחר
+\end_layout
+
+\begin_layout Standard
+מבנה אחר 
+\begin_inset Formula $M_{2}$
+\end_inset
+
+ שזהה ל-
+\begin_inset Formula $M$
+\end_inset
+
+ חוץ מ- 
+\begin_inset Formula $C^{M_{2}}=5$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+השמה שנותמת ל-
+\begin_inset Formula $x$
+\end_inset
+
+ עבור ערך 
+\begin_inset Formula $4$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+הנוסחה היא 
+\begin_inset Formula $F$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\neg R_{2}(F(x,y))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\neg R_{2}(F^{M}(x,y))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $x\cdot y$
+\end_inset
+
+ אינו ראשוני, עבור 
+\begin_inset Formula $x=1$
+\end_inset
+
+ ו-
+\begin_inset Formula $y=7$
+\end_inset
+
+ הטענה אינה נכונה.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\forall x\exists y(F(x,y)\approx x)$
+\end_inset
+
+
+\begin_inset Formula $\varphi_{3}=$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+האם נכונה מעל)ביחס ל-(
+\begin_inset Formula $M$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+לכל 
+\begin_inset Formula $x$
+\end_inset
+
+ קיים 
+\begin_inset Formula $y$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $x\cdot y=x$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נכון, נבחר 
+\begin_inset Formula $y=1$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+הגדרת מבנה שמעליו נפרש נווסחאות של תחשיב היחסים מעל מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+בהינתן:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\tau=(R_{1},R_{2},\dots,F_{1},F_{2},\dots,c_{1},c_{2},\dots)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(\underbrace{D^{M}}_{\text{structure's domain}},R_{1}^{M},R_{2}^{M},F_{1}^{M},F_{2}^{M},\dots,c_{1}^{M},c_{2}^{M},\dots)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כאשר 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+הוא קבוצה לא ריקה שנקראת תחום המבנה.
+\end_layout
+
+\begin_layout Itemize
+לכל 
+\bar under
+סימן קבוי
+\bar default
+ , נתאם 
+\bar under
+קבוע
+\bar default
+ מתוך 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+לכל סימן פונקציה 
+\begin_inset Formula $k^{F_{i}}$
+\end_inset
+
+ מקומי נתאם פונקצייה 
+\begin_inset Formula $k$
+\end_inset
+
+ מקומית 
+\begin_inset Formula $F_{i}^{M}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F_{i}^{M}\cdot(D^{M})^{K}\rightarrow D^{M}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל סימן יחס 
+\begin_inset Formula $k^{R}$
+\end_inset
+
+-מקומי מתאימים 
+\bar under
+יחס
+\bar default
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ מקומי.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R^{M}:(D^{M})^{K}\rightarrow\{T,F\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לסימן השוויון 
+\begin_inset Formula $\approx$
+\end_inset
+
+ נתאים
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\approx^{M}=\{(d,d)|\,d\in D^{M}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+הסכמות על סימונים:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $P,Q,R$
+\end_inset
+
+ סימני יחס
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F,G,H$
+\end_inset
+
+ סימני פונקצייה
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $a,b,c$
+\end_inset
+
+ קבועים
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $d$
+\end_inset
+
+ איברים מ-
+\begin_inset Formula $D$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\tau=(\underbrace{\approx}_{\mathclap{\text{redundant}}},R(\circ,\circ),F(\circ,\circ),G(\circ),c_{0},c_{1})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נגדיר מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $D^{M}$
+\end_inset
+
+קבוצת המילים הסופיות הלא ריקות מעל א
+\begin_inset Quotes erd
+\end_inset
+
+ב 
+\begin_inset Formula $\{a,b\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $D^{M}=\{a,b,aa,ab,ba,bb,\dots\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\approx^{M}\,:\,=$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $x$
+\end_inset
+
+ רישא של 
+\begin_inset Formula $y$
+\end_inset
+
+: 
+\begin_inset Formula $R^{M}(x,y)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+שרשור 
+\begin_inset Formula $x\cdot y$
+\end_inset
+
+: 
+\begin_inset Formula $F^{M}(x,y)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+היפוך סדר האותיות במילה 
+\begin_inset Formula $x$
+\end_inset
+
+: 
+\begin_inset Formula $G^{M}(x)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $c_{0}^{M}:\,a$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $c_{1}^{M}:\,b$
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

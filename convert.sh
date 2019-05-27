@@ -6,7 +6,7 @@ destlec="./Lectures-pdf"
 pathtut="./Tutorials-lyx"
 desttut="./Tutorials-pdf"
 
-format="pdf2"
+format="pdf4"
 ext="pdf"
 
 lecfiles=`ls $pathlec | grep -v \~ | grep -v ^[1-9] | cut -d"." -f1 | uniq`
