@@ -1,0 +1,232 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David CLM"
+\font_sans "default" "Simple CLM"
+\font_typewriter "default" "Miriam Mono CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 0 0 7 -1
+\bullet 1 0 8 -1
+\bullet 2 0 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה תרגול
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+נחשב את הערך ש-
+\begin_inset Formula $\overline{s}$
+\end_inset
+
+ נותנת לש
+\begin_inset Quotes erd
+\end_inset
+
+ע 
+\begin_inset Formula $F(x_{0},F(x_{10},t))$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \overline{s}(F(x_{0},F(x_{10},c))=F^{M}(\overline{s}(x_{0}),\overline{s}(F(x_{10},)))=\\
+ & \overline{s}(x_{0})+\overline{s}(F(x_{10},c))=s(x_{0})+F^{M}(\overline{s}(x_{10},\overline{s}(c))=\\
+ & -5+\overline{s}(x_{10})\overline{s}(c)=-5+s(x_{10})+1005=\\
+ & -5+0+1005=1000
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $\tau=\left\langle R(\circ,\circ),F(\circ,\circ),c\right\rangle $
+\end_inset
+
+ מילון , יהי 
+\begin_inset Formula $M=\left\langle \mathbb{Z},\le,+,1005\right\rangle $
+\end_inset
+
+ מבנה מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ו-
+\begin_inset Formula $s$
+\end_inset
+
+ ההשמה עבורר 
+\begin_inset Formula $M$
+\end_inset
+
+ שהוגדרה קודם.
+\begin_inset Newline newline
+\end_inset
+
+הוכיחו/הפריכו את הטענות הבאות:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $M\vDash_{s}R(x_{0},F(x_{0},F(x_{10},c)))\vee(x_{0}\approx x_{10})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $M\vDash_{s}\forall x_{0}R(x_{0},x_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
