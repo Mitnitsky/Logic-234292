@@ -6,7 +6,7 @@ destlec="./Lectures-pdf"
 pathtut="./Tutorials-lyx"
 desttut="./Tutorials-pdf"
 
-format="pdf4"
+format="pdf2"
 ext="pdf"
 
 lecfiles=`ls $pathlec | grep -v \~ | grep -v ^[1-9] | cut -d"." -f1 | uniq`
@@ -15,7 +15,7 @@ tutfiles=`ls $pathtut | grep -v \~ | grep -v ^[1-9] | cut -d"." -f1 | uniq`
 make_lectures() {
     for f in $lecfiles
     do
-        lyx -e $format $pathlec/$f.lyx
+        lyx -e $format $pathlec/$f.lyx 2>&1
         mv -f $pathlec/$f.$ext $destlec/
     done
 }

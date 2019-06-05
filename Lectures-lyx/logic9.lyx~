@@ -812,7 +812,7 @@ C^{M}\in & D^{M}
 
 \begin_layout Standard
 נכון
-\begin_inset Formula $\,\qquad\qquad\hfill$
+\begin_inset Formula $\,\quad\qquad$
 \end_inset
 
 נכון אם
@@ -1185,7 +1185,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 נגדיר מבנה 
-\begin_inset Formula $M$
+\begin_inset Formula $M_{4}$
 \end_inset
 
 :
@@ -1193,7 +1193,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 
-\begin_inset Formula $D^{M}$
+\begin_inset Formula $D^{M_{4}}$
 \end_inset
 
 קבוצת המילים הסופיות הלא ריקות מעל א
@@ -1209,7 +1209,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 
-\begin_inset Formula $D^{M}=\{a,b,aa,ab,ba,bb,\dots\}$
+\begin_inset Formula $D^{M_{4}}=\{a,b,aa,ab,ba,bb,\dots\}$
 \end_inset
 
 
@@ -1217,7 +1217,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 
-\begin_inset Formula $\approx^{M}\,:\,=$
+\begin_inset Formula $\approx^{M_{4}}\,:\,=$
 \end_inset
 
 
@@ -1233,7 +1233,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 : 
-\begin_inset Formula $R^{M}(x,y)$
+\begin_inset Formula $R^{M_{4}}(x,y)$
 \end_inset
 
 
@@ -1245,7 +1245,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 : 
-\begin_inset Formula $F^{M}(x,y)$
+\begin_inset Formula $F^{M_{4}}(x,y)$
 \end_inset
 
 
@@ -1257,7 +1257,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 : 
-\begin_inset Formula $G^{M}(x)$
+\begin_inset Formula $G^{M_{4}}(x)$
 \end_inset
 
 
@@ -1265,7 +1265,7 @@ C^{M}\in & D^{M}
 \end_inset
 
 
-\begin_inset Formula $c_{0}^{M}:\,a$
+\begin_inset Formula $c_{0}^{M_{4}}:\,a$
 \end_inset
 
 
@@ -1273,10 +1273,313 @@ C^{M}\in & D^{M}
 \end_inset
 
 
-\begin_inset Formula $c_{1}^{M}:\,b$
+\begin_inset Formula $c_{1}^{M_{4}}:\,b$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\varphi_{4}=R(x,F(x,y))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הפרוש של 
+\begin_inset Formula $\varphi_{4}$
+\end_inset
+
+ מעל 
+\begin_inset Formula $M_{4}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
 \end_inset
 
  
+\begin_inset Formula $x$
+\end_inset
+
+ הוא רישא של 
+\begin_inset Formula $x\cdot y$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+תמיד נכון ללא תלות בהשמות ל-
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $G(G(x))\approx x$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הפוך של הפוך של אותיות 
+\begin_inset Formula $x$
+\end_inset
+
+ שווה ל-.
+\begin_inset Newline newline
+\end_inset
+
+נכון לכל השמה ל-
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+הרחבת הסינטקס
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שמות עצם
+\bar default
+ 
+\begin_inset Formula $\text{Terms}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אינטואיטיבית
+\begin_inset Newline newline
+\end_inset
+
+משתנים 
+\begin_inset Formula $x,y$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+קבוע 
+\begin_inset Formula $3$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+פונקציה 
+\begin_inset Formula $+$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+במתמטיקה:
+\end_layout
+
+\begin_layout Standard
+ביטויים: 
+\begin_inset Formula $x,x+y,x+y+3,3$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הקבוצה 
+\begin_inset Formula $\text{Terms}$
+\end_inset
+
+ מוגדרת אינדוקטיבית 
+\begin_inset Formula $\text{Terms}=\text{\ensuremath{X_{B,F}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $B$
+\end_inset
+
+: כולל את כל המשתנים ואת כל סימני הקבוע.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F$
+\end_inset
+
+: מספר הפעולות הוא כמספר הופנקציה בהינתן סימן פונקציה 
+\begin_inset Formula $F$
+\end_inset
+
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ מקומי.
+\begin_inset Newline newline
+\end_inset
+
+ובהינתן 
+\begin_inset Formula $t_{1},\dots,t_{k}\in\text{Terms}$
+\end_inset
+
+ , 
+\begin_inset Formula $F_{i}(t_{1},\dots t_{k})\in\text{Terms}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+במילון שני סימני קבוע 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+וסימן פונקציה 
+\begin_inset Formula $F$
+\end_inset
+
+ דו-מקומי
+\begin_inset Newline newline
+\end_inset
+
+וסימן פונקציה 
+\begin_inset Formula $G$
+\end_inset
+
+ חד-מקומי.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות לשמות עצם )סינטקטי(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & a\\
+ & b\\
+ & F(a,b)\\
+ & G(F(a,b))\\
+ & x_{1},x_{2},\dots,\\
+ & F(a,x_{1})\\
+ & G(F(a,x_{1}))
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כל שמות העתם מתפקדים כמו פונקציות בהינתן ערכים מ-
+\begin_inset Formula $D^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הם מחזירים ערכים מ-
+\begin_inset Formula $D^{M}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M_{5}=(\mathbb{N},\underbrace{F^{M}}_{+},\underbrace{G^{M}}_{\cdot},\underbrace{a}_{5},\underbrace{b}_{0})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $G(F(a,x_{2}))$
+\end_inset
+
+ השמה שתתן ערך ל-
+\begin_inset Formula $x$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\rightarrow\text{\ensuremath{D^{M_{5}}}}$
+\end_inset
+
+משתנים)
+\begin_inset Formula $\text{VAR}$
+\end_inset
+
+(
+\begin_inset Formula $s:$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נתון 
+\begin_inset Formula $M_{5}$
+\end_inset
+
+והשמה 
+\begin_inset Formula $s(x_{1})=2$
+\end_inset
+
+ 
+\begin_inset Formula $s(x_{2})=3$
+\end_inset
+
+.
 \end_layout
 
 \end_body

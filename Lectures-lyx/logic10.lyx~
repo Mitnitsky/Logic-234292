@@ -1,0 +1,1142 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\end_layout
+
+\begin_layout Subsection*
+תחשיב היחסים
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מילון:
+\bar default
+ 
+\begin_inset Formula $\tau=\left\langle R\dots,F\dots,C\dots\right\rangle $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מבנה עבור מילון: 
+\bar default
+
+\begin_inset Formula $M=\left\langle D^{M},R^{M}\dots,F^{M}\dots,C^{M}\dots\right\rangle $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שמות עצם מעל מילון
+\bar default
+ 
+\begin_inset Formula $\tau$
+\end_inset
+
+ 
+\begin_inset Formula $term(\tau)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קבוצה אינד'
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+בסיס:
+\bar default
+ כל סימן קבוע 
+\begin_inset Formula $c$
+\end_inset
+
+ במילון הוא ש
+\begin_inset Quotes erd
+\end_inset
+
+ע
+\begin_inset Newline newline
+\end_inset
+
+כל משתנה 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ הוא ש
+\begin_inset Quotes erd
+\end_inset
+
+ע .
+\end_layout
+
+\begin_layout Itemize
+פעולות: לכל סימן פונקציה 
+\begin_inset Formula $k$
+\end_inset
+
+-מקומית 
+\begin_inset Formula $F$
+\end_inset
+
+ במילון, ולכל 
+\begin_inset Formula $k$
+\end_inset
+
+ ש
+\begin_inset Quotes erd
+\end_inset
+
+ע 
+\begin_inset Formula $t_{1},\dots,t_{k}$
+\end_inset
+
+ מתקיים שגם 
+\begin_inset Formula $F(t_{1},\dots,t_{k})$
+\end_inset
+
+ היא ש
+\begin_inset Quotes erd
+\end_inset
+
+ע
+\end_layout
+
+\begin_layout Itemize
+הפירוש של ש
+\begin_inset Quotes erd
+\end_inset
+
+ע ניתן ע
+\begin_inset Quotes erd
+\end_inset
+
+י השמה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הגדרה:
+\bar default
+ בהינתן מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+ ומבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+פנקצייה: 
+\begin_inset Formula $s:\underbrace{Var}_{\{x_{i}|i\in\mathbb{N}\}}\rightarrow D^{M}$
+\end_inset
+
+ נקראת השמה.
+\begin_inset Newline newline
+\end_inset
+
+בהינתן השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ עבור מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ במילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+ נגדיר 
+\bar under
+השמה מורחבת
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{S}:term(\tau)\rightarrow D^{M}$
+\end_inset
+
+ באינדוקציה על 
+\begin_inset Formula $term(\tau)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+בסיס:
+\bar default
+ עבור 
+\begin_inset Formula $t=x_{i}$
+\end_inset
+
+ שהוא משתנה, נגדיר: 
+\begin_inset Formula $\overline{s}(t)=s(t)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+עבור 
+\begin_inset Formula $t=c_{i}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $c_{i}$
+\end_inset
+
+ סימן קבוע ב-
+\begin_inset Formula $\tau$
+\end_inset
+
+ נגדיר:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\overline{s}(c_{I})=c_{i}^{M}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+סגור:
+\bar default
+ נניח שהגדרנו את 
+\begin_inset Formula $\overline{s}$
+\end_inset
+
+ עבור ש
+\begin_inset Quotes erd
+\end_inset
+
+ע 
+\begin_inset Formula $t_{1},\dots t_{k}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ונניח ש 
+\begin_inset Formula $F$
+\end_inset
+
+ הוא סימן פונקציה 
+\begin_inset Formula $k$
+\end_inset
+
+ מקומית במילון.
+\begin_inset Newline newline
+\end_inset
+
+אז נגדיר:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\overline{s}(F(t_{1},\dots,t_{k}))=F^{M}(\overline{s}(t_{1}),\dots,\overline{s}(t_{k}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=\left\langle F,(,),C\right\rangle $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $M=<\mathbb{N},\times,0>$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נגדיר השמה 
+\begin_inset Formula $S(x_{i})=i$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+דוגמאות לש
+\begin_inset Quotes erd
+\end_inset
+
+ע: 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+ & \overline{S}(x_{0})=0\\
+ & \overline{S}(x_{1})=1\\
+ & \overline{S}(c)=C^{M}=0\\
+ & \overline{S}(F(x_{0},c))=F^{M}(\overline{S}(x_{0}),\overline{S}(c))=0\cdot0=0\\
+ & \overline{S}(F(x_{8},x_{100}))=F^{M}(\overline{S}(x_{8}),\overline{S}(x_{100}))=8\cdot100=800\\
+ & \overline{S}(F(F(x_{0},c),x_{1}))
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $M=<P(\mathbb{N}),\bigcup,\emptyset>$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נגדיר השמה 
+\begin_inset Formula $s=(x_{i})=\{i\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+דוגמאות לש
+\begin_inset Quotes erd
+\end_inset
+
+ע 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+ & \overline{S}(x_{0})=\{0\}\\
+ & \overline{S}(c)=C^{M}=\emptyset\\
+ & \overline{S}(F(X_{0},c))=F^{M}(\overline{S}(x_{0}),\overline{S}(c))=\{0\}\cup\emptyset=\{0\}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\xymatrix{Structure & Dict.\ar[d]\ar@(dr,ur)[dd]\ar[r]\\
+Assign\ar@2[d] & Noun\\
+Truth\,Values & Formula
+}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+נוסחאות:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הגדרה:
+\bar default
+ קבוצת הנוסחאות מעל מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+ מוגדרת בצורה אינדוקטיבית:
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+בסיס:
+\bar default
+ )נוסחאות אטומיות( לכל שני שמות עצם 
+\begin_inset Formula $t_{1},t_{2}$
+\end_inset
+
+ מתקיים ש-
+\begin_inset Formula $\text{\fbox{t1\ensuremath{\approx t_{2}}}}$
+\end_inset
+
+ הוא נוסחא.
+\begin_inset Newline newline
+\end_inset
+
+לכל סימן יחס 
+\begin_inset Formula $k$
+\end_inset
+
+-מקומי 
+\begin_inset Formula $R$
+\end_inset
+
+ במילון ולכל 
+\begin_inset Formula $k$
+\end_inset
+
+ ש
+\begin_inset Quotes erd
+\end_inset
+
+ע 
+\begin_inset Formula $t_{1},\dots,t_{k}$
+\end_inset
+
+ מתקיים ש-
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{\fbox{R(\ensuremath{t_{1},\dot{\dots,t_{k})}}}}$
+\end_inset
+
+ היא נוסחא.
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+סגור:
+\bar default
+ בהינתן נוסחאות 
+\begin_inset Formula $a,\beta$
+\end_inset
+
+ מתקיים ש:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\neg\alpha)$
+\end_inset
+
+(,
+\begin_inset Formula $(\alpha\rightarrow\beta),(\alpha\vee\beta),(\alpha\wedge\beta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+כמתים: בהינתן נוסחא 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ ומשתנה 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ מתקיים ש-:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\forall\underbrace{x_{i}}_{\text{\ensuremath{\mathclap{\text{for each possible value}}}}},\alpha)$
+\end_inset
+
+ ו- 
+\begin_inset Formula $(\exists x_{i},\alpha)$
+\end_inset
+
+ הן נוסחאות.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=\left\langle R,F_{1},F_{2},C\right\rangle $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F_{1}$
+\end_inset
+
+ סימן פונקציה חד מקומית.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F_{2}$
+\end_inset
+
+ סימן פונקציה דו-מקומית.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R$
+\end_inset
+
+ סימן יחס דו-מקומי.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $c\approx c$
+\end_inset
+
+, 
+\begin_inset Formula $x_{0}\approx x_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $F_{1}(x_{0})\approx F_{2}(c,x_{7})$
+\end_inset
+
+, 
+\begin_inset Formula $R(c,F_{1}(x_{3}))$
+\end_inset
+
+, 
+\begin_inset Formula $R(x_{0},F_{2}(F_{1}(c),x_{0}))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $((c\approx c)\wedge R(c,F_{1}(x_{3}))\rightarrow(x_{0}\approx x_{1})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\forall x_{0}(x_{0}\approx c)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\forall x_{1}(x_{0}\approx c)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\exists x_{0}(x_{0}\approx c)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\exists x_{8}((\forall x_{0}(c\approx F_{1}(x_{0}))\wedge(c\approx x_{8}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרת ערכי אמת
+\end_layout
+
+\begin_layout Standard
+בהינתן מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+, מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ והשמה 
+\begin_inset Formula $s$
+\end_inset
+
+, מגדירים מתי 
+\begin_inset Formula $M$
+\end_inset
+
+ ו-
+\begin_inset Formula $s$
+\end_inset
+
+ 
+\bar under
+מספקים
+\bar default
+ נוסחא 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+כלומר נותנים ל-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ ערך אמת
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומסמנים 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(M,s)(\alpha)=1$
+\end_inset
+
+ , 
+\begin_inset Formula $(M,S)\vDash\alpha$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+באינדוקציה על קבוצת הנוסחאות מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+בסיס:
+\bar default
+ 
+\begin_inset Formula $\alpha=t_{1}\approx t_{2}$
+\end_inset
+
+ נגדיר 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+אם
+\begin_inset Quotes erd
+\end_inset
+
+ם 
+\begin_inset Formula $\underbrace{\overline{s}(t_{1})}_{\in D^{M}}=\underbrace{\overline{s}(t_{2})}_{\in D^{M}}$
+\end_inset
+
+ )שיוויון ב-
+\begin_inset Formula $D^{M}$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+דוגאות:
+\begin_inset Newline newline
+\end_inset
+
+
+\bar default
+
+\begin_inset Formula $\tau=\left\langle R,F_{1},F_{2},C\right\rangle $
+\end_inset
+
+ כמו קודם.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\underbrace{M\underset{s}{\vDash}\alpha\Leftarrow}_{\overline{s}(x_{0})=s(x_{0})=1=c^{M}=\overline{s}(c)}\begin{cases}
+M=\left\langle \mathbb{N},\le,^{2},+,1\right\rangle \\
+S(x_{i})=1 & \forall i\\
+\alpha=x_{0}\approx c
+\end{cases}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $s(x_{i})=0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s'}{\nvDash}\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\overline{s}(x_{0})=0$
+\end_inset
+
+ , 
+\begin_inset Formula $\overline{s'}(c)=1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+חזרה להגדרה עדיין בבסיס:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha=R(t_{1},\dots,t_{k})$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $R$
+\end_inset
+
+ סימן יחס 
+\begin_inset Formula $k$
+\end_inset
+
+-מקומי ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $t_{1},\dots t_{k}$
+\end_inset
+
+ ש
+\begin_inset Quotes erd
+\end_inset
+
+ע
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+נגדיר:
+\bar default
+ 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+ אם
+\begin_inset Quotes erd
+\end_inset
+
+ם 
+\begin_inset Formula $(\overline{s}(t_{1}),\dots,\overline{s}(t_{k}))\in R^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+חזרה לדוגמא:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\tau,M,s$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\alpha:\alpha=R(x_{0},c)$
+\end_inset
+
+ כי 
+\begin_inset Formula $\overline{s}(x_{0})=\overline{s}(c)=1$
+\end_inset
+
+וכן 
+\begin_inset Formula $1\le1$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $(1,1)\in R^{M}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\alpha\wedge\beta$
+\end_inset
+
+ אם
+\begin_inset Quotes erd
+\end_inset
+
+ם 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+וגם 
+\begin_inset Formula $M\underset{s}{\vDash}\beta$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\alpha\rightarrow\beta$
+\end_inset
+
+ לפי טבלת האמת של 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+כמתים:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+הגדרת עזר:
+\bar default
+ בהינתן השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ ומשתנה 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ואיבר 
+\begin_inset Formula $d\in d^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נגדיר 
+\bar under
+השמה מתוקנת:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $s'=s[x_{i}\leftarrow d]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $s'(x_{j})=\begin{cases}
+d & i=j\\
+s(x_{j}) & i\ne j
+\end{cases}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+עכשיו, בהינתן 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ שעבורו הגדרנו האם 
+\begin_inset Formula $M,s$
+\end_inset
+
+ מספקים אותה, 
+\begin_inset Newline newline
+\end_inset
+
+ובהינתן משתנה 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ נגדיר:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\forall x_{i}\alpha$
+\end_inset
+
+ אם
+\begin_inset Quotes erd
+\end_inset
+
+ם לכל 
+\begin_inset Formula $d\in D^{m}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $M\underset{\mathclap{s'[x_{i}\leftarrow d]}}{\vDash}\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\exists x_{i}\alpha$
+\end_inset
+
+ אם
+\begin_inset Quotes erd
+\end_inset
+
+ם קיים 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ כך שמתקיים 
+\begin_inset Formula $M\underset{\mathclap{s'[x_{i}\leftarrow d]}}{\vDash}\alpha$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

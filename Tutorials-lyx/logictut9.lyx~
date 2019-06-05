@@ -134,10 +134,10 @@
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
- & \overline{s}(F(x_{0},F(x_{10},c))=F^{M}(\overline{s}(x_{0}),\overline{s}(F(x_{10},)))=\\
- & \overline{s}(x_{0})+\overline{s}(F(x_{10},c))=s(x_{0})+F^{M}(\overline{s}(x_{10},\overline{s}(c))=\\
- & -5+\overline{s}(x_{10})\overline{s}(c)=-5+s(x_{10})+1005=\\
- & -5+0+1005=1000
+\overline{s}(F(x_{0},F(x_{10},c))= & F^{M}(\overline{s}(x_{0}),\overline{s}(F(x_{10},))\,=\\
+\overline{s}(x_{0})+\overline{s}(F(x_{10},c))= & s(x_{0})+F^{M}(\overline{s}(x_{10},\overline{s}(c))\,=\\
+-5+\overline{s}(x_{10})\overline{s}(c)= & -5+s(x_{10})+1005\,=\\
+-5+0+1005= & 1000
 \end{align*}
 
 \end_inset
@@ -225,7 +225,177 @@
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+s(x_{p})=\begin{cases}
+-5 & -\le1<10\\
+0 & 10\le i<20\\
+5 & \text{otherwise}
+\end{cases}
+\]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\Leftrightarrow & M\vDash_{s}R(x_{0},F(x_{0},F(x_{10},c)))\vee(x_{0}\approx x_{10})\\
+\Leftrightarrow & M\vDash_{s}R(x_{0},F(x_{0},F(x_{10},c)))\text{ or }M\vDash_{s}(x_{0}\approx x_{10})\\
+\Leftrightarrow & (\overline{s}(x_{0},s(F(x_{0},F(x_{10},C))))\text{ or }\overline{s}(x_{0})=\overline{s}(x_{10})\\
+\text{(truth)} & -5\le1000\text{ or }\text{(false)}\,-5=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ התנאי מתקיים.
+\end_layout
+
+\begin_layout Subsubsection*
+הפרכה
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow M\vDash_{s}\forall x_{0}R(x_{0},x_{1})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in\mathbb{Z}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $M\vDash_{\underbrace{s[x_{0}\leftarrow d]}_{s'}}R(x_{0},x_{1})$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in\mathbb{Z}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\Leftrightarrow(\overline{s}'(x_{0}),\overline{s}'(x_{1}))\in R^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in\mathbb{Z}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $(d,-5)\in R^{M}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in\mathbb{Z}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $d\le-5$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לא נכון למשל עבור 
+\begin_inset Formula $d=0$
+\end_inset
+
+.
 \end_layout
 
 \end_body

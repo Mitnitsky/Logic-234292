@@ -16,7 +16,7 @@
 \font_typewriter "default" "Miriam Mono CLM"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts true
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -1208,7 +1208,7 @@ a_{n} & |\vdots &  &  & \vdots\\
 
 \begin_layout Standard
 לכל מערכת הוכחה שיש בה לפחות את האכסיומות 
-\begin_inset Formula $\text{\fbox{A_{1}-וA_{2}}}$
+\begin_inset Formula $\text{\fbox{A_{1}\&A_{2}}}$
 \end_inset
 
 

@@ -1,0 +1,789 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה תרגול
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+נתון מילון 
+\begin_inset Formula $\tau=\langle R(\circ,\circ),F_{1}(\circ),F_{2}(\circ,\circ),c\rangle$
+\end_inset
+
+ ונתון הפסוק 
+\begin_inset Formula $\varphi=\forall x_{1}\forall x_{2}(R(x_{1},x_{2})\rightarrow R(x_{2},x_{1}))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אילו מבנים יספקו את הפסוק?
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון:
+\end_layout
+
+\begin_layout Standard
+כל המבנים 
+\begin_inset Formula $M$
+\end_inset
+
+ שעבורם 
+\begin_inset Formula $R^{M}$
+\end_inset
+
+ הוא יחס סימטרי )למשל 
+\begin_inset Formula $M=\langle\mathbb{N},=,-,+,7\rangle$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נוכיח את הטכנה.
+\begin_inset Newline newline
+\end_inset
+
+יהי 
+\begin_inset Formula $M$
+\end_inset
+
+ מבנה כלשהו עבור 
+\begin_inset Formula $\tau$
+\end_inset
+
+ אז:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow M\vDash\varphi$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+, 
+\begin_inset Formula $M\underset{s}{\vDash}\varphi$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+, לכל 
+\begin_inset Formula $d_{1},d_{2}\in D^{M}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{\underbrace{s[x_{1}\leftarrow d_{1}][x_{2}\leftarrow d_{2}]}_{s'}}{\vDash}R(x_{1},x_{2})\rightarrow R(x_{2},x_{1})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+, לכל 
+\begin_inset Formula $d_{1},d_{2}\in D^{M}$
+\end_inset
+
+, אם 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s'}{\vDash R(x_{1},x_{2})}$
+\end_inset
+
+ אז 
+\begin_inset Formula $M\underset{s'}{\vDash}R(x_{2},x_{1})$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+, לכל 
+\begin_inset Formula $d_{1},d_{2}\in D^{M}$
+\end_inset
+
+ אם 
+\begin_inset Formula $(s'(x_{1}),s'(x_{2}))\in R^{M}$
+\end_inset
+
+ אז 
+\begin_inset Formula $(s'(x_{2}),s'(x_{1}))\in R^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+, לכל 
+\begin_inset Formula $d_{1},d_{2}\in D^{M}$
+\end_inset
+
+ אם 
+\begin_inset Formula $(d_{1},d_{2})\in R^{M}$
+\end_inset
+
+ אז 
+\begin_inset Formula $(d_{2},d_{1})\in R^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1},d_{2}\in D^{M}$
+\end_inset
+
+ אם 
+\begin_inset Formula $(d_{1},d_{2})\in R^{M}$
+\end_inset
+
+ אז 
+\begin_inset Formula $(d_{2},d_{1})\in R^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R^{M}$
+\end_inset
+
+ סימטרי.
+\begin_inset Newline newline
+\end_inset
+
+)כל המעברים דו-כיווניים ולא דורשים הסבר כי הם מבוססים על ההגדרה(.
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+נתון המילון 
+\begin_inset Formula $\tau=\langle R(\circ,\circ),F(\circ,\circ),c_{0},c_{1}\rangle$
+\end_inset
+
+, נגדיר
+\begin_inset Formula $\}$
+\end_inset
+
+
+\begin_inset Formula $t$
+\end_inset
+
+ ש
+\begin_inset Quotes erd
+\end_inset
+
+ע 
+\begin_inset Formula $\Sigma=\{R(t,x_{0})|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+הוכיחו כי 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ ספיקה.
+\end_layout
+
+\begin_layout Enumerate
+הוכיחו כי 
+\begin_inset Formula $\Sigma\nvDash\forall x_{1}R(x_{0},x_{1})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון סעיף
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נוכיח כי קיים במנה 
+\begin_inset Formula $M$
+\end_inset
+
+ והשמה 
+\begin_inset Formula $s$
+\end_inset
+
+ המספקים את 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נבחר במבנה 
+\begin_inset Formula $M=\langle\{a\},\{(a,a)\},f,a,a\rangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $f(a,a)=a$
+\end_inset
+
+ תהי 
+\begin_inset Formula $s$
+\end_inset
+
+ ההשמה 
+\begin_inset Formula $s(x_{1})=a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $R(t,x)\in\Sigma$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $M\underset{s}{\vDash}R(t,x_{0})$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\overline{s}(t),\overline{s}(x_{0}))\in R^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(a,a)\in\{(a,a)\}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $M\underset{s}{\vDash}\Sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון סעיף
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נסמן: 
+\begin_inset Formula $M=\langle\mathbb{N},\ge,+,0,1\rangle$
+\end_inset
+
+, תהי 
+\begin_inset Formula $s$
+\end_inset
+
+ ההשמה 
+\begin_inset Formula $s(x_{i})=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+נראה כי 
+\begin_inset Formula $M\underset{s}{\vDash}\Sigma$
+\end_inset
+
+: לכל 
+\begin_inset Formula $R(t,x_{0})\in\Sigma$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\Leftrightarrow M\underset{s}{\vDash}R(t,x_{0})$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\overline{s}(t),\overline{s}(x_{0}))\in R^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\overline{s}(t)\ge0$
+\end_inset
+
+ וזה נכון כי 
+\begin_inset Formula $0$
+\end_inset
+
+ מינימלי בטבעיים.
+\end_layout
+
+\begin_layout Enumerate
+נראה 
+\begin_inset Formula $M\underset{s}{\nvDash}\forall x_{1}R(x_{0},x_{1})$
+\end_inset
+
+: מספיק להראות 
+\begin_inset Formula $d\in\text{\ensuremath{\mathbb{N}}}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $M\underset{s[x_{1}\leftarrow d]}{\nvDash}R(x_{0},x_{1})$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נבחר 
+\begin_inset Formula $d=3$
+\end_inset
+
+ אז 
+\begin_inset Formula $M\underset{s[x_{1}\leftarrow d]}{\nvDash}R(x_{0},x_{1})$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(\overline{s}[x_{1}\leftarrow d](x_{0}),\overline{s}[x_{1}\leftarrow d](x_{1}))=(0,3)\notin R^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אבל 
+\begin_inset Formula $(0,3)\notin R^{M}$
+\end_inset
+
+ כי לא מתקיים 
+\begin_inset Formula $0\ge3$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $M\underset{s}{\nvDash}\forall x_{1}R(x_{0},x_{1})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+נתון מילון 
+\begin_inset Formula $\tau=\langle R(\circ,\circ),F(\circ)\rangle$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור כל אחת מהנוסחאות הבאות, הוכיחו או הפריכו כי היא אמת לוגית:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi_{1}=\forall x_{1}\forall x_{2}R(x_{1},x_{2})\rightarrow\forall x_{1}\forall x_{2}R(F(x_{1}),F(x_{2}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\varphi_{2}=\forall x_{1}\forall x_{2}R(F(x_{1}),F(x_{2}))\rightarrow\forall x_{1}\forall x_{2}R(x_{1},x_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון:
+\end_layout
+
+\begin_layout Enumerate
+יועלה לאתר הקורס.
+\end_layout
+
+\begin_layout Enumerate
+הטענה אינה נכונה:
+\begin_inset Newline newline
+\end_inset
+
+נבחר מבנה והשמה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=\langle\{0,1\},\{(0,0)\},F^{M}\rangle$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F^{M}(n)=0$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+תהי 
+\begin_inset Formula $s$
+\end_inset
+
+ השמה 
+\begin_inset Formula $s(x_{i})=0$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
