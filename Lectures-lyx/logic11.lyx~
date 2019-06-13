@@ -1,0 +1,1828 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David CLM"
+\font_sans "default" "Simple CLM"
+\font_typewriter "default" "Miriam Mono CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 0 0 7 -1
+\bullet 1 0 8 -1
+\bullet 2 0 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\end_layout
+
+\begin_layout Subsection*
+סינטקס:
+\end_layout
+
+\begin_layout Standard
+מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+שמות עצם:
+\bar default
+ סימני קבוע, משתנים וסימני פונקצייה.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+נוסחאות:
+\end_layout
+
+\begin_layout Standard
+נוסחאות אטומיות: 
+\begin_inset Formula $\underbrace{R}_{\text{N-Realtion }}(\underbrace{t_{1},\dots,t_{n}}_{\text{nouns}})$
+\end_inset
+
+ , 
+\begin_inset Formula $\approx(t_{1},t_{2})$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+הערה:
+\end_layout
+
+\begin_layout Standard
+הבדל בין שם עצם לנוסחה אטומית:
+\end_layout
+
+\begin_layout Standard
+בהינתן מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ והשמה 
+\begin_inset Formula $s$
+\end_inset
+
+ שם עצם 
+\begin_inset Formula $t$
+\end_inset
+
+ - כשישוערך הבמנה 
+\begin_inset Formula $M$
+\end_inset
+
+ וההשמה 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יחזיר ערך מתוך 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+נוסחה)אטומית(: תשוערך ל-
+\begin_inset Formula $T/F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+המשך יצירת נוסחאות -כלל יצירה/פעולות.
+\begin_inset Newline newline
+\end_inset
+
+בהינתן נוסחאות 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $\beta$
+\end_inset
+
+ ומשתנה 
+\begin_inset Formula $x$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הנוסחאות הבאות הן נוסחאות של תחשיב היחסים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \neg\alpha,\,\alpha\rightarrow\beta,\,\forall x\alpha\\
+ & \alpha\wedge\beta\,\alpha\vee\beta,\,\exists x\alpha
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+סמנטיקה:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מבנה 
+\begin_inset Formula $\text{M}$
+\end_inset
+
+
+\bar default
+ שמפרש סימני מילון ביחס לתחום 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+השמה:
+\bar default
+ 
+\begin_inset Formula $s:\underbrace{\text{Var}}_{\{x_{i}|i\in\mathbb{N}\}}:\rightarrow D^{M}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+ההשמה מורחבת:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\overline{s}:\underbrace{Term}_{\text{nouns}}\rightarrow D^{M}
+\]
+
+\end_inset
+
+ 
+\bar under
+הגדרת 
+\begin_inset Formula $\overline{s}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+בהינתן 
+\begin_inset Formula $\overline{s},s,M$
+\end_inset
+
+ מוגדרת אינדוקטיבית ע
+\begin_inset Quotes erd
+\end_inset
+
+י:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\overline{s}(x)=s(x)$
+\end_inset
+
+ 
+\begin_inset Formula $x$
+\end_inset
+
+ משתנה.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\overline{s}(c)=C^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $c$
+\end_inset
+
+ סימן קבוע.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\overline{s}(F(t_{1},\dots,t_{n}))=F^{M}(\overline{s}(t_{1}),\dots,\overline{s}(t_{n}))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+ההשמה מתוקנת:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s[y\leftarrow d](x)=\begin{cases}
+d & x=y\\
+s(x) & x\ne y
+\end{cases}
+\]
+
+\end_inset
+
+ 
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $z$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\dots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\dots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $s[y\leftarrow8]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $z$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\dots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\dots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרת 
+\begin_inset Formula $\vDash$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\text{\ensuremath{\alpha}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha$
+\end_inset
+
+ נוסחה , 
+\begin_inset Formula $s$
+\end_inset
+
+ השמה, 
+\begin_inset Formula $M$
+\end_inset
+
+ מבנה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M,s\vDash\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+באינדוקציה מעל מבנה הנוסחה
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בסיס:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}R(t_{1},\dots,t_{n})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\overline{s}(t_{1}),\dots,\overline{s}(t_{n}))\in R^{M}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כתוב 
+\begin_inset Formula $R^{N}(\overline{s}(t_{1}),\dots,\overline{s}(t_{n}))$
+\end_inset
+
+ הוא 
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\approx(t_{1},t_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{s}(t_{1})=\overline{s}(t_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+צעד:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\neg\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\nvDash}\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha\wedge\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\beta$
+\end_inset
+
+ וגם 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha\rightarrow\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\beta$
+\end_inset
+
+ או 
+\begin_inset Formula $M\not\underset{s}{\vDash}\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\forall x\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+
+\begin_inset Formula $\,$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{\mathclap{s[x\leftarrow d]}}{\vDash}\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\exists x\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $M\underset{\mathclap{s[x\leftarrow d]}}{\vDash}\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+מילון: 
+\begin_inset Formula $\tau=(R(\circ,\circ),G(\circ),F(\circ,\circ))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מבנה: 
+\begin_inset Formula $M=(\underbrace{\mathbb{N}}_{D^{M}},\underbrace{<}_{R^{M}},\underbrace{\alpha\cdot x}_{G^{M}(x)},\underbrace{x+y}_{F^{M}(x,y)})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+השמה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{\fbox{s(y)=5}}$
+\end_inset
+
+ 
+\begin_inset Formula $s(x)=2$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha=\exists x(R(G(x),F(x,y))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+קיים 
+\begin_inset Formula $d\in\mathbb{N}$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $M\underset{\underbrace{s[x\leftarrow d]}_{s}}{\vDash}R(G(x),F(x,y))$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $(\overline{s}'(G(x),\overline{s}'(F(x,y)))\in R^{M},$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $\underbrace{(G^{M}(\overline{s}'(x)),F^{N}(\overline{s}'(x),\overline{s}'(y)w)\in<}_{2d<d+5}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ערך 
+\begin_inset Formula $z$
+\end_inset
+
+ לא השפיע על התוצאה בהשמה.
+\end_layout
+
+\begin_layout Itemize
+ערך 
+\begin_inset Formula $y$
+\end_inset
+
+ - השפיע.
+\end_layout
+
+\begin_layout Itemize
+ערך 
+\begin_inset Formula $x$
+\end_inset
+
+ - לא השפיה.
+\end_layout
+
+\begin_layout Standard
+נגדיר משתנים חפשיים/קשורים בנוסחה
+\begin_inset Newline newline
+\end_inset
+
+באינדוקצייה על מבנה הנוסחה 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בסיס:
+\bar default
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ נוסחה אטומית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(R(t_{1},\dots,t_{n}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $x$
+\end_inset
+
+ שנמצא ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $x$
+\end_inset
+
+ חופשי עבור 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+צעד:
+\end_layout
+
+\begin_layout Standard
+עבור קשרים 
+\begin_inset Formula $\alpha=\beta\square\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משתנה 
+\begin_inset Formula $x$
+\end_inset
+
+ הוא חופשי ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם ורק אם הוא חופשי ב-
+\begin_inset Formula $\beta$
+\end_inset
+
+ או חופשי ב-
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha=\neg\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x$
+\end_inset
+
+ חופשי ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אם ורק אם הוא חופשי ב-
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha=\forall x\beta$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha=\exists x\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y$
+\end_inset
+
+ חופשי ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אם ורק אם 
+\begin_inset Formula $y$
+\end_inset
+
+ חופשי ב-
+\begin_inset Formula $\beta$
+\end_inset
+
+ 
+\bar under
+וגם
+\bar default
+ 
+\begin_inset Formula $\text{\fbox{\ensuremath{y\ne x}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x$
+\end_inset
+
+ לא חופשי ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ )
+\begin_inset Formula $y=x$
+\end_inset
+
+ לא חופשי ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+משתנה הוא 
+\bar under
+קשור
+\bar default
+ ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ אם הוא אינו חופשי ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\bar under
+
+\begin_inset Newline newline
+\end_inset
+
+אינטוטיציה:
+\end_layout
+
+\begin_layout Standard
+משתנים חופשיים-ערכם משפיע על ערך הנוסחה.
+\end_layout
+
+\begin_layout Standard
+מתשנים קשורים - ערכם אינו משפיע.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha=(\forall x\underbrace{R(x,y)}_{\underbrace{x,y}_{y}})\wedge\underbrace{Q(x)}_{x}\wedge\underbrace{\exists z\underbrace{Q(z)}_{z}}_{\text{none}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המשתנים החופשיים ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ הם 
+\begin_inset Formula $x,y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+למה:
+\end_layout
+
+\begin_layout Standard
+נתונה 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מעל מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+, מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+ והשמה 
+\begin_inset Formula $s_{1},s_{2}$
+\end_inset
+
+ 
+\bar under
+שמתאימות ל-
+\begin_inset Formula $M$
+\end_inset
+
+.
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+אם לכל משתנה חופשי 
+\begin_inset Formula $x$
+\end_inset
+
+ של 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $s_{1}(x)=s_{2}(x)$
+\end_inset
+
+ אז 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+M\underset{s_{1}}{\vDash}\alpha\Leftrightarrow M\underset{s_{2}}{\vDash}\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה:
+\end_layout
+
+\begin_layout Standard
+נוסחה של תחשיב היחסים שאין בה משתנים חופשיים נקראת 
+\bar under
+פסוק
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+ערך פסוק אינו תלוי בהשמה וניתן להרשם 
+\begin_inset Formula $M\vDash\alpha$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+ניתן לרשום:
+\begin_inset Newline newline
+\end_inset
+
+קיימת השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+ אם ורק אם 
+\begin_inset Formula $M\vDash\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא לפסוק:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha=\forall x\exists yR(x,y)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(\mathbb{N},\underbrace{<}_{R^{N}})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\forall x\exists yR(x,y)$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s[x\leftarrow d_{1}]}{\vDash}\exists yR(x,y)$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s[x\leftarrow d_{1}][y\leftarrow d_{2}]}{\vDash}R(x,y)$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+קיים 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ 
+\begin_inset Formula $d_{1}<d_{2}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\text{\fbox{T}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא נוספת:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\nvDash}\forall x\exists yR(x,y)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+כך ש-
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{\underbrace{s[x\leftarrow d_{1}][y\leftarrow d_{2}]}_{s'}}{\vDash}R(x,y)$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+
+\begin_inset Formula $R^{M}(s'(x),s'(y))$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ 
+\begin_inset Formula $(d_{1},d_{2})\in<$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ 
+\begin_inset Formula $d_{1}<d_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+גדירות של יחס בתוך מבנה נתון
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בשונה
+\bar default
+ מגדירות ואי-גדירות של 
+\bar under
+קבוצת מבנים שנעשה 
+\series bold
+בהמשך
+\series default
+)דומה לתחשיב הפסוקים(
+\bar default
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+נתון מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+
+\bar default
+ מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+ אינטואיטיבית: השאלה היא האם אםשר לבטא בעזרת המילון של 
+\begin_inset Formula $M$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מושגים)יחסים( שאינם במילון.
+\begin_inset Newline newline
+\end_inset
+
+בהינתן מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+יחס אמיתי לא סימן יחס:
+\begin_inset Formula $P\subseteq(D^{M})^{n}$
+\end_inset
+
+ 
+\begin_inset Formula $n$
+\end_inset
+
+-מקומי.
+\begin_inset Newline newline
+\end_inset
+
+יחס 
+\begin_inset Formula $p$
+\end_inset
+
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ מקומי הוא 
+\bar under
+גדיר ב-
+\begin_inset Formula $M$
+\end_inset
+
+
+\bar default
+ אם קיימת נוסחה 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+, בעלת 
+\begin_inset Formula $n$
+\end_inset
+
+ משתנים חופשיים 
+\begin_inset Formula $v_{1},\dots v_{n}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כך שלכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ מתקיים:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\alpha\Leftrightarrow(s(v_{1}),\dots,s(v_{n}))\in P$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נאמר אז ש-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מגדירה את 
+\begin_inset Formula $P$
+\end_inset
+
+ ב-
+\begin_inset Formula $M$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=(R(\circ,\circ))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(\mathbb{N},\underbrace{\le}_{R^{N}})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+היחס)אונרי( 
+\begin_inset Formula $P\subseteq N$
+\end_inset
+
+ מוגדר 
+\begin_inset Formula $P=\{0\}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+ב-
+\begin_inset Formula $\alpha$
+\end_inset
+
+ שמגדירה את 
+\begin_inset Formula $p$
+\end_inset
+
+ יהיה 
+\bar under
+משתנה חופשי יחיד:
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha(v_{2})=\forall v_{1}R(v_{2},v_{1})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל לכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}d(v_{2})\Leftrightarrow s(v_{2})\in p$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\forall v_{1}R(v_{2},v_{1})$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in\mathbb{N}$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s[v_{1}\leftarrow d]}{\vDash}R(v_{2},v_{1})$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in\mathbb{N}$
+\end_inset
+
+ 
+\begin_inset Formula $(s(v_{2}),d)\in\le$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $s(v_{2})=0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $s(v_{2})\in P$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא דומה במבנה שונה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=\langle R(\circ,\circ)\rangle$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(2^{\mathbb{N}},\subseteq)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $p=\{\emptyset\}\subseteq D^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha=\forall v_{1}(R(v_{2},v_{1}))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+להוכיח שאם 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מגדירה את 
+\begin_inset Formula $p$
+\end_inset
+
+ במילון 
+\begin_inset Formula $M$
+\end_inset
+
+ החדש.
+\begin_inset Newline newline
+\end_inset
+
+באותו מבנה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p'=\{(x,y)|x\subsetneq y\}\subseteq(D^{M})^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{1}(x,y)=R(x,y)\wedge\neg R(y,x)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{2}(x,y)=R(x,y)\wedge\neg(x\approx y)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל לכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\varphi_{1}\Leftrightarrow(s(x),s(y))\in P'$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\varphi_{2}\Leftrightarrow(s(x),s(y))\in P'$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

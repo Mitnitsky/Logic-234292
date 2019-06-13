@@ -1,4 +1,4 @@
-#!/bin/bash
+# !/bin/bash
 
 pathlec="./Lectures-lyx"
 destlec="./Lectures-pdf"
@@ -31,5 +31,23 @@ make_tutorials() {
     done
 }
 
+make_merged_lectures() {
+    sources=`ls $destlec | grep logic | sort -V`
+    dest=`echo $sources Lectures.pdf`
+    cd $destlec
+    pdfunite $dest
+    cd ..
+}
+
+make_merged_tutorials() {
+    sources=`ls $desttut | grep _ | sort -V`
+    dest=`echo $sources Tutorials.pdf`
+    cd $desttut
+    pdfunite $dest
+    cd ..
+}
+
 make_lectures
 make_tutorials
+make_merged_lectures
+make_merged_tutorials
