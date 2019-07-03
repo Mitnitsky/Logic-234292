@@ -26,7 +26,7 @@ make_tutorials() {
         lyx -e $format $pathtut/$f.lyx
         mv -f $pathtut/$f.$ext $desttut/
         num=`echo $f | grep -Eo '[0-9]{1,4}'`
-        pdfunite $desttut/handout/tutorial${num}_handout.$ext $desttut/$f.$ext $desttut/tutorial_${num}.${ext}
+        pdfunite $desttut/handout/tutorial${num}_*$ext $desttut/$f.$ext $desttut/tutorial_${num}.${ext}
         rm $desttut/$f.$ext
     done
 }

@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -21,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -31,8 +34,8 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize a4paper
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -52,19 +55,19 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -89,7 +92,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -103,7 +105,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -117,7 +118,6 @@
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -130,7 +130,6 @@
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -213,7 +212,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -227,7 +225,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -264,7 +261,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -278,7 +274,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -311,7 +306,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -325,7 +319,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -344,7 +337,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -358,7 +350,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -403,7 +394,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -417,7 +407,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -436,7 +425,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -450,7 +438,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -469,7 +456,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -483,7 +469,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -752,7 +737,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -766,7 +750,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -917,7 +900,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -931,7 +913,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1059,19 +1040,11 @@ X\cup\{\alpha\}\vdash\neg\alpha
 \end_layout
 
 \begin_layout Standard
-)נשתמש במשפט: 
-\begin_inset Quotes eld
-\end_inset
-
-יכיח 
+)נשתמש במשפט: "יכיח 
 \begin_inset Formula $\vdash(\alpha\rightarrow\neg\alpha)\rightarrow\neg\alpha$
 \end_inset
 
-
-\begin_inset Quotes erd
-\end_inset
-
-(
+"(
 \end_layout
 
 \begin_layout Enumerate
@@ -1121,7 +1094,6 @@ X\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1135,7 +1107,6 @@ X\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1347,7 +1318,6 @@ X\cup\{\alpha\}\vdash\neg\alpha
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1360,7 +1330,6 @@ X\cup\{\alpha\}\vdash\neg\alpha
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1391,7 +1360,6 @@ X\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1405,7 +1373,6 @@ X\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1528,7 +1495,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1542,7 +1508,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1556,7 +1521,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1569,7 +1533,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1604,7 +1567,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1618,7 +1580,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1644,7 +1605,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1658,7 +1618,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1861,7 +1820,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1875,7 +1833,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1889,7 +1846,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1902,7 +1858,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1931,7 +1886,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1945,7 +1899,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1959,7 +1912,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1990,7 +1942,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -2004,7 +1955,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -2018,7 +1968,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -2031,7 +1980,6 @@ Y\cup\{\alpha\}\vdash\neg\alpha
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default

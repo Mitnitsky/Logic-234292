@@ -1,0 +1,682 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה תרגול
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+12
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Enumerate
+נגדיר את הקבוצה 
+\begin_inset Formula $\Sigma_{1}$
+\end_inset
+
+באופן הבא: 
+\begin_inset Formula $\Sigma_{1}=\{\forall x_{1}\forall x_{2}R_{1}(F(x_{1},x_{2}))\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נראה כי 
+\begin_inset Formula $K_{1}=M(\Sigma_{1})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\in M(\Sigma_{1})$
+\end_inset
+
+ 
+\begin_inset Formula $(M\vDash\Sigma_{1})$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\vDash\forall x_{1}\forall x_{2}R_{1}(F(x_{1},x_{2}))$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\vdots\hfill$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1},d_{2}\in D^{M}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $F^{M}(d_{1},d_{2})\in R^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Image(F^{M})\subseteq R^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\in K_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha_{2}=\exists x_{1}\exists x_{2}\neg(x_{1}\approx x_{2})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha=\exists x_{1}\exists x_{2}\dots\exists x_{n}(\underset{1\le i\le j\le n}{\bigwedge}\neg(x_{i}\approx x_{n}))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\sum_{inf}=\{\alpha|n\ge2\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\varphi_{n}=\exists x_{1}\exists x_{2}\dots\exists x_{n}(\underset{1\le i\le j\le n}{\bigwedge}\neg(x_{i}\approx x_{j})\underset{1\le i\le n}{\bigwedge}R(x_{i},c))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\sum=\{\varphi_{n}|n\ge2\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Enumerate
+נניח בשלילה שקיימת קבוצת פסוקים 
+\begin_inset Formula $X$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $M(x)=K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Y=\{\varphi_{n}|\,n\ge2\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+נראה כי 
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ אינה ספיקה.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $M\in K$
+\end_inset
+
+: לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+יש מספר סופי 
+\begin_inset Formula $d'\in D^{M}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $(d',d)\in R_{2}^{M}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $M\in M(Y)$
+\end_inset
+
+: מהדוגמה הקודמת נובע כי ב-
+\begin_inset Formula $D^{M}$
+\end_inset
+
+ יש מספר אינסופי של 
+\begin_inset Formula $d'\in D^{M}$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $(d',c^{M})\in R_{2}^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכן 
+\begin_inset Formula $M(X\cup Y)=M(x)\cap M(Y)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K\cap M(Y)=\emptyset$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ אינה ספיקה.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+נראה כי 
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ ספיקה.
+\begin_inset Newline newline
+\end_inset
+
+על פי קומפקטיות מספיק להראות כי כל תת-קבוצה 
+\begin_inset Formula $D\subseteq X\cup Y$
+\end_inset
+
+ סופית היא ספיקה.
+\begin_inset Newline newline
+\end_inset
+
+נניח כי 
+\begin_inset Formula $D\subseteq X\cup Y$
+\end_inset
+
+ תת-קבוצה סופית, נסמן 
+\begin_inset Formula $D_{X}=D\cap X$
+\end_inset
+
+ 
+\begin_inset Formula $D_{Y}=D\cap Y$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+יהי 
+\begin_inset Formula $m$
+\end_inset
+
+ המספר הגדול ביותר כך ש-
+\begin_inset Formula $\varphi_{m}\in D_{Y}$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $m=1)$
+\end_inset
+
+ אם 
+\begin_inset Formula $.(D_{Y}=\emptyset$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נתבונן במבנה הבא מעל מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=\langle\underbrace{\{1,2,\dots,m\}}_{D^{M}},\emptyset,D^{M}\times\{1\},F^{M},1\rangle$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כאשר 
+\begin_inset Formula $F^{M}(d,d')=1$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נראה 
+\begin_inset Formula $M\vDash D_{Y}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $(d,c^{M})\in R_{2}^{M}$
+\end_inset
+
+ מכיוון ש 
+\begin_inset Formula $|D^{M}|=m$
+\end_inset
+
+ יש ב-
+\begin_inset Formula $D^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $m$
+\end_inset
+
+ איברים שונים 
+\begin_inset Formula $d$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $(d,c^{M})\in R_{2}^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכן לכל 
+\begin_inset Formula $i\le m$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $M\vDash\varphi_{i}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+יהי 
+\begin_inset Formula $\varphi_{i}\in D_{Y}$
+\end_inset
+
+ אזי 
+\begin_inset Formula $i\le m$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $M\vDash\varphi_{i}$
+\end_inset
+
+כלומר 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\vDash D_{Y}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+נראה 
+\begin_inset Formula $M\vDash D_{x}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $D^{M}$
+\end_inset
+
+סופי ולכן לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ יש מספר סופי של 
+\begin_inset Formula $d'\in D^{M}$
+\end_inset
+
+כך ש-
+\begin_inset Formula $(d',d)\in R_{2}^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כלומר 
+\begin_inset Formula $M\in K=M(x)$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $M\vDash x$
+\end_inset
+
+ מכיוון ש-
+\begin_inset Formula $D_{x}\subseteq X$
+\end_inset
+
+ נקבל 
+\begin_inset Formula $M\vDash D_{x}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+מסקנה 
+\begin_inset Formula $M\vDash D_{x}\cup D_{y}=D$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הראינו כי כל תת-קבוצה סופית של 
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ ספיקה ולכן לפי קומפקטיות 
+\begin_inset Formula $X\cup Y$
+\end_inset
+
+ ספיקה.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+מסעיפים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקבל סתירה ולכן 
+\begin_inset Formula $k$
+\end_inset
+
+ אינה גדירה.
+\end_layout
+
+\end_body
+\end_document

@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -21,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -31,8 +34,8 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize a4paper
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -52,19 +55,19 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -89,7 +92,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -103,7 +105,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -173,11 +174,7 @@
 \end_layout
 
 \begin_layout Standard
-שכל אחד מהם הוא או אכסיומה או התקבל מהקודמים בהסדרה ע
-\begin_inset Quotes erd
-\end_inset
-
-י כלל ההיסק 
+שכל אחד מהם הוא או אכסיומה או התקבל מהקודמים בהסדרה ע"י כלל ההיסק 
 \begin_inset Formula $MP$
 \end_inset
 
@@ -204,11 +201,7 @@
 \end_layout
 
 \begin_layout Standard
-צ
-\begin_inset Quotes erd
-\end_inset
-
-ל 
+צ"ל 
 \begin_inset Formula $\vdash\alpha\rightarrow\alpha$
 \end_inset
 
@@ -505,11 +498,7 @@
 \end_layout
 
 \begin_layout Standard
-או התקבל מהקודמים בסדרה ע
-\begin_inset Quotes erd
-\end_inset
-
-י 
+או התקבל מהקודמים בסדרה ע"י 
 \begin_inset Formula $MP$
 \end_inset
 
@@ -583,11 +572,7 @@
 \end_layout
 
 \begin_layout Subsubsection*
-צ
-\begin_inset Quotes erd
-\end_inset
-
-ל:
+צ"ל:
 \end_layout
 
 \begin_layout Standard
@@ -673,7 +658,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -687,7 +671,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -744,7 +727,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -758,7 +740,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -821,7 +802,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -835,7 +815,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -886,7 +865,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -900,7 +878,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -963,19 +940,11 @@ a_{n} & |\vdots &  &  & \vdots\\
 \begin_inset Formula $a_{i}$
 \end_inset
 
-שהסדרה שלו היא 
-\begin_inset Quotes eld
-\end_inset
-
-מ-
+שהסדרה שלו היא "מ-
 \begin_inset Formula $X$
 \end_inset
 
-
-\begin_inset Quotes erd
-\end_inset
-
-
+"
 \end_layout
 
 \begin_layout Standard
@@ -1129,7 +1098,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1143,7 +1111,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1157,7 +1124,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1170,7 +1136,6 @@ a_{n} & |\vdots &  &  & \vdots\\
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default

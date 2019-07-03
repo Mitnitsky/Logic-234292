@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -21,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -31,8 +34,8 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize a4paper
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -52,19 +55,19 @@
 \suppress_date true
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -89,7 +92,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -103,7 +105,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -390,11 +391,7 @@
 \begin_inset Newline newline
 \end_inset
 
-
-\begin_inset Quotes eld
-\end_inset
-
-לכל מספר טבעי 
+"לכל מספר טבעי 
 \begin_inset Formula $x$
 \end_inset
 
@@ -406,19 +403,11 @@
 \begin_inset Formula $0$
 \end_inset
 
-
-\begin_inset Quotes erd
-\end_inset
-
-
+"
 \begin_inset Newline newline
 \end_inset
 
-
-\begin_inset Quotes eld
-\end_inset
-
-לכל 
+"לכל 
 \begin_inset Formula $x$
 \end_inset
 
@@ -430,11 +419,7 @@
 \begin_inset Formula $x=y+1$
 \end_inset
 
-
-\begin_inset Quotes erd
-\end_inset
-
-
+"
 \end_layout
 
 \begin_layout Subsubsection*
@@ -442,25 +427,11 @@
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-האם קיים עובד טכניון שהוא גם סטודנט בטכניון?
-\begin_inset Quotes erd
-\end_inset
-
-
+"האם קיים עובד טכניון שהוא גם סטודנט בטכניון?"
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-האם כל הסטונדטים בטכניון הולכים להופעות יום הסטונדט?
-\begin_inset Quotes erd
-\end_inset
-
-
+"האם כל הסטונדטים בטכניון הולכים להופעות יום הסטונדט?"
 \end_layout
 
 \begin_layout Standard
@@ -488,7 +459,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -502,7 +472,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -761,7 +730,6 @@ C^{M}\in & D^{M}
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -775,7 +743,6 @@ C^{M}\in & D^{M}
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -789,7 +756,6 @@ C^{M}\in & D^{M}
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -802,7 +768,6 @@ C^{M}\in & D^{M}
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -823,7 +788,6 @@ C^{M}\in & D^{M}
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -837,7 +801,6 @@ C^{M}\in & D^{M}
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -984,11 +947,7 @@ C^{M}\in & D^{M}
 \begin_inset Newline newline
 \end_inset
 
-
-\begin_inset Quotes eld
-\end_inset
-
-לכל 
+"לכל 
 \begin_inset Formula $x$
 \end_inset
 
@@ -1000,11 +959,7 @@ C^{M}\in & D^{M}
 \begin_inset Formula $x\cdot y=x$
 \end_inset
 
-
-\begin_inset Quotes erd
-\end_inset
-
-
+"
 \begin_inset Newline newline
 \end_inset
 
@@ -1196,11 +1151,7 @@ C^{M}\in & D^{M}
 \begin_inset Formula $D^{M_{4}}$
 \end_inset
 
-קבוצת המילים הסופיות הלא ריקות מעל א
-\begin_inset Quotes erd
-\end_inset
-
-ב 
+קבוצת המילים הסופיות הלא ריקות מעל א"ב 
 \begin_inset Formula $\{a,b\}$
 \end_inset
 
@@ -1300,11 +1251,7 @@ C^{M}\in & D^{M}
 \begin_inset Newline newline
 \end_inset
 
-
-\begin_inset Quotes eld
-\end_inset
-
- 
+" 
 \begin_inset Formula $x$
 \end_inset
 
@@ -1312,11 +1259,7 @@ C^{M}\in & D^{M}
 \begin_inset Formula $x\cdot y$
 \end_inset
 
-
-\begin_inset Quotes erd
-\end_inset
-
-
+"
 \begin_inset Newline newline
 \end_inset
 

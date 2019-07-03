@@ -1,0 +1,964 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+13
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לוגיקה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\bar under
+סתירה
+\bar default
+ אם לכל מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ ולכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s}{\nvDash}\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\bar under
+סתירה
+\bar default
+ קיים מבנה +השמה כך ש- 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור קבוצת נוסחאות 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+, 
+\begin_inset Formula $M\underset{s}{\vDash}\Gamma$
+\end_inset
+
+ אם לכל 
+\begin_inset Formula $\alpha\in\Gamma$
+\end_inset
+
+, 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+הגדרה:
+\end_layout
+
+\begin_layout Standard
+נוסחה 
+\begin_inset Formula $\beta$
+\end_inset
+
+ נובעת לוגית מנוסחה 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, סימון 
+\begin_inset Formula $\alpha\vDash\beta$
+\end_inset
+
+ אם לכל מבנה+השמה : אם 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+ אז 
+\begin_inset Formula $M\underset{s}{\vDash}\beta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\forall x(\alpha\rightarrow\beta)\vDash\forall x\alpha\rightarrow\forall x\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נניח בדרך השלילה שאין נביעה לוגית קיים מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ והשמה 
+\begin_inset Formula $s$
+\end_inset
+
+ כך ש-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & M\underset{s}{\vDash}\forall x(\alpha\rightarrow\beta)\\
+ & M\underset{s}{\nvDash}\forall x\alpha\rightarrow\forall x\beta\\
+ & \Updownarrow\\
+ & M\underset{s}{\vDash}\forall x\alpha\\
+ & M\not\underset{s}{\vDash}\forall x\beta\\
+ & \Updownarrow\\
+ & \exists d_{0}\in D^{M}\\
+ & M\underset{s[x\leftarrow d_{0}]}{\vDash}\beta\\
+ & M\underset{s}{\vDash}\forall x\alpha\\
+ & \Updownarrow\\
+ & \forall d\in D^{M}\\
+ & M\underset{s[x\leftarrow d]}{\vDash}\alpha\\
+ & M\underset{s[x\leftarrow d_{0}]}{\vDash}\alpha\\
+ & M\underset{s[x\leftarrow d_{0}]}{\nvDash}\alpha\\
+ & \Downarrow\\
+ & M\underset{s}{\nvDash}\forall x(\alpha\rightarrow\beta)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסתירה לנתון.
+\end_layout
+
+\begin_layout Subsubsection*
+משפט הקומפקטיות
+\end_layout
+
+\begin_layout Standard
+קבוצת נוסחאות 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ הינה ספיקה אם ורק אם כל תת-קבוצה סופית שלה היא ספיקה.
+\end_layout
+
+\begin_layout Subsubsection*
+גדירות של קבוצת מבנים בתחשיב היחסים:
+\end_layout
+
+\begin_layout Standard
+תזכורת: תחשיב הפסוקים:
+\end_layout
+
+\begin_layout Standard
+קבוצת 
+\bar under
+השמות
+\bar default
+ היא גדירה אם קיימת קבוצת פסוקים סופית 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ כך ש-
+\begin_inset Formula $M(S)=k$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+גדירות של קבוצת מבנים ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\bar under
+קבוצת פסוקים של תחשיב היחסים
+\bar default
+
+\begin_inset Newline newline
+\end_inset
+
+פסוק של תחשיב היחסים נוסחה ללא מתשנים חופשיים.
+\begin_inset Newline newline
+\end_inset
+
+קבוצת מבנה 
+\begin_inset Formula $K$
+\end_inset
+
+ הינה גדירה אם קיימת קבוצת פסוקים 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ כך ש-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M(\Sigma)=K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Mod(\Sigma)=K$
+\end_inset
+
+ 
+\begin_inset Formula $(Mod(\Sigma)=\{M|M\vDash\Sigma\})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+נתון המילון הריק 
+\begin_inset Formula $\Sigma=\{\exists x\exists y\neg(x\approx y)\}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+איזה מבנים מספקים את 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ לאפיין 
+\begin_inset Formula $Mod(\Sigma)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Mod(\Sigma)=\{M|\left|D^{M}\right|\ge2\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+המילון הריק, 
+\begin_inset Formula $K=\{M|\left|D^{M}\right|=1\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נראה 
+\begin_inset Formula $K$
+\end_inset
+
+ גדירה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Sigma=\{\forall x\forall yx\approx y\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Mod(\Sigma)=K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\vDash\Sigma$
+\end_inset
+
+ |
+\begin_inset Formula $\Leftrightarrow M\in Mod(\Sigma)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\vDash\forall x\forall y\,x\approx y$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\forall x\forall y\,x\approx y$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s[x\leftarrow d_{1}][y\leftarrow d_{2}]}{\vDash}x\approx y$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $s$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d_{1}=d_{2}$
+\end_inset
+
+ֵ
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|D^{M}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\quad$
+\end_inset
+
+
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+טענה:
+\end_layout
+
+\begin_layout Standard
+עבור נוסחה ללא מתשנים חופשיי 
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מתקיים 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+ עבור 
+\begin_inset Formula $s$
+\end_inset
+
+ נתונה 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ לכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+, 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\nvDash}\alpha$
+\end_inset
+
+ עבור 
+\begin_inset Formula $s$
+\end_inset
+
+ נתונה 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ לכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s}{\nvDash}\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=\{R(\circ,\circ)\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K$
+\end_inset
+
+ היא קבוצת המבנים שבהם 
+\begin_inset Formula $R$
+\end_inset
+
+ הוא יחס סימטרי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Sigma=\{\forall x\forall y(R(x,y)\rightarrow R(y,x)\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & M\vDash\forall x\forall y(R(x,y)\rightarrow R(y,x)\}\\
+ & \Downarrow\\
+ & R(d_{1},d_{2})\\
+ & \forall x\forall y(R(x,y)\wedge R(y,x))\,\text{(Not valid})
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+מילון ריק
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K_{\text{inf}}=\{M|\left|D^{M}\right|=\infty\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+גדירה
+\end_layout
+
+\begin_layout Subsubsection*
+תזכורת:
+\end_layout
+
+\begin_layout Standard
+בתחשיב הפסוקים 
+\begin_inset Formula $K_{fin},F_{inf}$
+\end_inset
+
+ שתיהן לא גדירות.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha_{2}=\exists x_{1}\exists x_{2}\neg(x_{1}\approx x_{2})$
+\end_inset
+
+ יש לפחות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+איברים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha_{3}=\exists x_{1}\exists x_{2}\exists x_{3}$
+\end_inset
+
+ יש לפחות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+איברים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{1\le i,j\le3|i\ne j}{\bigwedge}\neg(x_{i}\approx x_{j})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha_{n}=\exists x_{1}\dots\exists x_{n}\underset{1\le i,j\le n|i\ne j}{\bigwedge}\neg(x_{i}\approx x_{j})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יש לפחות 
+\begin_inset Formula $n$
+\end_inset
+
+ איברים ב-
+\begin_inset Formula $D^{M}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Sigma_{inf}=\{\alpha_{n}|n\in\mathbb{N}\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+אי-גדירות של קבוצת מבנים:
+\end_layout
+
+\begin_layout Standard
+מליון ריק )למישה יכול להיות כל מילון(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K_{fin}=\{M|D_{fin}^{M}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח ש-
+\begin_inset Formula $K_{fin}$
+\end_inset
+
+גדירה ע
+\begin_inset Quotes erd
+\end_inset
+
+י נוסחאות 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Gamma\vDash\Sigma_{inf}\cup\Sigma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הקבוצה גם ספיקה וגם לא ספיקה.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Gamma$
+\end_inset
+
+ אינה ספיקה
+\begin_inset Newline newline
+\end_inset
+
+נניח ש-
+\begin_inset Formula $\Gamma$
+\end_inset
+
+ ספיקה 
+\begin_inset Formula $M\vDash\Sigma_{inf}\cup\Sigma$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\vDash\Sigma_{inf}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+ אינסופי.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\vDash\Sigma$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+ סופי.
+\begin_inset Newline newline
+\end_inset
+
+סתירה.
+\end_layout
+
+\begin_layout Enumerate
+נראה ש-
+\begin_inset Formula $\Gamma$
+\end_inset
+
+ ספיקה, עס, משפט הקומפקטיות, 
+\begin_inset Newline newline
+\end_inset
+
+נסתכל על 
+\begin_inset Formula $A\subseteq\Gamma$
+\end_inset
+
+ סופית
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $A\subseteq\Sigma_{inf}\cup\Sigma$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

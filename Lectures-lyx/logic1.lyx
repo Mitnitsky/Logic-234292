@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -21,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -31,8 +34,8 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize a4paper
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -49,22 +52,22 @@
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date true
+\suppress_date false
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -89,7 +92,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -103,7 +105,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -142,15 +143,7 @@
 \begin_inset Newline newline
 \end_inset
 
-לבני אדם יש תכונה של 
-\begin_inset Quotes eld
-\end_inset
-
-בני תמותה
-\begin_inset Quotes erd
-\end_inset
-
-.
+לבני אדם יש תכונה של "בני תמותה".
 \begin_inset Newline newline
 \end_inset
 
@@ -407,11 +400,7 @@ f:W^{n}\rightarrow W
 \begin_inset Formula $X_{B,F}$
 \end_inset
 
- היא הקבוצה המינימלית שנוצרת ע
-\begin_inset Quotes erd
-\end_inset
-
-י 
+ היא הקבוצה המינימלית שנוצרת ע"י 
 \begin_inset Formula $B$
 \end_inset
 
@@ -430,11 +419,7 @@ f:W^{n}\rightarrow W
 \begin_inset Formula $W$
 \end_inset
 
- - כל המילים הסופיות מעל א
-\begin_inset Quotes erd
-\end_inset
-
-ב 
+ - כל המילים הסופיות מעל א"ב 
 \begin_inset Formula $a,b$
 \end_inset
 
@@ -536,11 +521,7 @@ f_{3}(w_{1}bbbw_{2})=w_{1}w_{2}\,:bbb\notin w_{1}
 \begin_inset Formula $X_{B,F}$
 \end_inset
 
- ע
-\begin_inset Quotes erd
-\end_inset
-
-ס 
+ ע"ס 
 \begin_inset Formula $B,F$
 \end_inset
 
@@ -673,11 +654,7 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 
 \begin_deeper
 \begin_layout Enumerate
-צ
-\begin_inset Quotes erd
-\end_inset
-
-ל מקיימת את
+צ"ל מקיימת את
 \family roman
 \series medium
 \shape up
@@ -685,7 +662,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -699,7 +675,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -713,7 +688,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -726,7 +700,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -751,11 +724,7 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \end_layout
 
 \begin_layout Enumerate
-צ
-\begin_inset Quotes erd
-\end_inset
-
-ל מקיימת את
+צ"ל מקיימת את
 \family roman
 \series medium
 \shape up
@@ -763,7 +732,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -777,7 +745,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -899,11 +866,7 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \begin_inset Newline newline
 \end_inset
 
-צ
-\begin_inset Quotes erd
-\end_inset
-
-ל 
+צ"ל 
 \begin_inset Formula $X_{1}=B\subseteq Y$
 \end_inset
 
@@ -923,7 +886,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -937,7 +899,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -964,11 +925,7 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \end_layout
 
 \begin_layout Itemize
-צ
-\begin_inset Quotes erd
-\end_inset
-
-ל לגבי האיברים 
+צ"ל לגבי האיברים 
 \begin_inset Formula $x_{1},x_{2},\dots,x_{n}\in X_{i}$
 \end_inset
 
@@ -1030,7 +987,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -1043,7 +999,6 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -1068,15 +1023,7 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \end_layout
 
 \begin_layout Standard
-משפט זה מאפשר שיטת הוכחה שנראת 
-\begin_inset Quotes eld
-\end_inset
-
-הוכחה באינדוקציית מבנה
-\begin_inset Quotes erd
-\end_inset
-
-.
+משפט זה מאפשר שיטת הוכחה שנראת "הוכחה באינדוקציית מבנה".
 \end_layout
 
 \begin_layout Standard
@@ -1166,11 +1113,7 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \begin_inset Formula $a_{i}$
 \end_inset
 
- התקבלה מקודמים בסדרה ע
-\begin_inset Quotes erd
-\end_inset
-
-י הפעלת פעולה מ-
+ התקבלה מקודמים בסדרה ע"י הפעלת פעולה מ-
 \begin_inset Formula $F$
 \end_inset
 
@@ -1262,11 +1205,7 @@ X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
 \end_layout
 
 \begin_layout Standard
-צ
-\begin_inset Quotes erd
-\end_inset
-
-ל מספר ה-
+צ"ל מספר ה-
 \begin_inset Formula $a$
 \end_inset
 

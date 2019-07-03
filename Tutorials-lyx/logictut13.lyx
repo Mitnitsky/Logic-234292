@@ -1,0 +1,711 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+תרגול
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+13
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $\tau=\langle R(\circ,\circ),F(\circ),c\rangle$
+\end_inset
+
+ מילון.
+\begin_inset Newline newline
+\end_inset
+
+הוכיחו כי אוסף המבנים הבא אינו גדיר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\}$
+\end_inset
+
+ מבנה מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+ כך שלמספר 
+\bar under
+סופי
+\bar default
+ של איברים 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $K=\{M\,|\,F^{M}(d)\ne c^{M}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+הוכחה:
+\end_layout
+
+\begin_layout Enumerate
+נניח בשלילה ש-
+\begin_inset Formula $M(X)=k$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Y=\Sigma_{inf}\bigcup\{\forall x_{1}\neg(F(x_{1})\approx c)\}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+טענת עזר 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $M\vDash\forall x_{1}\neg(F(x_{1})\approx c))$
+\end_inset
+
+ אמ"מ 
+\begin_inset Formula $F^{M}(d)\ne C^{M}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ )להוכיח( 
+\begin_inset Newline newline
+\end_inset
+
+מכך ש 
+\begin_inset Formula $M\in M(\Sigma_{inf})$
+\end_inset
+
+ אמ"מ 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+ אינסופי נובע ש-
+\begin_inset Formula $M(Y)=\emptyset$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+תהי 
+\begin_inset Formula $D\subseteq X\cup Y$
+\end_inset
+
+ סופית ונסמן 
+\begin_inset Formula $D_{X}=D\cap X$
+\end_inset
+
+, 
+\begin_inset Formula $D_{y}=D\cap Y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+יהי 
+\begin_inset Formula $m$
+\end_inset
+
+ המספר הגדול ביותר כך ש-
+\begin_inset Formula $\alpha_{m}\in D_{Y}$
+\end_inset
+
+ )
+\begin_inset Formula $m=1$
+\end_inset
+
+ אם לא קיים(.
+\begin_inset Newline newline
+\end_inset
+
+נתבונן במבנה הבא מעל המילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=\langle\underbrace{\{1,2,\dots,m+1\}}_{D^{M}},\underbrace{\emptyset}_{R^{M}},F^{M},1\rangle$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כאשר 
+\begin_inset Formula $F^{M}(d)=m+1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $d$
+\end_inset
+
+ .
+\begin_inset Newline newline
+\end_inset
+
+נשאר להוכיח כי 
+\begin_inset Formula $D$
+\end_inset
+
+ ספיקה על ידי 
+\begin_inset Formula $M$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\vDash D_{Y}$
+\end_inset
+
+: לכל 
+\begin_inset Formula $i\le m$
+\end_inset
+
+ יש ב-
+\begin_inset Formula $D^{M}$
+\end_inset
+
+ לפחות 
+\begin_inset Formula $i$
+\end_inset
+
+ איברים וכמו כן לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $F^{M}(d)\ne C^{M}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+כלומר 
+\begin_inset Formula $M\vDash D_{Y}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\vDash D_{x}$
+\end_inset
+
+: 
+\begin_inset Formula $D^{M}$
+\end_inset
+
+הוא סופי ולכן למספר סופי של איברים 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $F^{M}(d)\ne C^{M}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\numeric on
+3+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הם סתירה ולכן 
+\begin_inset Formula $k$
+\end_inset
+
+ אינה גדירה.
+\end_layout
+
+\begin_layout Subsubsection*
+תרגיל
+\family roman
+\series bold
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $\tau=\langle R(\circ,\circ),F(\circ)\rangle$
+\end_inset
+
+ מילון.
+\end_layout
+
+\begin_layout Enumerate
+יהי 
+\begin_inset Formula $K_{1}=\{M\,|\,F^{M}=R^{M}\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הוכיחו/הפריכו: 
+\begin_inset Formula $K_{1}$
+\end_inset
+
+ גדיר.
+\end_layout
+
+\begin_layout Enumerate
+יהי 
+\begin_inset Formula $\}$
+\end_inset
+
+ מספר הסוגות 
+\begin_inset Formula $(x,y)\in R^{M}$
+\end_inset
+
+ שעבורם 
+\begin_inset Formula $F^{M}(x)\ne y$
+\end_inset
+
+ הוא סופי 
+\begin_inset Formula $|$
+\end_inset
+
+ 
+\begin_inset Formula $K_{2}=\{M$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הוכיחו/הפריכו: 
+\begin_inset Formula $K_{2}$
+\end_inset
+
+ גדיר.
+\end_layout
+
+\begin_layout Subsubsection*
+פתרון:
+\end_layout
+
+\begin_layout Enumerate
+הוכחה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Sigma=\{\forall x_{1}\forall x_{2}(F(x_{1})\approx x_{2})\leftrightarrow R(x_{1},x_{2})\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ מתקיים
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s}{\vDash}\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\vdots$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{1},d_{2}\in D^{M}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $(d_{1},d_{2})\in R^{M}$
+\end_inset
+
+ אמ"מ 
+\begin_inset Formula $(d_{1},d_{2})\in F^{M}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F^{M}=R^{M}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $M\in K_{1}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+הפרכה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K_{2}$
+\end_inset
+
+ אינו גדיר
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $M(x)=k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Y=\Sigma_{inf}\cup\{\forall x_{1}\neg(F^{M}(x_{1})\approx x_{1})\wedge R(x_{1},x_{1})\}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+טענת עזר:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\vDash\forall x_{1}(\neg(F^{M}\approx x_{1})\wedge R(x_{1},x_{1}))$
+\end_inset
+
+ אמ"מ 
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $(d,d)\in R^{M}$
+\end_inset
+
+ וגם 
+\begin_inset Formula $F^{M}(d)\ne d$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)המשך יועלה לאתר הקורס(.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\dots$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נתבונן במבנה הבא מעל מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=\langle\{1,2,\dots,m+1\},\{(x,x)|x\in D^{M}\},F^{M}\rangle$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F^{M}(d)=\{$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)יועלה הפתרון( 
+\end_layout
+
+\begin_layout Enumerate
+סתירה.
+\end_layout
+
+\begin_layout Subsubsection*
+כלל אצבע עבור אינסוף איברים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\}$
+\end_inset
+
+יש אינסוף איברים ולכולם מקיימים משהו
+\begin_inset Formula $\Sigma_{inf}\cup\{\forall x_{1}\dots$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\}$
+\end_inset
+
+יש אינסוף איברים ולפחות איבר אחד שמקיים משהו
+\begin_inset Formula $\Sigma_{inf}\cup\{\exists x_{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\varphi_{n}=\exists x_{1}\dots\exists x_{n}\underset{1\le i\le j\le n}{\bigwedge}\neg(x_{I}\approx x_{J})\bigwedge\dots$
+\end_inset
+
+ )יש לפחות 
+\begin_inset Formula $n$
+\end_inset
+
+ איברים שונים שמקיימים משהו(
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Sigma=\{\varphi_{n}|n\ge2\}$
+\end_inset
+
+ )יש אינסוף איברים שמקיימים משהו(
+\end_layout
+
+\end_body
+\end_document

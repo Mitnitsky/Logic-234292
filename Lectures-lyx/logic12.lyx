@@ -1,0 +1,1199 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+12
+\end_layout
+
+\begin_layout Subsection*
+גדירות של יחס במבנה:
+\end_layout
+
+\begin_layout Standard
+נתון מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ מעל מילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+ ונתון 
+\bar under
+יחס
+\bar default
+ כלשהו 
+\begin_inset Formula $k$
+\end_inset
+
+ מקומי 
+\begin_inset Formula $P\subseteq(D^{M})^{k}$
+\end_inset
+
+ שאינו במילון 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נאמר ש-
+\begin_inset Formula $\varphi$
+\end_inset
+
+ הוא גדיר ב-
+\begin_inset Formula $M$
+\end_inset
+
+ אם קיימת נוסחה 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ מעל 
+\begin_inset Formula $\tau$
+\end_inset
+
+ בעלת 
+\begin_inset Formula $k$
+\end_inset
+
+ משתנים חופשיים
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v_{1},\dots,v_{k}$
+\end_inset
+
+ כך שלכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M\underset{s}{\vDash}\alpha\Leftrightarrow(s(v_{i}),\dots,s(v_{k}))\in P
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $P=\{0\},\quad M=(\mathbb{N},\underbrace{\le}_{R^{M}})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha(v_{1})=\forall v_{2}R(v_{1},v_{2})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\tau=(F_{+}(\circ,\circ),F_{*}(\circ,\circ))$
+\end_inset
+
+, 
+\begin_inset Formula $M=(\mathbb{N},+,*)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $div=\{(a_{1},a_{2})|\:a_{1}|a_{2}\,a_{1},a_{2}\in\mathbb{N}\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $div\subseteq\mathbb{N}^{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha(x_{1},x_{2})=\exists x_{3}(F_{*}(x_{1},x_{3})\approx x_{2})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נראה שלכל השמה 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{M\underset{s}{\vDash}\alpha\ensuremath{(x_{1},x_{2})\Leftrightarrow((s(x_{1}),s(x_{2}))\in div}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow M\underset{s}{\vDash}\exists x_{3}(F_{*}(x_{1},x_{3})\approx x_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d\in\mathbb{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{\underbrace{s[x_{3}\leftarrow d]}_{s'}}{\vDash}F_{x}(x_{1},x_{3})\approx x_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{*}^{M}(s'(x_{1}),s'(x_{3}))=s'(x_{2})$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(s'(x_{1})*s'(x_{3}))=s'(x_{3})$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(s(x_{1})*d)=s(x_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(s(x_{1}),s(x_{2})))\in div$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות נוספות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=(c_{0},c_{1},F_{+},F_{*},R_{\le})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(\mathbb{N},0,1,+,*,\le)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $square=\{(n,m)|n=m^{2}\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha_{square}(x_{1},x_{2})=F_{*}(x_{2},x_{2})\approx x_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=(R_{\le})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(\mathbb{P}(A),\,\subseteq)$
+\end_inset
+
+ )
+\begin_inset Formula $A$
+\end_inset
+
+ קבוצה כלשהי(
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $P_{U}=\{(A,B,C)|A\cup B=C\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נראה ש-
+\begin_inset Formula $P_{\cup}$
+\end_inset
+
+ גדיר ב-
+\begin_inset Formula $M$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha(x_{1},x_{2},x_{3})=R_{\subseteq}(x_{1},x_{3})\wedge R_{\subseteq}(x_{2},x_{3})\wedge\forall x_{4}(((R_{\subseteq}(x_{1},x_{4})\wedge R_{\subseteq}(x_{2},x_{4}))\rightarrow R_{\subseteq}(x_{3},x_{4})))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמאות נוספות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau=(F_{+},F_{*},R_{\le})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(\mathbb{N},+,*,\le)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $square=\{(n,m)|n=m^{2}\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha_{square}(x_{1},x_{2})=F_{*}(x_{2},x_{2})\approx x_{1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $P_{0}=\{0\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha_{+}(x)=F_{+}(x,x)\approx x$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $P_{1}=\{1\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha_{1}(x)=F_{*}(x,x)\approx x$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\neg\alpha_{0}(x)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\}$
+\end_inset
+
+ראשוני 
+\begin_inset Formula $prime=\{a|a$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\alpha_{prime}(x_{1})=\forall x_{2}(div(x_{1},x_{2})\rightarrow x_{2}\approx x_{1}\vee\alpha_{1}(x_{2}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+הגדרה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\bar under
+אמת לוגית
+\bar default
+ אם ורק אם לכל מבנה 
+\begin_inset Formula $M$
+\end_inset
+
+ )מעל למילון של 
+\begin_inset Formula $\alpha$
+\end_inset
+
+( ולכל השמה צד )שמתאימה ל-
+\begin_inset Formula $M$
+\end_inset
+
+(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+סימון: 
+\begin_inset Formula $\vDash\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+דוגמאות לנוסחאות שהן אמת לוגית ואינן אמת לוגית:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\alpha=(\forall xR(x,y))\rightarrow(\forall xR(x,y))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אמת לוגית - הצבה בטאוטולוגיה של תחשיב הפסוקים.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+טענה:
+\bar default
+ כל נוסחה במבנה של טאוטולוגיה של תחשיב הפסוקים היא אמת לוגית.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\forall xR(x,y)$
+\end_inset
+
+ אמת לוגית ?
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M=(D^{M},\underset{\emptyset}{R^{M}})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $S(y)=d_{0}\in D^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{s}{\vDash}\forall xR(x,y)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $M\underset{\underbrace{s[x\leftarrow d]}_{s'}}{\vDash}R(x,y)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d\in D^{M}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R^{M}(\underbrace{s'(x)}_{d},\underbrace{s'(y)}_{d_{0}})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+לכל 
+\begin_inset Formula $d$
+\end_inset
+
+, 
+\begin_inset Formula $(d,d_{0})\in R^{M}\in\emptyset$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+עוד דוגמא להפרכה:
+\end_layout
+
+\begin_layout Standard
+המבנה הוא גרף 
+\begin_inset Formula $\xymatrix{v_{1}\ar[r]\ar[dr]\ar@(dl,ul) & v_{2}\\
+ & v_{3}
+}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=\{v_{1},v_{2},v_{3}),R^{M})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R^{M}=\{(v_{1},v_{2}),(v_{1},v_{3}),(v_{1},v_{1})\}$
+\end_inset
+
+ )יחס הקשתות(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s(x)=v_{1},s(y)=v_{2},s(z)=v_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\nvDash}\forall xR(yx,y)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+כי מ-
+\begin_inset Formula $v_{3}$
+\end_inset
+
+אין קשת ל-
+\begin_inset Formula $v_{2}=s(y)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\numeric on
+3
+\numeric off
+.
+\begin_inset Formula $\exists y\forall xR(x,y)\rightarrow\forall x\exists yR(x,y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכיח שאמת לוגית בדרך השלילה קיים 
+\begin_inset Formula $S,M$
+\end_inset
+
+ כך ש-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\nvDash}\exists x\forall yR(x,y)\rightarrow\forall x\exists yR(,xy)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash\exists y\forall xR(x,y)}\,(1)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+לכל 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s[y\leftarrow d_{1}][x\leftarrow d_{2}]}{\vDash}R(x,y)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+כך שלכל 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R^{M}(d_{2},d_{1})$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M,s\nvDash\forall x\exists yR(x,y)\,(2)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $e_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s[x\leftarrow e_{1}]}{\nvDash}\exists yR(x,y)$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $e_{1}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $e_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s[x\leftarrow e_{1}][y\leftarrow e_{2}]}{\nvDash}R(x,y)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\numeric on
+4
+\numeric off
+.
+ 
+\begin_inset Formula $\forall x\exists yR(x,y)\rightarrow\exists y\forall xR(x,y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+להציע מבנה והשמה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\forall x\exists yR(x,y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\not\vDash}\exists y\forall xR(x,y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+: 
+\begin_inset Formula $tree=R^{M}(d_{2},d_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $e_{1}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $e_{2}$
+\end_inset
+
+ 
+\begin_inset Formula $tree=R^{M}(e_{1}e_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+למעשה ע"ס נסיק 
+\begin_inset Formula $R^{M}(e_{1},d_{1})$
+\end_inset
+
+ מתקיים 
+\bar under
+סתירה.
+\begin_inset Newline newline
+\end_inset
+
+
+\numeric on
+\bar default
+5
+\numeric off
+.
+ 
+\begin_inset Formula $\beta=\exists x(\alpha\rightarrow\forall x\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אמת לוגית.
+\end_layout
+
+\begin_layout Standard
+נתונה תבנית ביצים
+\end_layout
+
+\begin_layout Standard
+קיימת ביצה שאם היא שבורה אז כל הביצים שבורות
+\end_layout
+
+\begin_layout Standard
+נוכיח בחלוקה למקרים שלכל 
+\begin_inset Formula $s,M$
+\end_inset
+
+: 
+\begin_inset Formula $M\underset{s}{\vDash}\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה 
+\numeric on
+1
+\numeric off
+:
+\bar default
+ 
+\end_layout
+
+\begin_layout Standard
+נתון: 
+\begin_inset Formula $M\underset{s}{\vDash}\forall x\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נוכיח 
+\begin_inset Formula $M\underset{s}{\vDash}\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\forall x\alpha$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+
+\bar default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s[x\leftarrow d]}{\vDash}\forall x\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסתמך על השלמה שומרת שאם 
+\begin_inset Formula $s_{1}$
+\end_inset
+
+ ו-
+\begin_inset Formula $s_{2}$
+\end_inset
+
+ מסכימות על כל המשתנים שחופשיים בנוסחה
+\end_layout
+
+\begin_layout Standard
+אז הם מסכימות על ערך הנוסחה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s'$
+\end_inset
+
+, 
+\begin_inset Formula $s$
+\end_inset
+
+ זהיות חוץ מערכם על 
+\begin_inset Formula $x$
+\end_inset
+
+ שאינו חופשי ב-
+\begin_inset Formula $\forall x\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s[x\leftarrow d]}{\vDash}\alpha\rightarrow\underbrace{\forall x\alpha}_{T}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\begin_inset Formula $M\underset{s[x\leftarrow d]}{\vDash}\underbrace{\underbrace{\alpha}_{?}\rightarrow\forall\underbrace{x\alpha}_{T}}_{T}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\vDash}\exists x(\alpha\rightarrow\forall x\alpha)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מקרה 
+\numeric on
+2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\nvDash\forall x\alpha$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $d$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $M\not\underset{s[x\leftarrow d]}{\vDash}\alpha$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T\begin{cases}
+F\rightarrow & T\\
+F\rightarrow & F
+\end{cases}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s[x\leftarrow d]}{\vDash}\underbrace{\underbrace{\alpha}_{F}\rightarrow\underbrace{\forall x\alpha}_{F}}_{T}$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M\underset{s}{\nvDash}\exists x(\alpha\rightarrow\forall x\alpha)$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1353 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David CLM"
+\font_sans "default" "Simple CLM"
+\font_typewriter "default" "Miriam Mono CLM"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 0 0 7 -1
+\bullet 1 0 8 -1
+\bullet 2 0 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+לוגיקה הרצאה
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Subsubsection*
+טיעון
+\end_layout
+
+\begin_layout Standard
+טיעון תקף - כל פעם שההנחות נכונות גם המסקנות נכונות.
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+כל
+\bar default
+ היוונים הם בני אדם
+\end_layout
+
+\begin_layout Itemize
+כל בני האדם הם בני תמותה
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+כל היוונים הם בני תמותה
+\end_layout
+
+\begin_layout Standard
+בני האדם הם הכללה של יוונים
+\begin_inset Newline newline
+\end_inset
+
+לבני אדם יש תכונה של 
+\begin_inset Quotes eld
+\end_inset
+
+בני תמותה
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+ליוונים יש תכונה של בני תמותה.
+\end_layout
+
+\begin_layout Paragraph
+כל 
+\begin_inset Formula $A$
+\end_inset
+
+ הוא 
+\begin_inset Formula $B$
+\end_inset
+
+, כל 
+\begin_inset Formula $B$
+\end_inset
+
+ הוא 
+\begin_inset Formula $C$
+\end_inset
+
+ ולכן כל 
+\begin_inset Formula $A$
+\end_inset
+
+ הוא 
+\begin_inset Formula $C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\bar under
+למשל הנחות
+\bar default
+:
+\end_layout
+
+\begin_layout Itemize
+)הכלה( כל המרובעים הם מצולעים.
+\end_layout
+
+\begin_layout Itemize
+)תכונה( כל המצולעים הם בעלי היקף.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מסקנה:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+כל המרובעים הם בעלי היקף.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+דוגמה נוספת:
+\end_layout
+
+\begin_layout Itemize
+)תכונה( כל העורבים שחורים.
+\end_layout
+
+\begin_layout Itemize
+)הכללה( כל שחור הוא צבע.
+\end_layout
+
+\begin_layout Itemize
+)מסקנה 
+\bar under
+שגויה
+\bar default
+( כל העורבים הם צבע.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מסקנה:
+\end_layout
+
+\begin_layout Itemize
+שפה טבעים לא פסיק ברורה ולכן צריך שפה פורמלית כדי שנוכל להוכיח דברים.
+\end_layout
+
+\begin_layout Subsubsection*
+טענות:
+\end_layout
+
+\begin_layout Standard
+אמירות/נוסחאות שהן אמת או שקר בעולם.
+\end_layout
+
+\begin_layout Subsubsection*
+תחשיב)סינטקס(:
+\end_layout
+
+\begin_layout Standard
+איזה נוסחאות חוקיות בשפה.
+\end_layout
+
+\begin_layout Subsubsection*
+סמנטיקה:
+\end_layout
+
+\begin_layout Standard
+מתי נוסחה היא אמת או שקר.
+\end_layout
+
+\begin_layout Subsubsection*
+מערכת הוכחה פורמלית:
+\end_layout
+
+\begin_layout Standard
+נרצה לקשר בין הסמנטיקה למערכת ולומר שהנוסחאות היכיחות )ניתנות להוכחה( הן
+ נכונות.
+\begin_inset Newline newline
+\end_inset
+
+
+\bar under
+כל
+\bar default
+ נוסחה נכונה ניתנת להוכחה.
+\end_layout
+
+\begin_layout Subsection*
+הגדרה אינדוקטיבית של קבוצה:
+\end_layout
+
+\begin_layout Itemize
+נתונה קבוצה 
+\begin_inset Formula $W$
+\end_inset
+
+ - העולם.
+\end_layout
+
+\begin_layout Itemize
+נתונה קבוצה 
+\begin_inset Formula $B\subseteq W$
+\end_inset
+
+ )הבסיס(.
+\end_layout
+
+\begin_layout Itemize
+נתונה קבוצה של כללי יצירה
+\backslash
+פעולות 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ב-
+\begin_inset Formula $F$
+\end_inset
+
+ יש פונקציות חלקיות )שלא בהכרח מוגדרות לכל האיברים בתחום שלהם( אנריות ל-
+\begin_inset Formula $n$
+\end_inset
+
+ כלשהו.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f:W^{n}\rightarrow W
+\]
+
+\end_inset
+
+ נגדיר את הקבוצה 
+\begin_inset Formula $X_{B,F}\subseteq W$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+)הסגור של 
+\begin_inset Formula $B$
+\end_inset
+
+ תחת 
+\begin_inset Formula $F$
+\end_inset
+
+( כקבוצה המקיימת את הדברים הבאים:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $B\subseteq X_{B,F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+לכל 
+\begin_inset Formula $f\in F$
+\end_inset
+
+ 
+\begin_inset Formula $f:W^{n}\rightarrow W,$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+אם 
+\begin_inset Formula $x_{1},x_{2},\dots,x_{n}\in X_{B,F}$
+\end_inset
+
+ אז גם 
+\begin_inset Formula $f(x_{1},x_{2},\dots,x_{n})\in X_{B,F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+אין ב-
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ איברים מיותרים
+\begin_inset Newline newline
+\end_inset
+
+כלומר 
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ מכילה רק איברים שנדרשים לקיום א' וב'.
+\begin_inset Newline newline
+\end_inset
+
+במילים אחרות: 
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ היא הקבוצה המינימלית שנוצרת ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $B$
+\end_inset
+
+ ו-
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W$
+\end_inset
+
+ - כל המילים הסופיות מעל א
+\begin_inset Quotes erd
+\end_inset
+
+ב 
+\begin_inset Formula $a,b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+בסיס: 
+\begin_inset Formula $B=\{ab\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+פעולות:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+מוסיפה 
+\begin_inset Formula $aba$
+\end_inset
+
+ לצד ימין של המילה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f_{1}(w)=waba
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מחליפה את 
+\begin_inset Formula $aa$
+\end_inset
+
+ השמאלי ביותר במילה ב-
+\begin_inset Formula $b$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f_{2}(w_{1}aaw_{2})=w_{1}bw_{2}\,:aa\notin w_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+השמטת 
+\begin_inset Formula $bbb$
+\end_inset
+
+ השמאלי ביותר )אם קיים(:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f_{3}(w_{1}bbbw_{2})=w_{1}w_{2}\,:bbb\notin w_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+דוגמה למילים בשפה:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $aa,ababa$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה דרך לבנות 
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ ע
+\begin_inset Quotes erd
+\end_inset
+
+ס 
+\begin_inset Formula $B,F$
+\end_inset
+
+ כאיחוד של סדרת קבוצות.
+\end_layout
+
+\begin_layout Subsubsection*
+נגדיר:
+\end_layout
+
+\begin_layout Standard
+בהינתן קבוצה 
+\begin_inset Formula $F(y),y$
+\end_inset
+
+ הינה קבוצת איברים ב-
+\begin_inset Formula $W$
+\end_inset
+
+ שמתקבלים בהפעלת איזושהי פעולה ב-
+\begin_inset Formula $F$
+\end_inset
+
+ על איזשהו איבר ב-
+\begin_inset Formula $y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+נגדיר סדרה של קבוצות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X_{1}\subseteq X_{2}\subseteq\dots\subseteq X_{n}
+\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+באופן הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & X_{1}=B\\
+ & \dots\\
+ & X_{i+1}=X_{i}\cup F(X_{i})\\
+ & \overline{X}=\cup_{i}X_{i}\\
+ & \overline{X}=X_{B,F}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כלומר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & X_{1}=\{ab\}\\
+ & X_{2}=\{ab,ababa\}\\
+ & X_{3}=X_{2}\cup\{ababa,ababaaba\}\\
+ & X_{4}=X_{3}\cup\{ababbba,ababaabaaba\}\\
+ & \text{etc\ensuremath{\dots}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה לקבוצה אינדוקטיבית:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W=\mathbb{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $B=\{0\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F=\{+2\}$
+\end_inset
+
+ )לא ממש פורמלי(
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{B,F}=\mathbb{N}_{2}$
+\end_inset
+
+ )טבעיים זוגיים(
+\end_layout
+
+\begin_layout Subsubsection*
+טענה:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\overline{X}$
+\end_inset
+
+ מקיימת את כל הדרישות ולכן 
+\begin_inset Formula $\overline{X}=X_{B,F}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל מקיימת את
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- נראה ש-
+\begin_inset Formula $B\subseteq\overline{X}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+זה נכון כי: 
+\begin_inset Formula $X_{1}=B$
+\end_inset
+
+ ו-
+\begin_inset Formula $X_{1}\subseteq\overline{X}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל מקיימת את
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\begin_inset Newline newline
+\end_inset
+
+עבור 
+\begin_inset Formula $x_{1},x_{2},\dots,x_{n}\in\overline{X}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f(x_{1},x_{2},\dots,x_{n})\in\overline{X}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נראה שקיים 
+\begin_inset Formula $X_{l}$
+\end_inset
+
+ כלשהו כך שמתקיים 
+\begin_inset Formula $x_{1},x_{2},\dots,x_{n}\in X_{l}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן נוכל להסיק ש- 
+\begin_inset Formula $f(x_{1},x_{2},\dots,x_{n})\in X_{l+1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ולכן 
+\begin_inset Formula $f(x_{1},x_{2},\dots,x_{n})\in\overline{X}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & f(a_{1},a_{2},a_{3})\\
+ & a_{1}\in X_{5}\,\,,a_{2}\in X_{17}\,\,,a_{3}\in X_{1}\\
+ & \Rightarrow\\
+ & f(a_{1},a_{2},a_{3})\in X_{18}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+צריך להוכיח ש-
+\begin_inset Formula $\overline{X}$
+\end_inset
+
+ מקיימת את ג'.
+\end_layout
+
+\begin_layout Subsubsection*
+נוכיח טענה יותר כללית:
+\end_layout
+
+\begin_layout Standard
+לכל קבוצה 
+\begin_inset Formula $Y$
+\end_inset
+
+ שמקיימת את התנאים 
+\begin_inset Formula $1,2$
+\end_inset
+
+ עבור 
+\begin_inset Formula $B,F$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\overline{X}\subseteq Y$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נוכיח באינדוקציה על 
+\begin_inset Formula $i$
+\end_inset
+
+ ש-
+\begin_inset Formula $X_{i}\subseteq Y$
+\end_inset
+
+ ואז 
+\begin_inset Formula $\cup X_{i}\subseteq Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+בסיס:
+\begin_inset Newline newline
+\end_inset
+
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל 
+\begin_inset Formula $X_{1}=B\subseteq Y$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נכון כי 
+\begin_inset Formula $Y$
+\end_inset
+
+ מקיימת את תנאי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Itemize
+צעד:
+\begin_inset Newline newline
+\end_inset
+
+נניח כי 
+\begin_inset Formula $X_{i}\subseteq Y$
+\end_inset
+
+ ונוכיח ש-
+\begin_inset Formula $X_{i+1}=X_{i}\cup F(X_{i})\subseteq Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל לגבי האיברים 
+\begin_inset Formula $x_{1},x_{2},\dots,x_{n}\in X_{i}$
+\end_inset
+
+ אז על סמך אינדוקציה 
+\begin_inset Formula $x_{1},x_{2},\dots,x_{n}\in Y$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ובגלל ש-
+\begin_inset Formula $Y$
+\end_inset
+
+ מקיימת את ב' אז 
+\begin_inset Formula $f(x_{1},x_{2},\dots,x_{n})\in Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מסקנה מהטענה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{X}$
+\end_inset
+
+ היא המינימלית שמספקת את א' וב' ולכן מספקת גם את ג'.
+\begin_inset Newline newline
+\end_inset
+
+מסקנה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{X}=X_{B,F}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+משפט ההוכחה באינדוקציה
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $Y$
+\end_inset
+
+ קבוצה שמספקת את תנאים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $1,2$
+\end_inset
+
+ עבור 
+\begin_inset Formula $B,F$
+\end_inset
+
+ אז יודעים ש- 
+\begin_inset Formula $X_{B,F}\subseteq Y$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+משפט זה מאפשר שיטת הוכחה שנראת 
+\begin_inset Quotes eld
+\end_inset
+
+הוכחה באינדוקציית מבנה
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+על מנת להוכיח ש-
+\begin_inset Formula $X_{B,F}\subseteq Y$
+\end_inset
+
+ נראה:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $B\subseteq Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Y$
+\end_inset
+
+ סגורה תחת 
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כדי להוכיח ש-
+\begin_inset Formula $b\in X_{B,F}$
+\end_inset
+
+ צריך להראות שקיימת עבורו 
+\bar under
+סדרת יצירה
+\bar default
+.
+\end_layout
+
+\begin_layout Subsubsection*
+סדרת יצירה:
+\end_layout
+
+\begin_layout Standard
+עבור איבר 
+\begin_inset Formula $b$
+\end_inset
+
+ מתוך 
+\begin_inset Formula $X_{B,F}$
+\end_inset
+
+ הינו סדרת סופית 
+\begin_inset Formula $a_{1},a_{2},\dots,a_{n}$
+\end_inset
+
+ כך ש:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a_{n}=b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+לכל 
+\begin_inset Formula $1\le i\le n$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+או ש-
+\begin_inset Formula $a_{i}\in B$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+או ש-
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ התקבלה מקודמים בסדרה ע
+\begin_inset Quotes erd
+\end_inset
+
+י הפעלת פעולה מ-
+\begin_inset Formula $F$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+דוגמה עבור
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B=\{0\},\qquad F=\{+2\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש-
+\begin_inset Formula $8\in X_{B,F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סדרת היצירה שלו תהיה : 
+\begin_inset Formula $\{0,2,4,6,8\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+כדי להראות ש-
+\begin_inset Formula $x\notin X_{B,F}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נמצא תכונה 
+\begin_inset Formula $T$
+\end_inset
+
+ ונראה ש-
+\begin_inset Formula $X_{B,F}\subseteq T$
+\end_inset
+
+ ונראה ש-
+\begin_inset Formula $x\notin T$
+\end_inset
+
+ )כלומר 
+\begin_inset Formula $x$
+\end_inset
+
+ אינו מקיים את 
+\begin_inset Formula $T$
+\end_inset
+
+(
+\begin_inset Newline newline
+\end_inset
+
+)
+\begin_inset Formula $T$
+\end_inset
+
+ היא קבוצת האיברים בעלי תכונה כלשהי(.
+\end_layout
+
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+נראה של-
+\begin_inset Formula $aba\notin ABA$
+\end_inset
+
+)שפה שהוגדרה קודם(.
+\begin_inset Newline newline
+\end_inset
+
+תכונה:
+\end_layout
+
+\begin_layout Standard
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל מספר ה-
+\begin_inset Formula $a$
+\end_inset
+
+ הכל איברי 
+\begin_inset Formula $B,F$
+\end_inset
+
+ הוא אי-זוגי.
+\end_layout
+
+\begin_layout Standard
+אם זה נכון אז 
+\begin_inset Formula $aba$
+\end_inset
+
+ לא בשפה כי היא אינה מקיימת את התכונה.
+\end_layout
+
+\begin_layout Subsubsection*
+שיטת ההוכחה:
+\end_layout
+
+\begin_layout Itemize
+נבחר תכונה 
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+נראה שמתקיים:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $B\subseteq T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+לכל 
+\begin_inset Formula $x_{1},x_{2},\dots,x_{n}\in T$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f(x_{1},x_{2},\dots,x_{n})\in T$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+דוגמה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ab\in T$
+\end_inset
+
+ )יש 
+\begin_inset Formula $a$
+\end_inset
+
+ יחיד(.
+\begin_inset Newline newline
+\end_inset
+
+כל פעולה שפועלת על מילה עם מספר זוגי של 
+\begin_inset Formula $a$
+\end_inset
+
+ מחזירה מילה עם מספר אי-זוגי של 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

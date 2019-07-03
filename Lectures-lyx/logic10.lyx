@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -21,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -31,8 +34,8 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize a4paper
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -52,19 +55,19 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -86,7 +89,6 @@
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -100,7 +102,6 @@
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -165,11 +166,7 @@
 \begin_inset Formula $c$
 \end_inset
 
- במילון הוא ש
-\begin_inset Quotes erd
-\end_inset
-
-ע
+ במילון הוא ש"ע
 \begin_inset Newline newline
 \end_inset
 
@@ -177,11 +174,7 @@
 \begin_inset Formula $x_{i}$
 \end_inset
 
- הוא ש
-\begin_inset Quotes erd
-\end_inset
-
-ע .
+ הוא ש"ע .
 \end_layout
 
 \begin_layout Itemize
@@ -197,11 +190,7 @@
 \begin_inset Formula $k$
 \end_inset
 
- ש
-\begin_inset Quotes erd
-\end_inset
-
-ע 
+ ש"ע 
 \begin_inset Formula $t_{1},\dots,t_{k}$
 \end_inset
 
@@ -209,23 +198,11 @@
 \begin_inset Formula $F(t_{1},\dots,t_{k})$
 \end_inset
 
- היא ש
-\begin_inset Quotes erd
-\end_inset
-
-ע
+ היא ש"ע
 \end_layout
 
 \begin_layout Itemize
-הפירוש של ש
-\begin_inset Quotes erd
-\end_inset
-
-ע ניתן ע
-\begin_inset Quotes erd
-\end_inset
-
-י השמה.
+הפירוש של ש"ע ניתן ע"י השמה.
 \end_layout
 
 \begin_layout Standard
@@ -334,11 +311,7 @@
 \begin_inset Formula $\overline{s}$
 \end_inset
 
- עבור ש
-\begin_inset Quotes erd
-\end_inset
-
-ע 
+ עבור ש"ע 
 \begin_inset Formula $t_{1},\dots t_{k}$
 \end_inset
 
@@ -396,11 +369,7 @@
 \begin_inset Newline newline
 \end_inset
 
-דוגמאות לש
-\begin_inset Quotes erd
-\end_inset
-
-ע: 
+דוגמאות לש"ע: 
 \begin_inset Newline newline
 \end_inset
 
@@ -436,11 +405,7 @@
 \begin_inset Newline newline
 \end_inset
 
-דוגמאות לש
-\begin_inset Quotes erd
-\end_inset
-
-ע 
+דוגמאות לש"ע 
 \begin_inset Newline newline
 \end_inset
 
@@ -515,11 +480,7 @@ $
 \begin_inset Formula $k$
 \end_inset
 
- ש
-\begin_inset Quotes erd
-\end_inset
-
-ע 
+ ש"ע 
 \begin_inset Formula $t_{1},\dots,t_{k}$
 \end_inset
 
@@ -734,7 +695,6 @@ $
 \emph off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -748,7 +708,6 @@ $
 \numeric on
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -762,7 +721,6 @@ $
 \numeric off
 \bar no
 \strikeout off
-\xout off
 \uuline off
 \uwave off
 \noun off
@@ -775,7 +733,6 @@ $
 \emph default
 \bar default
 \strikeout default
-\xout default
 \uuline default
 \uwave default
 \noun default
@@ -824,11 +781,7 @@ $
 \begin_inset Newline newline
 \end_inset
 
-אם
-\begin_inset Quotes erd
-\end_inset
-
-ם 
+אם"ם 
 \begin_inset Formula $\underbrace{\overline{s}(t_{1})}_{\in D^{M}}=\underbrace{\overline{s}(t_{2})}_{\in D^{M}}$
 \end_inset
 
@@ -928,11 +881,7 @@ S(x_{i})=1 & \forall i\\
 \begin_inset Formula $t_{1},\dots t_{k}$
 \end_inset
 
- ש
-\begin_inset Quotes erd
-\end_inset
-
-ע
+ ש"ע
 \begin_inset Newline newline
 \end_inset
 
@@ -944,11 +893,7 @@ S(x_{i})=1 & \forall i\\
 \begin_inset Formula $M\underset{s}{\vDash}\alpha$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם 
+ אם"ם 
 \begin_inset Formula $(\overline{s}(t_{1}),\dots,\overline{s}(t_{k}))\in R^{M}$
 \end_inset
 
@@ -996,11 +941,7 @@ S(x_{i})=1 & \forall i\\
 \begin_inset Formula $M\underset{s}{\vDash}\alpha\wedge\beta$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם 
+ אם"ם 
 \begin_inset Formula $M\underset{s}{\vDash}\alpha$
 \end_inset
 
@@ -1103,11 +1044,7 @@ s(x_{j}) & i\ne j
 \begin_inset Formula $M\underset{s}{\vDash}\forall x_{i}\alpha$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם לכל 
+ אם"ם לכל 
 \begin_inset Formula $d\in D^{m}$
 \end_inset
 
@@ -1123,11 +1060,7 @@ s(x_{j}) & i\ne j
 \begin_inset Formula $M\underset{s}{\vDash}\exists x_{i}\alpha$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם קיים 
+ אם"ם קיים 
 \begin_inset Formula $d\in D^{M}$
 \end_inset
 
@@ -1170,11 +1103,7 @@ s(x_{j}) & i\ne j
 \begin_inset Formula $M\underset{s}{\vDash\neg\alpha}$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם 
+ אם"ם 
 \begin_inset Formula $M\underset{s}{\nvDash}\alpha$
 \end_inset
 
@@ -1185,11 +1114,7 @@ s(x_{j}) & i\ne j
 \begin_inset Formula $M\underset{s}{\vDash}\alpha\vee\beta$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם 
+ אם"ם 
 \begin_inset Formula $M\underset{s}{\vDash}\alpha$
 \end_inset
 
@@ -1220,11 +1145,7 @@ s(x_{j}) & i\ne j
 \begin_inset Formula $M\underset{s}{\vDash}\forall x_{i}\alpha$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם לכל 
+ אם"ם לכל 
 \begin_inset Formula $d\in D^{M}$
 \end_inset
 
@@ -1239,11 +1160,7 @@ s(x_{j}) & i\ne j
 \begin_inset Formula $M\underset{s}{\vDash}\exists x_{i}\alpha$
 \end_inset
 
- אם
-\begin_inset Quotes erd
-\end_inset
-
-ם קיים 
+ אם"ם קיים 
 \begin_inset Formula $d\in D^{M}$
 \end_inset
 
